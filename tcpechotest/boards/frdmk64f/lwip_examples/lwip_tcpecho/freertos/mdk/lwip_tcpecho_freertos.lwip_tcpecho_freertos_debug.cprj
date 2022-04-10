@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<cprj schemaVersion="1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CPRJ.xsd">
+
+  <created timestamp="2022-04-10T19:56:20" tool="uVision V5.36.0.0"/>
+
+  <info>
+    <name>lwip_tcpecho_freertos</name>
+    <description/>
+  </info>
+
+  <packages>
+    <package name="MK64F12_DFP" vendor="NXP"/>
+  </packages>
+
+  <compilers>
+    <compiler name="AC6" version="6.0.0:6.99.99"/>
+  </compilers>
+
+  <target Ddsp="NO_DSP" Dendian="Little-endian" Dfpu="SP_FPU" Dmve="NO_MVE" Dname="MK64FN1M0VLL12" Dsecure="Non-secure" Dtz="NO_TZ" Dvendor="NXP:11">
+    <output intdir="debug/" name="lwip_tcpecho_freertos.out" outdir="debug/" type="exe"/>
+    <ldflags add="--library_type=microlib --diag_suppress 6314 --strict --remove --keep=*(.FlashConfig) --entry=Reset_Handler --predefine=&quot;-D__stack_size__=2048&quot; --predefine=&quot;-D__heap_size__=25600&quot; --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers" compiler="AC6" file="MK64FN1M0xxx12_flash.scf"/>
+    <cflags add="-D__EVAL -D__MICROLIB -O1 -Wno-documentation -Wno-documentation-unknown-command -Wno-license-management -Wno-missing-noreturn -Wno-missing-prototypes -Wno-missing-variable-declarations -Wno-nonportable-include-path -Wno-packed -Wno-parentheses-equality -Wno-reserved-id-macro -Wno-sign-conversion -Wno-unused-macros -fdata-sections -ffreestanding -ffunction-sections -fno-builtin -fno-common -fno-rtti -fshort-enums -fshort-wchar -funsigned-char -gdwarf-4 -mthumb -std=c99 -xc" compiler="AC6"/>
+    <asflags add="-D__EVAL -D__MICROLIB -I ../../../.. -gdwarf-4 -masm=gnu" compiler="AC6"/>
+    <includes>..;../../../../../../CMSIS/Core/Include;../../../../../../components/lists;../../../../../../components/phy;../../../../../../components/phy/device/phyksz8081;../../../../../../components/phy/mdio/enet;../../../../../../components/serial_manager;../../../../../../components/uart;../../../../../../devices/MK64F12;../../../../../../devices/MK64F12/drivers;../../../../../../devices/MK64F12/utilities/debug_console;../../../../../../devices/MK64F12/utilities/str;../../../../../../middleware/lwip/contrib/apps/tcpecho;../../../../../../middleware/lwip/port;../../../../../../middleware/lwip/src;../../../../../../middleware/lwip/src/include;../../../../../../rtos/freertos/freertos_kernel/include;../../../../../../rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F</includes>
+    <defines>CPU_MK64FN1M0VLL12;DEBUG;FRDM_K64F;FREEDOM;LWIP_DISABLE_PBUF_POOL_SIZE_SANITY_CHECKS=1;MCUXPRESSO_SDK;PRINTF_ADVANCED_ENABLE=1;SDK_OS_FREE_RTOS;SERIAL_PORT_TYPE_UART=1;USE_RTOS=1</defines>
+  </target>
+
+  <files>
+    <group name="source">
+      <file category="sourceC" name="../lwip_tcpecho_freertos.c"/>
+      <file category="header" name="../lwipopts.h"/>
+      <file category="header" name="../FreeRTOSConfig.h"/>
+    </group>
+    <group name="board">
+      <file category="sourceC" name="../pin_mux.c"/>
+      <file category="header" name="../pin_mux.h"/>
+      <file category="sourceC" name="../board.c"/>
+      <file category="header" name="../board.h"/>
+      <file category="sourceC" name="../clock_config.c"/>
+      <file category="header" name="../clock_config.h"/>
+    </group>
+    <group name="doc">
+      <file category="doc" name="../readme.txt"/>
+    </group>
+    <group name="mdio">
+      <file category="header" name="../../../../../../components/phy/mdio/enet/fsl_enet_mdio.h"/>
+      <file category="sourceC" name="../../../../../../components/phy/mdio/enet/fsl_enet_mdio.c"/>
+      <file category="header" name="../../../../../../components/phy/fsl_mdio.h"/>
+    </group>
+    <group name="phy">
+      <file category="header" name="../../../../../../components/phy/device/phyksz8081/fsl_phyksz8081.h"/>
+      <file category="sourceC" name="../../../../../../components/phy/device/phyksz8081/fsl_phyksz8081.c"/>
+      <file category="header" name="../../../../../../components/phy/fsl_phy.h"/>
+    </group>
+    <group name="lwip/contrib/apps/tcpecho">
+      <file category="header" name="../../../../../../middleware/lwip/contrib/apps/tcpecho/tcpecho.h"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/contrib/apps/tcpecho/tcpecho.c"/>
+    </group>
+    <group name="lwip/port">
+      <file category="sourceC" name="../../../../../../middleware/lwip/port/enet_ethernetif.c"/>
+      <file category="header" name="../../../../../../middleware/lwip/port/enet_ethernetif.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/port/enet_ethernetif_priv.h"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/port/enet_ethernetif_kinetis.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/port/sys_arch.c"/>
+    </group>
+    <group name="lwip/port/arch">
+      <file category="header" name="../../../../../../middleware/lwip/port/arch/cc.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/port/arch/perf.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/port/arch/sys_arch.h"/>
+    </group>
+    <group name="lwip/src/api">
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/api/sockets.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/api/netifapi.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/api/netdb.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/api/netbuf.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/api/tcpip.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/api/api_msg.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/api/err.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/api/if_api.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/api/api_lib.c"/>
+    </group>
+    <group name="lwip/src/core">
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/memp.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/def.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ip.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/pbuf.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/altcp.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/tcp_out.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/raw.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/altcp_tcp.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/sys.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/init.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/inet_chksum.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/timeouts.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/tcp_in.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/netif.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/mem.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/udp.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/tcp.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/stats.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/dns.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/altcp_alloc.c"/>
+    </group>
+    <group name="lwip/src/core/ipv6">
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv6/ethip6.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv6/dhcp6.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv6/ip6_addr.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv6/nd6.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv6/mld6.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv6/icmp6.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv6/ip6_frag.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv6/ip6.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv6/inet6.c"/>
+    </group>
+    <group name="lwip/src/core/ipv4">
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv4/dhcp.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv4/ip4.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv4/autoip.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv4/icmp.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv4/acd.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv4/etharp.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv4/ip4_addr.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv4/igmp.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/core/ipv4/ip4_frag.c"/>
+    </group>
+    <group name="lwip/src/include/compat/stdc">
+      <file category="header" name="../../../../../../middleware/lwip/src/include/compat/stdc/errno.h"/>
+    </group>
+    <group name="lwip/src/include/compat/posix">
+      <file category="header" name="../../../../../../middleware/lwip/src/include/compat/posix/netdb.h"/>
+    </group>
+    <group name="lwip/src/include/compat/posix/sys">
+      <file category="header" name="../../../../../../middleware/lwip/src/include/compat/posix/sys/socket.h"/>
+    </group>
+    <group name="lwip/src/include/compat/posix/net">
+      <file category="header" name="../../../../../../middleware/lwip/src/include/compat/posix/net/if.h"/>
+    </group>
+    <group name="lwip/src/include/compat/posix/arpa">
+      <file category="header" name="../../../../../../middleware/lwip/src/include/compat/posix/arpa/inet.h"/>
+    </group>
+    <group name="lwip/src/include/lwip">
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/acd.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/altcp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/altcp_tcp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/altcp_tls.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/api.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/arch.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/autoip.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/debug.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/def.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/dhcp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/dhcp6.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/dns.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/err.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/errno.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/etharp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/ethip6.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/icmp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/icmp6.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/if_api.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/igmp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/inet.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/inet_chksum.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/init.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/ip.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/ip4.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/ip4_addr.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/ip4_frag.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/ip6.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/ip6_addr.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/ip6_frag.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/ip6_zone.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/ip_addr.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/mem.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/memp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/mld6.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/nd6.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/netbuf.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/netdb.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/netif.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/netifapi.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/opt.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/pbuf.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/raw.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/sio.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/snmp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/sockets.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/stats.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/sys.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/tcp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/tcpbase.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/tcpip.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/timeouts.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/udp.h"/>
+    </group>
+    <group name="lwip/src/include/lwip/priv">
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/priv/altcp_priv.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/priv/mem_priv.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/priv/memp_priv.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/priv/memp_std.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/priv/api_msg.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/priv/nd6_priv.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/priv/tcpip_priv.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/priv/tcp_priv.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/priv/raw_priv.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/priv/sockets_priv.h"/>
+    </group>
+    <group name="lwip/src/include/lwip/prot">
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/ip6.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/udp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/mld6.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/ip4.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/icmp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/igmp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/dhcp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/tcp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/autoip.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/iana.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/ieee.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/dns.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/icmp6.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/ethernet.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/nd6.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/ip.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/acd.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/dhcp6.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/lwip/prot/etharp.h"/>
+    </group>
+    <group name="lwip/src/include/netif">
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/bridgeif.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/zepif.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/lowpan6.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ieee802154.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ethernet.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/lowpan6_common.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/lowpan6_opts.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/bridgeif_opts.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/slipif.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/lowpan6_ble.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/etharp.h"/>
+    </group>
+    <group name="lwip/src/include/netif/ppp">
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/ipv6cp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/pppapi.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/magic.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/ppp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/upap.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/mppe.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/pppol2tp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/pppoe.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/ipcp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/pppdebug.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/eap.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/pppos.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/ppp_opts.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/pppcrypt.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/vj.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/chap-new.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/eui64.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/chap_ms.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/ccp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/ecp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/lcp.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/fsm.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/ppp_impl.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/chap-md5.h"/>
+    </group>
+    <group name="lwip/src/include/netif/ppp/polarssl">
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/polarssl/sha1.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/polarssl/des.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/polarssl/md5.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/polarssl/md4.h"/>
+      <file category="header" name="../../../../../../middleware/lwip/src/include/netif/ppp/polarssl/arc4.h"/>
+    </group>
+    <group name="lwip/src/netif">
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/bridgeif.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/bridgeif_fdb.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ethernet.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/lowpan6.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/lowpan6_ble.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/lowpan6_common.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/slipif.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/zepif.c"/>
+    </group>
+    <group name="lwip/src/netif/ppp">
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/auth.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/ccp.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/chap-md5.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/chap-new.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/chap_ms.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/demand.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/eap.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/eui64.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/fsm.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/ipcp.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/ipv6cp.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/lcp.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/lwip_ecp.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/magic.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/mppe.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/multilink.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/ppp.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/pppapi.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/pppcrypt.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/pppoe.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/pppol2tp.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/pppos.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/upap.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/utils.c"/>
+      <file category="sourceC" name="../../../../../../middleware/lwip/src/netif/ppp/vj.c"/>
+    </group>
+    <group name="drivers">
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_enet.h"/>
+      <file category="sourceC" name="../../../../../../devices/MK64F12/drivers/fsl_enet.c"/>
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_port.h"/>
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_sim.h"/>
+      <file category="sourceC" name="../../../../../../devices/MK64F12/drivers/fsl_sim.c"/>
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_clock.h"/>
+      <file category="sourceC" name="../../../../../../devices/MK64F12/drivers/fsl_clock.c"/>
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_ftfx_adapter.h"/>
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_ftfx_utilities.h"/>
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_ftfx_features.h"/>
+      <file category="sourceC" name="../../../../../../devices/MK64F12/drivers/fsl_ftfx_controller.c"/>
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_ftfx_controller.h"/>
+      <file category="sourceC" name="../../../../../../devices/MK64F12/drivers/fsl_ftfx_flash.c"/>
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_ftfx_flash.h"/>
+      <file category="sourceC" name="../../../../../../devices/MK64F12/drivers/fsl_ftfx_cache.c"/>
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_ftfx_cache.h"/>
+      <file category="sourceC" name="../../../../../../devices/MK64F12/drivers/fsl_ftfx_flexnvm.c"/>
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_ftfx_flexnvm.h"/>
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_flash.h"/>
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_gpio.h"/>
+      <file category="sourceC" name="../../../../../../devices/MK64F12/drivers/fsl_gpio.c"/>
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_uart.h"/>
+      <file category="sourceC" name="../../../../../../devices/MK64F12/drivers/fsl_uart.c"/>
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_smc.h"/>
+      <file category="sourceC" name="../../../../../../devices/MK64F12/drivers/fsl_smc.c"/>
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_common.h"/>
+      <file category="sourceC" name="../../../../../../devices/MK64F12/drivers/fsl_common.c"/>
+      <file category="sourceC" name="../../../../../../devices/MK64F12/drivers/fsl_common_arm.c"/>
+      <file category="header" name="../../../../../../devices/MK64F12/drivers/fsl_common_arm.h"/>
+    </group>
+    <group name="utilities">
+      <file category="sourceC" name="../../../../../../devices/MK64F12/utilities/str/fsl_str.c"/>
+      <file category="header" name="../../../../../../devices/MK64F12/utilities/str/fsl_str.h"/>
+      <file category="sourceC" name="../../../../../../devices/MK64F12/utilities/debug_console/fsl_debug_console.c"/>
+      <file category="header" name="../../../../../../devices/MK64F12/utilities/debug_console/fsl_debug_console.h"/>
+      <file category="header" name="../../../../../../devices/MK64F12/utilities/debug_console/fsl_debug_console_conf.h"/>
+      <file category="sourceC" name="../../../../../../devices/MK64F12/utilities/fsl_assert.c"/>
+    </group>
+    <group name="freertos/freertos_kernel/portable/MemMang">
+      <file category="sourceC" name="../../../../../../rtos/freertos/freertos_kernel/portable/MemMang/heap_3.c"/>
+      <file category="other" name="../../../../../../rtos/freertos/freertos_kernel/portable/MemMang/ReadMe.url"/>
+    </group>
+    <group name="device">
+      <file category="header" name="../../../../../../devices/MK64F12/fsl_device_registers.h"/>
+      <file category="header" name="../../../../../../devices/MK64F12/MK64F12.h"/>
+      <file category="header" name="../../../../../../devices/MK64F12/MK64F12_features.h"/>
+      <file category="sourceC" name="../../../../../../devices/MK64F12/system_MK64F12.c"/>
+      <file category="header" name="../../../../../../devices/MK64F12/system_MK64F12.h"/>
+    </group>
+    <group name="component/uart">
+      <file category="header" name="../../../../../../components/uart/fsl_adapter_uart.h"/>
+      <file category="sourceC" name="../../../../../../components/uart/fsl_adapter_uart.c"/>
+    </group>
+    <group name="component/serial_manager">
+      <file category="header" name="../../../../../../components/serial_manager/fsl_component_serial_manager.h"/>
+      <file category="header" name="../../../../../../components/serial_manager/fsl_component_serial_port_internal.h"/>
+      <file category="sourceC" name="../../../../../../components/serial_manager/fsl_component_serial_manager.c"/>
+      <file category="header" name="../../../../../../components/serial_manager/fsl_component_serial_port_uart.h"/>
+      <file category="sourceC" name="../../../../../../components/serial_manager/fsl_component_serial_port_uart.c"/>
+    </group>
+    <group name="component/lists">
+      <file category="header" name="../../../../../../components/lists/fsl_component_generic_list.h"/>
+      <file category="sourceC" name="../../../../../../components/lists/fsl_component_generic_list.c"/>
+    </group>
+    <group name="startup">
+      <file category="sourceAsm" name="../../../../../../devices/MK64F12/arm/startup_MK64F12.S"/>
+    </group>
+    <group name="CMSIS">
+      <file category="header" name="../../../../../../CMSIS/Core/Include/cmsis_armcc.h"/>
+      <file category="header" name="../../../../../../CMSIS/Core/Include/cmsis_armclang.h"/>
+      <file category="header" name="../../../../../../CMSIS/Core/Include/cmsis_armclang_ltm.h"/>
+      <file category="header" name="../../../../../../CMSIS/Core/Include/cmsis_compiler.h"/>
+      <file category="header" name="../../../../../../CMSIS/Core/Include/cmsis_gcc.h"/>
+      <file category="header" name="../../../../../../CMSIS/Core/Include/cmsis_iccarm.h"/>
+      <file category="header" name="../../../../../../CMSIS/Core/Include/cmsis_version.h"/>
+      <file category="header" name="../../../../../../CMSIS/Core/Include/core_cm4.h"/>
+      <file category="header" name="../../../../../../CMSIS/Core/Include/mpu_armv7.h"/>
+    </group>
+    <group name="freertos/freertos_kernel">
+      <file category="sourceC" name="../../../../../../rtos/freertos/freertos_kernel/croutine.c"/>
+      <file category="sourceC" name="../../../../../../rtos/freertos/freertos_kernel/event_groups.c"/>
+      <file category="sourceC" name="../../../../../../rtos/freertos/freertos_kernel/list.c"/>
+      <file category="sourceC" name="../../../../../../rtos/freertos/freertos_kernel/queue.c"/>
+      <file category="sourceC" name="../../../../../../rtos/freertos/freertos_kernel/stream_buffer.c"/>
+      <file category="sourceC" name="../../../../../../rtos/freertos/freertos_kernel/tasks.c"/>
+      <file category="sourceC" name="../../../../../../rtos/freertos/freertos_kernel/timers.c"/>
+    </group>
+    <group name="freertos/freertos_kernel/include">
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/atomic.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/croutine.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/deprecated_definitions.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/event_groups.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/FreeRTOS.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/list.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/message_buffer.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/mpu_prototypes.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/mpu_wrappers.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/portable.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/projdefs.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/queue.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/semphr.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/stack_macros.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/StackMacros.h"/>
+      <file category="other" name="../../../../../../rtos/freertos/freertos_kernel/include/stdint.readme"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/stream_buffer.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/task.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/timers.h"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/include/freertos_tasks_c_additions.h"/>
+    </group>
+    <group name="freertos/freertos_kernel/portable/GCC/ARM_CM4F">
+      <file category="sourceC" name="../../../../../../rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/port.c"/>
+      <file category="header" name="../../../../../../rtos/freertos/freertos_kernel/portable/GCC/ARM_CM4F/portmacro.h"/>
+    </group>
+    <group name="freertos/freertos_kernel/portable">
+      <file category="doc" name="../../../../../../rtos/freertos/freertos_kernel/portable/readme.txt"/>
+    </group>
+  </files>
+
+</cprj>

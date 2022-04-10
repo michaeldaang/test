@@ -1,0 +1,591 @@
+!SESSION 2022-03-31 15:48:22.765 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sv_SE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2022-03-31 15:48:59.206
+!MESSAGE Recreating part support. No part support available.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-31 15:49:01.693
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ludvv'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.nxp.mcuxpresso.core.datamodels 1 0 2022-03-31 15:49:02.649
+!MESSAGE The device 'MK64FN1M0xxx12' (version='1.0.0') from SDK 'SDK_2.x_FRDM-K64F' (version='2.11.0', build='epluginsite519 2022-01-17') will be installed.
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-31 15:52:31.298
+!MESSAGE Indexed 'frdmk64f_lwip_mqtt_freertos' (0 sources, 0 headers) in 0,001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY com.crt.log 1 0 2022-03-31 15:53:33.869
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-03-31 15:53:33.872
+!MESSAGE RedlinkServer telnet session connected on port 3025->53181 @ 127.0.0.1
+!SESSION 2022-04-05 08:34:31.429 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sv_SE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-04-05 08:35:07.382
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ludvv'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-05 08:54:56.146
+!MESSAGE Indexed 'frdmk64f_lwip_tcpecho_freertos' (0 sources, 0 headers) in 0,003 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY com.crt.log 1 0 2022-04-05 09:02:57.897
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-05 09:02:57.898
+!MESSAGE RedlinkServer telnet session connected on port 3025->58992 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-05 13:35:52.578
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-05 13:35:53.084
+!MESSAGE RedlinkServer telnet session connected on port 3025->1075 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-05 13:36:03.054
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.5.0_7232/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.5.0.202112161150/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=1080, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/kod/kod ethernet/boards/frdmk64f/lwip_examples/lwip_mqtt/frdmk64f_lwip_tcpecho_freertos/Debug, --flash-dir, C:/nxp/MCUXpressoIDE_11.5.0_7232/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.5.0.202112161150/binaries/Flash, --flash-dir, C:/kod/kod ethernet/boards/frdmk64f/lwip_examples/lwip_mqtt/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-04-05 13:36:05.536
+!MESSAGE Telnet session connected on port 3330->1088 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2022-04-05 13:37:05.398
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.nxp.mcuxpresso.core.debug 4 0 2022-04-05 13:37:05.405
+!MESSAGE There is already a running debug session for the launch configuration 'frdmk64f_lwip_tcpecho_freertos LinkServer Debug'.
+
+!ENTRY com.crt.log 1 0 2022-04-05 14:33:38.793
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-05 14:33:39.311
+!MESSAGE RedlinkServer telnet session connected on port 3025->1074 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-05 14:45:43.817
+!MESSAGE Indexed 'TCPTEST_lwip_tcpecho_freertos' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-05 14:46:12.309
+!MESSAGE Indexed 'TCPTEST_lwip_dhcp_usb_freertos' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-05 14:46:33.022
+!MESSAGE Indexed 'TCPTEST_lwip_dhcp_freertos' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY com.crt.log 1 0 2022-04-05 14:49:06.258
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-05 14:49:06.777
+!MESSAGE RedlinkServer telnet session connected on port 3025->1150 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-05 14:52:31.314
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-05 14:52:31.825
+!MESSAGE RedlinkServer telnet session connected on port 3025->1166 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-05 14:54:51.926
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-05 14:54:52.434
+!MESSAGE RedlinkServer telnet session connected on port 3025->1180 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-05 15:07:33.866
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-05 15:07:34.380
+!MESSAGE RedlinkServer telnet session connected on port 3025->8330 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-05 15:12:01.048
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-05 15:12:01.560
+!MESSAGE RedlinkServer telnet session connected on port 3025->3388 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-05 15:14:36.272
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-05 15:14:36.778
+!MESSAGE RedlinkServer telnet session connected on port 3025->1056 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-05 15:26:06.564
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-05 15:26:07.069
+!MESSAGE RedlinkServer telnet session connected on port 3025->1924 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-06 08:59:01.513
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-06 08:59:02.024
+!MESSAGE RedlinkServer telnet session connected on port 3025->1057 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-06 10:04:07.435
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-06 10:04:07.946
+!MESSAGE RedlinkServer telnet session connected on port 3025->13068 @ 127.0.0.1
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-06 10:55:45.527
+!MESSAGE Indexed 'frdmk64f_lwip_tcpecho_bm' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0 %)
+
+!ENTRY com.crt.log 1 0 2022-04-06 10:56:40.438
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-06 10:56:40.949
+!MESSAGE RedlinkServer telnet session connected on port 3025->1364 @ 127.0.0.1
+
+!ENTRY [ERROR] [com.nxp.mcuxpresso.core.debug.support.linkserver] 0 0 2022-04-06 10:57:06.682
+!MESSAGE 0x301, No probes found
+
+!ENTRY com.crt.log 1 0 2022-04-06 11:08:23.197
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-06 11:08:23.716
+!MESSAGE RedlinkServer telnet session connected on port 3025->1188 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-06 11:09:36.940
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-06 11:09:37.447
+!MESSAGE RedlinkServer telnet session connected on port 3025->29125 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-06 11:11:53.056
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-06 11:11:53.568
+!MESSAGE RedlinkServer telnet session connected on port 3025->24483 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-07 09:37:02.071
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-07 09:37:02.577
+!MESSAGE RedlinkServer telnet session connected on port 3025->30870 @ 127.0.0.1
+
+!ENTRY org.eclipse.ui.navigator 4 0 2022-04-07 09:37:05.197
+!MESSAGE Cannot add P/TCPTEST_lwip_tcpecho_freertos to the list of segments in P/TCPTEST_lwip_tcpecho_freertos::P/frdmk64f_lwip_tcpecho_freertos:: as a parent.
+!STACK 0
+org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$CyclicPathException: Cannot add P/TCPTEST_lwip_tcpecho_freertos to the list of segments in P/TCPTEST_lwip_tcpecho_freertos::P/frdmk64f_lwip_tcpecho_freertos:: as a parent.
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$TreePathCompiler.addParent(NavigatorContentServiceContentProvider.java:540)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:603)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getParents(NavigatorContentServiceContentProvider.java:331)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1747)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:566)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpand(AbstractTreeViewer.java:1685)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:2557)
+	at org.eclipse.ui.navigator.CommonViewer.setSelectionToWidget(CommonViewer.java:442)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelectionToWidget(StructuredViewer.java:1704)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.setSelectionToWidget(AbstractTreeViewer.java:3029)
+	at org.eclipse.jface.viewers.StructuredViewer.setSelection(StructuredViewer.java:1660)
+	at org.eclipse.jface.viewers.TreeViewer.setSelection(TreeViewer.java:1084)
+	at org.eclipse.ui.navigator.CommonViewer.setSelection(CommonViewer.java:373)
+	at org.eclipse.jface.viewers.Viewer.setSelection(Viewer.java:376)
+	at com.crt.quickstart.views.QuickstartView$2.run(QuickstartView.java:511)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:68)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:171)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2022-04-07 09:37:07.568
+!MESSAGE Cannot add P/TCPTEST_lwip_tcpecho_freertos to the list of segments in P/TCPTEST_lwip_tcpecho_freertos::Debug::F/TCPTEST_lwip_tcpecho_freertos/Debug/source::L/TCPTEST_lwip_tcpecho_freertos/Debug/source/lwip_tcpecho_freertos.o:: as a parent.
+!STACK 0
+org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$CyclicPathException: Cannot add P/TCPTEST_lwip_tcpecho_freertos to the list of segments in P/TCPTEST_lwip_tcpecho_freertos::Debug::F/TCPTEST_lwip_tcpecho_freertos/Debug/source::L/TCPTEST_lwip_tcpecho_freertos/Debug/source/lwip_tcpecho_freertos.o:: as a parent.
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$TreePathCompiler.addParent(NavigatorContentServiceContentProvider.java:540)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:603)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getParents(NavigatorContentServiceContentProvider.java:331)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1747)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:566)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRemove(AbstractTreeViewer.java:2002)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$2(AbstractTreeViewer.java:2248)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1400)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1361)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.remove(AbstractTreeViewer.java:2248)
+	at org.eclipse.ui.navigator.CommonViewer.remove(CommonViewer.java:326)
+	at org.eclipse.ui.internal.navigator.resources.workbench.ResourceExtensionContentProvider.lambda$1(ResourceExtensionContentProvider.java:278)
+	at org.eclipse.ui.internal.navigator.resources.workbench.ResourceExtensionContentProvider.runUpdates(ResourceExtensionContentProvider.java:307)
+	at org.eclipse.ui.internal.navigator.resources.workbench.ResourceExtensionContentProvider.lambda$0(ResourceExtensionContentProvider.java:141)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.ui.navigator 4 0 2022-04-07 09:37:07.569
+!MESSAGE Cannot add P/TCPTEST_lwip_tcpecho_freertos to the list of segments in P/TCPTEST_lwip_tcpecho_freertos::F/TCPTEST_lwip_tcpecho_freertos/Debug::L/TCPTEST_lwip_tcpecho_freertos/Debug/TCPTEST_lwip_tcpecho_freertos.axf:: as a parent.
+!STACK 0
+org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$CyclicPathException: Cannot add P/TCPTEST_lwip_tcpecho_freertos to the list of segments in P/TCPTEST_lwip_tcpecho_freertos::F/TCPTEST_lwip_tcpecho_freertos/Debug::L/TCPTEST_lwip_tcpecho_freertos/Debug/TCPTEST_lwip_tcpecho_freertos.axf:: as a parent.
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$TreePathCompiler.addParent(NavigatorContentServiceContentProvider.java:540)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:603)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getParents(NavigatorContentServiceContentProvider.java:331)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1747)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:566)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRemove(AbstractTreeViewer.java:2002)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$2(AbstractTreeViewer.java:2248)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1400)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1361)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.remove(AbstractTreeViewer.java:2248)
+	at org.eclipse.ui.navigator.CommonViewer.remove(CommonViewer.java:326)
+	at org.eclipse.ui.internal.navigator.resources.workbench.ResourceExtensionContentProvider.lambda$1(ResourceExtensionContentProvider.java:278)
+	at org.eclipse.ui.internal.navigator.resources.workbench.ResourceExtensionContentProvider.runUpdates(ResourceExtensionContentProvider.java:307)
+	at org.eclipse.ui.internal.navigator.resources.workbench.ResourceExtensionContentProvider.lambda$0(ResourceExtensionContentProvider.java:141)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2022-04-07 09:37:11.488
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+!ENTRY com.crt.log 1 0 2022-04-07 09:37:11.641
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.5.0_7232/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.5.0.202112161150/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=30871, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/kod/kod ethernet/boards/frdmk64f/lwip_examples/lwip_mqtt/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support, --flash-dir, C:/nxp/MCUXpressoIDE_11.5.0_7232/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.5.0.202112161150/binaries/Flash, --flash-dir, C:/kod/kod ethernet/boards/frdmk64f/lwip_examples/lwip_mqtt/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-04-07 09:37:14.106
+!MESSAGE Telnet session connected on port 3330->30877 @ 127.0.0.1
+
+!ENTRY org.eclipse.ui.navigator 4 0 2022-04-07 09:50:28.764
+!MESSAGE Cannot add P/TCPTEST_lwip_tcpecho_freertos to the list of segments in P/TCPTEST_lwip_tcpecho_freertos::Debug::F/TCPTEST_lwip_tcpecho_freertos/Debug/source::L/TCPTEST_lwip_tcpecho_freertos/Debug/source/lwip_tcpecho_freertos.o:: as a parent.
+!STACK 0
+org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$CyclicPathException: Cannot add P/TCPTEST_lwip_tcpecho_freertos to the list of segments in P/TCPTEST_lwip_tcpecho_freertos::Debug::F/TCPTEST_lwip_tcpecho_freertos/Debug/source::L/TCPTEST_lwip_tcpecho_freertos/Debug/source/lwip_tcpecho_freertos.o:: as a parent.
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider$TreePathCompiler.addParent(NavigatorContentServiceContentProvider.java:540)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:603)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.findPaths(NavigatorContentServiceContentProvider.java:604)
+	at org.eclipse.ui.internal.navigator.NavigatorContentServiceContentProvider.getParents(NavigatorContentServiceContentProvider.java:331)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.getParentElement(AbstractTreeViewer.java:1747)
+	at org.eclipse.jface.viewers.TreeViewer.getParentElement(TreeViewer.java:566)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRemove(AbstractTreeViewer.java:2002)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.lambda$2(AbstractTreeViewer.java:2248)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1400)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:363)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1361)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.remove(AbstractTreeViewer.java:2248)
+	at org.eclipse.ui.navigator.CommonViewer.remove(CommonViewer.java:326)
+	at org.eclipse.ui.internal.navigator.resources.workbench.ResourceExtensionContentProvider.lambda$1(ResourceExtensionContentProvider.java:278)
+	at org.eclipse.ui.internal.navigator.resources.workbench.ResourceExtensionContentProvider.runUpdates(ResourceExtensionContentProvider.java:307)
+	at org.eclipse.ui.internal.navigator.resources.workbench.ResourceExtensionContentProvider.lambda$0(ResourceExtensionContentProvider.java:141)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4001)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3629)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY com.crt.log 1 0 2022-04-07 09:50:50.232
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-07 09:50:50.747
+!MESSAGE RedlinkServer telnet session connected on port 3025->15350 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-07 09:58:07.112
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-07 09:58:07.618
+!MESSAGE RedlinkServer telnet session connected on port 3025->1067 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-07 09:58:08.495
+!MESSAGE Starting GDB server [ C:/nxp/MCUXpressoIDE_11.5.0_7232/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.5.0.202112161150/binaries//crt_emu_cm_redlink, --server, :10989, -msg-port=1068, -g, -mi, -2, -pMK64FN1M0xxx12, -vendor=NXP, --connectscript=kinetisconnect.scp, --reset=, -ProbeHandle=1, -CoreIndex=0, -cache=disable, --flash-hashing, --flash-driver=, -x, C:/kod/kod ethernet/boards/frdmk64f/lwip_examples/lwip_mqtt/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support, --flash-dir, C:/nxp/MCUXpressoIDE_11.5.0_7232/ide/plugins/com.nxp.mcuxpresso.tools.bin.win32_11.5.0.202112161150/binaries/Flash, --flash-dir, C:/kod/kod ethernet/boards/frdmk64f/lwip_examples/lwip_mqtt/.mcuxpressoide_packages_support/MK64FN1M0xxx12_support/Flash, --telnet, 3330 ]
+
+!ENTRY com.nxp.mcuxpresso.core.debug 1 0 2022-04-07 09:58:10.957
+!MESSAGE Telnet session connected on port 3330->1075 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-07 10:11:03.363
+!MESSAGE 10989 Address already in use: NET_Bind
+
+!ENTRY com.crt.log 1 0 2022-04-07 10:11:04.796
+!MESSAGE 10989 Address already in use: NET_Bind
+
+!ENTRY com.crt.log 4 -1 2022-04-07 10:11:16.966
+!MESSAGE Unable to close probe by serial "02400b0134544e45000900048e3800295a91000097969900".
+Error: Probe in use
+
+!STACK 0
+java.lang.Exception: java.lang.Exception: Unable to close probe by serial "02400b0134544e45000900048e3800295a91000097969900".
+Error: Probe in use
+
+	at com.crt.utils.general.Reporter.log(Reporter.java:591)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.possiblyExitAndShutdownServer(RedlinkServerClient.java:424)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LinkServerLaunchConfigHandler.shutdown(LinkServerLaunchConfigHandler.java:1368)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LinkServerLaunchConfigHandler.operationDone(LinkServerLaunchConfigHandler.java:1346)
+	at com.nxp.mcuxpresso.core.debug.flash.AbstractFlashWorkItem.run(AbstractFlashWorkItem.java:369)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: Unable to close probe by serial "02400b0134544e45000900048e3800295a91000097969900".
+Error: Probe in use
+
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:224)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.possiblyExitAndShutdownServer(RedlinkServerClient.java:422)
+	... 4 more
+
+!ENTRY com.crt.log 1 0 2022-04-07 10:11:25.445
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-07 10:11:25.448
+!MESSAGE RedlinkServer telnet session connected on port 3025->7037 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-07 10:11:27.300
+!MESSAGE 10989 Address already in use: NET_Bind
+
+!ENTRY com.crt.log 1 0 2022-04-07 10:11:29.035
+!MESSAGE 10989 Address already in use: NET_Bind
+
+!ENTRY [ERROR] [com.nxp.mcuxpresso.core.debug.support.linkserver] 0 0 2022-04-07 10:11:29.103
+!MESSAGE 0xAF, Probe in use
+
+!ENTRY com.crt.log 4 -1 2022-04-07 10:11:47.461
+!MESSAGE Unable to close probe by serial "02400b0134544e45000900048e3800295a91000097969900".
+Error: Probe in use
+
+!STACK 0
+java.lang.Exception: java.lang.Exception: Unable to close probe by serial "02400b0134544e45000900048e3800295a91000097969900".
+Error: Probe in use
+
+	at com.crt.utils.general.Reporter.log(Reporter.java:591)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.possiblyExitAndShutdownServer(RedlinkServerClient.java:424)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LinkServerLaunchConfigHandler.shutdown(LinkServerLaunchConfigHandler.java:1368)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.launch.LinkServerLaunchConfigHandler.operationDone(LinkServerLaunchConfigHandler.java:1346)
+	at com.nxp.mcuxpresso.core.debug.flash.AbstractFlashWorkItem.run(AbstractFlashWorkItem.java:369)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.Exception: Unable to close probe by serial "02400b0134544e45000900048e3800295a91000097969900".
+Error: Probe in use
+
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.checkServerReply(RedlinkServerClient.java:224)
+	at com.nxp.mcuxpresso.core.debug.support.linkserver.redlink.client.RedlinkServerClient.possiblyExitAndShutdownServer(RedlinkServerClient.java:422)
+	... 4 more
+
+!ENTRY com.crt.log 1 0 2022-04-07 10:11:59.818
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-07 10:12:00.337
+!MESSAGE RedlinkServer telnet session connected on port 3025->1039 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-07 10:13:21.201
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-07 10:13:21.708
+!MESSAGE RedlinkServer telnet session connected on port 3025->16872 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-07 10:14:52.923
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-07 10:14:53.433
+!MESSAGE RedlinkServer telnet session connected on port 3025->1085 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-07 10:16:04.261
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-07 10:16:04.778
+!MESSAGE RedlinkServer telnet session connected on port 3025->32427 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-07 10:17:08.741
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-07 10:17:09.251
+!MESSAGE RedlinkServer telnet session connected on port 3025->16924 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-07 10:19:19.129
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-07 10:19:19.642
+!MESSAGE RedlinkServer telnet session connected on port 3025->16982 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-07 11:15:58.552
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-07 11:15:59.055
+!MESSAGE RedlinkServer telnet session connected on port 3025->1056 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-07 11:18:15.219
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-07 11:18:15.733
+!MESSAGE RedlinkServer telnet session connected on port 3025->5832 @ 127.0.0.1
+
+!ENTRY org.eclipse.tm.terminal.connector.cdtserial 4 0 2022-04-07 12:39:42.914
+!MESSAGE Error reading from port (5)
+!STACK 0
+java.io.IOException: Error reading from port (5)
+	at org.eclipse.cdt.serial.SerialPort.read1(Native Method)
+	at org.eclipse.cdt.serial.SerialPort$1.read(SerialPort.java:108)
+	at org.eclipse.tm.terminal.connector.cdtserial.connector.SerialConnector$1.run(SerialConnector.java:103)
+
+!ENTRY com.crt.log 1 0 2022-04-07 12:51:51.317
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-07 12:51:51.825
+!MESSAGE RedlinkServer telnet session connected on port 3025->1048 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-07 14:09:00.521
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-07 14:09:01.035
+!MESSAGE RedlinkServer telnet session connected on port 3025->3780 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-07 14:10:13.075
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-07 14:10:13.582
+!MESSAGE RedlinkServer telnet session connected on port 3025->13445 @ 127.0.0.1
+
+!ENTRY org.eclipse.tm.terminal.connector.cdtserial 4 0 2022-04-07 15:41:56.846
+!MESSAGE Error reading from port (5)
+!STACK 0
+java.io.IOException: Error reading from port (5)
+	at org.eclipse.cdt.serial.SerialPort.read1(Native Method)
+	at org.eclipse.cdt.serial.SerialPort$1.read(SerialPort.java:108)
+	at org.eclipse.tm.terminal.connector.cdtserial.connector.SerialConnector$1.run(SerialConnector.java:103)
+
+!ENTRY com.crt.log 1 0 2022-04-08 11:10:18.110
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-08 11:10:18.620
+!MESSAGE RedlinkServer telnet session connected on port 3025->12774 @ 127.0.0.1
+
+!ENTRY com.crt.log 1 0 2022-04-08 11:19:01.937
+!MESSAGE Trying to connect to redlink server on port 3025.
+
+!ENTRY com.nxp.mcuxpresso.core.debug.support.linkserver 1 0 2022-04-08 11:19:02.454
+!MESSAGE RedlinkServer telnet session connected on port 3025->1072 @ 127.0.0.1
+!SESSION 2022-04-08 14:20:59.129 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=sv_SE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-04-08 14:21:36.683
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ludvv'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

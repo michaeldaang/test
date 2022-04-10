@@ -1,0 +1,12 @@
+../lwip/port/usb_ethernetif_freertos.c:83:6:USB_HostCdcRndisDataInCallback	48	static
+../lwip/port/usb_ethernetif_freertos.c:137:6:USB_HostCdcRndisDataOutCallback	24	static
+../lwip/port/usb_ethernetif_freertos.c:158:7:USB_EthernetIfOutPut	72	static
+../lwip/port/usb_ethernetif_freertos.c:251:14:USB_HostEvent	32	static
+../lwip/port/usb_ethernetif_freertos.c:279:6:USB_HostTask	16	static
+../lwip/port/usb_ethernetif_freertos.c:286:6:USB_HostApplicationTask	24	static
+../lwip/port/usb_ethernetif_freertos.c:301:13:USB_HostApplicationInit	32	static
+../lwip/port/usb_ethernetif_freertos.c:348:7:USB_EthernetIfInIt	24	static
+../lwip/port/usb_ethernetif_freertos.c:386:6:USB_HostCdcRndisInterruptCallback	32	static
+../lwip/port/usb_ethernetif_freertos.c:421:6:USB_HostCdcRndisControlCallback	40	static
+../lwip/port/usb_ethernetif_freertos.c:508:6:USB_HosCdcRndisTask	56	static
+../lwip/port/usb_ethernetif_freertos.c:734:14:USB_HostCdcRndisEvent	48	static

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="LaunchTerminalSettingsDialog">
+		<item key="terminalLabel" value="Serial Terminal"/>
+		<section name="SettingsPanelControl">
+			<section name="--distribution, -d [Argument] (WSL)">
+			</section>
+			<section name="Serial Terminal">
+				<list key="hosts">
+				</list>
+			</section>
+			<section name="Telnet Terminal">
+				<item key="lastHost" value="192.168.0.102"/>
+				<list key="hosts">
+					<item value="192.168.0.102|telnet.eol:CR+NUL:ip.port:7:ip.host:192.168.0.102:timeout:5"/>
+				</list>
+			</section>
+		</section>
+	</section>
+</section>
