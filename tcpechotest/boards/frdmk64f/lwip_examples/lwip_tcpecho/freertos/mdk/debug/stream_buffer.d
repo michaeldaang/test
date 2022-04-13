@@ -1,4 +1,4 @@
-debug/stream_buffer.o: \
+./debug/stream_buffer.o: \
   ..\..\..\..\..\..\rtos\freertos\freertos_kernel\stream_buffer.c \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \

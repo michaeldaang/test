@@ -1,4 +1,4 @@
-debug/zepif.o: ..\..\..\..\..\..\middleware\lwip\src\netif\zepif.c \
+./debug/zepif.o: ..\..\..\..\..\..\middleware\lwip\src\netif\zepif.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\zepif.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \

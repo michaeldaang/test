@@ -1,4 +1,4 @@
-debug/tcp_in.o: ..\..\..\..\..\..\middleware\lwip\src\core\tcp_in.c \
+./debug/tcp_in.o: ..\..\..\..\..\..\middleware\lwip\src\core\tcp_in.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\arch.h \

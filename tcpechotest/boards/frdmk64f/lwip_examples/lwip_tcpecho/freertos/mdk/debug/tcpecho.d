@@ -1,4 +1,4 @@
-debug/tcpecho.o: \
+./debug/tcpecho.o: \
   ..\..\..\..\..\..\middleware\lwip\contrib\apps\tcpecho\tcpecho.c \
   ..\..\..\..\..\..\middleware\lwip\contrib\apps\tcpecho\tcpecho.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \

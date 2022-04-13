@@ -1,4 +1,4 @@
-debug/pin_mux.o: ..\pin_mux.c \
+./debug/pin_mux.o: ..\pin_mux.c \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\assert.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \

@@ -1,4 +1,4 @@
-debug/multilink.o: \
+./debug/multilink.o: \
   ..\..\..\..\..\..\middleware\lwip\src\netif\ppp\multilink.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\ppp\ppp_opts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \

@@ -1,4 +1,4 @@
-debug/fsl_component_generic_list.o: \
+./debug/fsl_component_generic_list.o: \
   ..\..\..\..\..\..\components\lists\fsl_component_generic_list.c \
   ..\..\..\..\..\..\components\lists\fsl_component_generic_list.h \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.h \

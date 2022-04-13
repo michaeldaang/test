@@ -1,4 +1,4 @@
-debug/netif.o: ..\..\..\..\..\..\middleware\lwip\src\core\netif.c \
+./debug/netif.o: ..\..\..\..\..\..\middleware\lwip\src\core\netif.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\arch.h \

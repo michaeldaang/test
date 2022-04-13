@@ -1,4 +1,5 @@
-debug/demand.o: ..\..\..\..\..\..\middleware\lwip\src\netif\ppp\demand.c \
+./debug/demand.o: \
+  ..\..\..\..\..\..\middleware\lwip\src\netif\ppp\demand.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\ppp\ppp_opts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \

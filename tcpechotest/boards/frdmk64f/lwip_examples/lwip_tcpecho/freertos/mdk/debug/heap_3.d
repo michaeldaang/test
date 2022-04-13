@@ -1,4 +1,4 @@
-debug/heap_3.o: \
+./debug/heap_3.o: \
   ..\..\..\..\..\..\rtos\freertos\freertos_kernel\portable\MemMang\heap_3.c \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   ..\..\..\..\..\..\rtos\freertos\freertos_kernel\include\FreeRTOS.h \

@@ -1,4 +1,4 @@
-debug/netdb.o: ..\..\..\..\..\..\middleware\lwip\src\api\netdb.c \
+./debug/netdb.o: ..\..\..\..\..\..\middleware\lwip\src\api\netdb.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\netdb.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \

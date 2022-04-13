@@ -1,4 +1,5 @@
-debug/autoip.o: ..\..\..\..\..\..\middleware\lwip\src\core\ipv4\autoip.c \
+./debug/autoip.o: \
+  ..\..\..\..\..\..\middleware\lwip\src\core\ipv4\autoip.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\arch.h \

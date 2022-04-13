@@ -1,4 +1,4 @@
-debug/chap_ms.o: \
+./debug/chap_ms.o: \
   ..\..\..\..\..\..\middleware\lwip\src\netif\ppp\chap_ms.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\ppp\ppp_opts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \

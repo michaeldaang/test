@@ -1,4 +1,4 @@
-debug/fsl_component_serial_port_uart.o: \
+./debug/fsl_component_serial_port_uart.o: \
   ..\..\..\..\..\..\components\serial_manager\fsl_component_serial_port_uart.c \
   ..\..\..\..\..\..\components\serial_manager\fsl_component_serial_manager.h \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.h \

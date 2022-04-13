@@ -1,4 +1,5 @@
-debug/bridgeif.o: ..\..\..\..\..\..\middleware\lwip\src\netif\bridgeif.c \
+./debug/bridgeif.o: \
+  ..\..\..\..\..\..\middleware\lwip\src\netif\bridgeif.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\bridgeif.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\bridgeif_opts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \

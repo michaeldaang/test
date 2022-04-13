@@ -1,4 +1,4 @@
-debug/pppol2tp.o: \
+./debug/pppol2tp.o: \
   ..\..\..\..\..\..\middleware\lwip\src\netif\ppp\pppol2tp.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\ppp\ppp_opts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \

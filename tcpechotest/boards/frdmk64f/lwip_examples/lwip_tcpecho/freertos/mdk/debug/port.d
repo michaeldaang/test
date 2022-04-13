@@ -1,4 +1,4 @@
-debug/port.o: \
+./debug/port.o: \
   ..\..\..\..\..\..\rtos\freertos\freertos_kernel\portable\GCC\ARM_CM4F\port.c \
   ..\..\..\..\..\..\rtos\freertos\freertos_kernel\include\FreeRTOS.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \

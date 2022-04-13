@@ -1,4 +1,4 @@
-debug/chap-md5.o: \
+./debug/chap-md5.o: \
   ..\..\..\..\..\..\middleware\lwip\src\netif\ppp\chap-md5.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\ppp\ppp_opts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \

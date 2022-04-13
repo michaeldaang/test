@@ -1,4 +1,5 @@
-debug/ethernet.o: ..\..\..\..\..\..\middleware\lwip\src\netif\ethernet.c \
+./debug/ethernet.o: \
+  ..\..\..\..\..\..\middleware\lwip\src\netif\ethernet.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\arch.h \

@@ -1,4 +1,4 @@
-debug/err.o: ..\..\..\..\..\..\middleware\lwip\src\api\err.c \
+./debug/err.o: ..\..\..\..\..\..\middleware\lwip\src\api\err.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\err.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \

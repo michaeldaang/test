@@ -1,4 +1,4 @@
-debug/enet_ethernetif_kinetis.o: \
+./debug/enet_ethernetif_kinetis.o: \
   ..\..\..\..\..\..\middleware\lwip\port\enet_ethernetif_kinetis.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \

@@ -1,4 +1,4 @@
-debug/fsl_enet_mdio.o: \
+./debug/fsl_enet_mdio.o: \
   ..\..\..\..\..\..\components\phy\mdio\enet\fsl_enet_mdio.c \
   ..\..\..\..\..\..\components\phy\mdio\enet\fsl_enet_mdio.h \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_enet.h \

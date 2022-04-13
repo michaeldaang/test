@@ -1,4 +1,4 @@
-debug/api_msg.o: ..\..\..\..\..\..\middleware\lwip\src\api\api_msg.c \
+./debug/api_msg.o: ..\..\..\..\..\..\middleware\lwip\src\api\api_msg.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\arch.h \

@@ -1,4 +1,4 @@
-debug/list.o: ..\..\..\..\..\..\rtos\freertos\freertos_kernel\list.c \
+./debug/list.o: ..\..\..\..\..\..\rtos\freertos\freertos_kernel\list.c \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   ..\..\..\..\..\..\rtos\freertos\freertos_kernel\include\FreeRTOS.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \

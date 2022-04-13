@@ -1,4 +1,4 @@
-debug/chap-new.o: \
+./debug/chap-new.o: \
   ..\..\..\..\..\..\middleware\lwip\src\netif\ppp\chap-new.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\ppp\ppp_opts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \

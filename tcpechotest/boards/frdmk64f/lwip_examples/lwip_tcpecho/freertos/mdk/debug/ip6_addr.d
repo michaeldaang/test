@@ -1,4 +1,4 @@
-debug/ip6_addr.o: \
+./debug/ip6_addr.o: \
   ..\..\..\..\..\..\middleware\lwip\src\core\ipv6\ip6_addr.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \

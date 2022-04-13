@@ -1,4 +1,4 @@
-debug/board.o: ..\board.c ..\board.h ..\clock_config.h \
+./debug/board.o: ..\board.c ..\board.h ..\clock_config.h \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\assert.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \

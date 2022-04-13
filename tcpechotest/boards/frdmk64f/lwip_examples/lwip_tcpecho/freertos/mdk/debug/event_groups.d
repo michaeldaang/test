@@ -1,4 +1,4 @@
-debug/event_groups.o: \
+./debug/event_groups.o: \
   ..\..\..\..\..\..\rtos\freertos\freertos_kernel\event_groups.c \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   ..\..\..\..\..\..\rtos\freertos\freertos_kernel\include\FreeRTOS.h \

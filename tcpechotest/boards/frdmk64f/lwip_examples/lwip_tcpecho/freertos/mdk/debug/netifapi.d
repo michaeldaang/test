@@ -1,4 +1,4 @@
-debug/netifapi.o: ..\..\..\..\..\..\middleware\lwip\src\api\netifapi.c \
+./debug/netifapi.o: ..\..\..\..\..\..\middleware\lwip\src\api\netifapi.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\arch.h \

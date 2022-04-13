@@ -1,4 +1,4 @@
-debug/api_lib.o: ..\..\..\..\..\..\middleware\lwip\src\api\api_lib.c \
+./debug/api_lib.o: ..\..\..\..\..\..\middleware\lwip\src\api\api_lib.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\arch.h \

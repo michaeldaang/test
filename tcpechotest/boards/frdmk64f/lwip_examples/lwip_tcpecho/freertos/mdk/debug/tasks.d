@@ -1,4 +1,4 @@
-debug/tasks.o: ..\..\..\..\..\..\rtos\freertos\freertos_kernel\tasks.c \
+./debug/tasks.o: ..\..\..\..\..\..\rtos\freertos\freertos_kernel\tasks.c \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
   ..\..\..\..\..\..\rtos\freertos\freertos_kernel\include\FreeRTOS.h \

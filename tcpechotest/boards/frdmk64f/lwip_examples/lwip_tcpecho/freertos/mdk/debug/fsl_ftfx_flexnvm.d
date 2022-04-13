@@ -1,4 +1,4 @@
-debug/fsl_ftfx_flexnvm.o: \
+./debug/fsl_ftfx_flexnvm.o: \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_flexnvm.c \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_flexnvm.h \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_controller.h \

@@ -1,4 +1,4 @@
-debug/raw.o: ..\..\..\..\..\..\middleware\lwip\src\core\raw.c \
+./debug/raw.o: ..\..\..\..\..\..\middleware\lwip\src\core\raw.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\arch.h \

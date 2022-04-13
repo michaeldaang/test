@@ -1,4 +1,4 @@
-debug/fsm.o: ..\..\..\..\..\..\middleware\lwip\src\netif\ppp\fsm.c \
+./debug/fsm.o: ..\..\..\..\..\..\middleware\lwip\src\netif\ppp\fsm.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\ppp\ppp_opts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \

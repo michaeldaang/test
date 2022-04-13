@@ -1,4 +1,4 @@
-debug/memp.o: ..\..\..\..\..\..\middleware\lwip\src\core\memp.c \
+./debug/memp.o: ..\..\..\..\..\..\middleware\lwip\src\core\memp.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\arch.h \

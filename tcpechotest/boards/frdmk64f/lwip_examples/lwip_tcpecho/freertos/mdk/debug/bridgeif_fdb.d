@@ -1,4 +1,4 @@
-debug/bridgeif_fdb.o: \
+./debug/bridgeif_fdb.o: \
   ..\..\..\..\..\..\middleware\lwip\src\netif\bridgeif_fdb.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\bridgeif.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\bridgeif_opts.h \

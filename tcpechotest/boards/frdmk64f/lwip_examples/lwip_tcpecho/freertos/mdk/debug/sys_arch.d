@@ -1,4 +1,4 @@
-debug/sys_arch.o: ..\..\..\..\..\..\middleware\lwip\port\sys_arch.c \
+./debug/sys_arch.o: ..\..\..\..\..\..\middleware\lwip\port\sys_arch.c \
   ..\..\..\..\..\..\middleware\lwip\port\arch\sys_arch.h \
   ..\..\..\..\..\..\devices\MK64F12\utilities\debug_console\fsl_debug_console.h \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.h \

@@ -1,4 +1,4 @@
-debug/fsl_str.o: \
+./debug/fsl_str.o: \
   ..\..\..\..\..\..\devices\MK64F12\utilities\str\fsl_str.c \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\math.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \

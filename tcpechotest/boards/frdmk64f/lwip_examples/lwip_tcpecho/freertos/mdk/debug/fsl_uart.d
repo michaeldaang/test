@@ -1,4 +1,4 @@
-debug/fsl_uart.o: ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_uart.c \
+./debug/fsl_uart.o: ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_uart.c \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_uart.h \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\assert.h \

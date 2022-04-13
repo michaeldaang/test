@@ -1,4 +1,4 @@
-debug/fsl_enet.o: ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_enet.c \
+./debug/fsl_enet.o: ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_enet.c \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_enet.h \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\assert.h \

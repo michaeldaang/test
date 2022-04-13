@@ -1,4 +1,4 @@
-debug/altcp.o: ..\..\..\..\..\..\middleware\lwip\src\core\altcp.c \
+./debug/altcp.o: ..\..\..\..\..\..\middleware\lwip\src\core\altcp.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\arch.h \

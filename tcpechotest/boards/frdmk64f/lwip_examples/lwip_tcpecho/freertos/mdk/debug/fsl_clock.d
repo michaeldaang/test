@@ -1,4 +1,5 @@
-debug/fsl_clock.o: ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_clock.c \
+./debug/fsl_clock.o: \
+  ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_clock.c \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_clock.h \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\assert.h \

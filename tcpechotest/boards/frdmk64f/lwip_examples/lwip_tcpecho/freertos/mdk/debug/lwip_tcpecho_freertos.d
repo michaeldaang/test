@@ -1,4 +1,4 @@
-debug/lwip_tcpecho_freertos.o: ..\lwip_tcpecho_freertos.c \
+./debug/lwip_tcpecho_freertos.o: ..\lwip_tcpecho_freertos.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\arch.h \

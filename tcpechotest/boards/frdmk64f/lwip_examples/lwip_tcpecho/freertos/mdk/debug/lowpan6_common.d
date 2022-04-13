@@ -1,4 +1,4 @@
-debug/lowpan6_common.o: \
+./debug/lowpan6_common.o: \
   ..\..\..\..\..\..\middleware\lwip\src\netif\lowpan6_common.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\lowpan6_common.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\lowpan6_opts.h \

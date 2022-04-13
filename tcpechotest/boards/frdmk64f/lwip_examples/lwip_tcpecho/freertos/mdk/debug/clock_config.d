@@ -1,4 +1,4 @@
-debug/clock_config.o: ..\clock_config.c \
+./debug/clock_config.o: ..\clock_config.c \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_smc.h \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\assert.h \

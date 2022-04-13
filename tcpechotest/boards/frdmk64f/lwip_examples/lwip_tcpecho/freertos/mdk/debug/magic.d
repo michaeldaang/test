@@ -1,4 +1,4 @@
-debug/magic.o: ..\..\..\..\..\..\middleware\lwip\src\netif\ppp\magic.c \
+./debug/magic.o: ..\..\..\..\..\..\middleware\lwip\src\netif\ppp\magic.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\ppp\ppp_opts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \

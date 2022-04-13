@@ -1,4 +1,4 @@
-debug/lwip_ecp.o: \
+./debug/lwip_ecp.o: \
   ..\..\..\..\..\..\middleware\lwip\src\netif\ppp\lwip_ecp.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\ppp\ppp_opts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \

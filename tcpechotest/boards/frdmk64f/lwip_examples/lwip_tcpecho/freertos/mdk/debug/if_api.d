@@ -1,4 +1,4 @@
-debug/if_api.o: ..\..\..\..\..\..\middleware\lwip\src\api\if_api.c \
+./debug/if_api.o: ..\..\..\..\..\..\middleware\lwip\src\api\if_api.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\arch.h \

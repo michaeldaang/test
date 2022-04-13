@@ -1,4 +1,5 @@
-debug/etharp.o: ..\..\..\..\..\..\middleware\lwip\src\core\ipv4\etharp.c \
+./debug/etharp.o: \
+  ..\..\..\..\..\..\middleware\lwip\src\core\ipv4\etharp.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\arch.h \

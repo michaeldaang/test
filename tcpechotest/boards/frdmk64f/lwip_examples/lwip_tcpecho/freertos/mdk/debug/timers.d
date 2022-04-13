@@ -1,4 +1,5 @@
-debug/timers.o: ..\..\..\..\..\..\rtos\freertos\freertos_kernel\timers.c \
+./debug/timers.o: \
+  ..\..\..\..\..\..\rtos\freertos\freertos_kernel\timers.c \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   ..\..\..\..\..\..\rtos\freertos\freertos_kernel\include\FreeRTOS.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \

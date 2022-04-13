@@ -1,4 +1,4 @@
-debug/sys.o: ..\..\..\..\..\..\middleware\lwip\src\core\sys.c \
+./debug/sys.o: ..\..\..\..\..\..\middleware\lwip\src\core\sys.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\arch.h \

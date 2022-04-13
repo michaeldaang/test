@@ -1,4 +1,4 @@
-debug/fsl_component_serial_manager.o: \
+./debug/fsl_component_serial_manager.o: \
   ..\..\..\..\..\..\components\serial_manager\fsl_component_serial_manager.c \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
   ..\..\..\..\..\..\components\serial_manager\fsl_component_serial_manager.h \

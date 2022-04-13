@@ -1,4 +1,4 @@
-debug/croutine.o: \
+./debug/croutine.o: \
   ..\..\..\..\..\..\rtos\freertos\freertos_kernel\croutine.c \
   ..\..\..\..\..\..\rtos\freertos\freertos_kernel\include\FreeRTOS.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \

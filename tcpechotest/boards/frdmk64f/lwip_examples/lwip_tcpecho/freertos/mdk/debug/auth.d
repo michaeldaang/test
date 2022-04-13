@@ -1,4 +1,4 @@
-debug/auth.o: ..\..\..\..\..\..\middleware\lwip\src\netif\ppp\auth.c \
+./debug/auth.o: ..\..\..\..\..\..\middleware\lwip\src\netif\ppp\auth.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\ppp\ppp_opts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \

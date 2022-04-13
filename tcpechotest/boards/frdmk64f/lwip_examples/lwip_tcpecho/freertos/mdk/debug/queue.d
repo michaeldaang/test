@@ -1,4 +1,4 @@
-debug/queue.o: ..\..\..\..\..\..\rtos\freertos\freertos_kernel\queue.c \
+./debug/queue.o: ..\..\..\..\..\..\rtos\freertos\freertos_kernel\queue.c \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
   ..\..\..\..\..\..\rtos\freertos\freertos_kernel\include\FreeRTOS.h \

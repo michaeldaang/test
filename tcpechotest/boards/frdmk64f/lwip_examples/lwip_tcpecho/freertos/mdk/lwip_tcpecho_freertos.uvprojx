@@ -48,8 +48,8 @@
             <NotGenerated>0</NotGenerated>
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
-          <OutputDirectory>debug\</OutputDirectory>
-          <OutputName>lwip_tcpecho_freertos.out</OutputName>
+          <OutputDirectory>.\debug\</OutputDirectory>
+          <OutputName>lwip_tcpecho_freertos</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>0</CreateHexFile>

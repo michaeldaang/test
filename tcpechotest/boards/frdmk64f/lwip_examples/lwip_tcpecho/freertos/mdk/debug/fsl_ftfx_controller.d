@@ -1,4 +1,4 @@
-debug/fsl_ftfx_controller.o: \
+./debug/fsl_ftfx_controller.o: \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_controller.c \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_controller.h \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_ftfx_features.h \

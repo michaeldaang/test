@@ -1,4 +1,4 @@
-debug/fsl_debug_console.o: \
+./debug/fsl_debug_console.o: \
   ..\..\..\..\..\..\devices\MK64F12\utilities\debug_console\fsl_debug_console.c \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdarg.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \

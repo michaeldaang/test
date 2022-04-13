@@ -1,4 +1,4 @@
-debug/fsl_common.o: \
+./debug/fsl_common.o: \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.c \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\assert.h \

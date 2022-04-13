@@ -1,4 +1,4 @@
-debug/fsl_gpio.o: ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_gpio.c \
+./debug/fsl_gpio.o: ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_gpio.c \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_gpio.h \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_common.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\assert.h \

@@ -1,4 +1,4 @@
-debug/ip4_frag.o: \
+./debug/ip4_frag.o: \
   ..\..\..\..\..\..\middleware\lwip\src\core\ipv4\ip4_frag.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \

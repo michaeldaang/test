@@ -1,4 +1,4 @@
-debug/inet_chksum.o: \
+./debug/inet_chksum.o: \
   ..\..\..\..\..\..\middleware\lwip\src\core\inet_chksum.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \

@@ -1,4 +1,4 @@
-debug/sockets.o: ..\..\..\..\..\..\middleware\lwip\src\api\sockets.c \
+./debug/sockets.o: ..\..\..\..\..\..\middleware\lwip\src\api\sockets.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\arch.h \

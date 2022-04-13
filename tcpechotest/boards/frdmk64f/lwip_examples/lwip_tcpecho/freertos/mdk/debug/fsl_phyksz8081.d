@@ -1,4 +1,4 @@
-debug/fsl_phyksz8081.o: \
+./debug/fsl_phyksz8081.o: \
   ..\..\..\..\..\..\components\phy\device\phyksz8081\fsl_phyksz8081.c \
   ..\..\..\..\..\..\components\phy\device\phyksz8081\fsl_phyksz8081.h \
   ..\..\..\..\..\..\components\phy\fsl_phy.h \

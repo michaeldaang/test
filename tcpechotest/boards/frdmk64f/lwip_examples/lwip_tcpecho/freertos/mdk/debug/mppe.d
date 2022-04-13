@@ -1,4 +1,4 @@
-debug/mppe.o: ..\..\..\..\..\..\middleware\lwip\src\netif\ppp\mppe.c \
+./debug/mppe.o: ..\..\..\..\..\..\middleware\lwip\src\netif\ppp\mppe.c \
   ..\..\..\..\..\..\middleware\lwip\src\include\netif\ppp\ppp_opts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \

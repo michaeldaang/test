@@ -1,4 +1,4 @@
-debug/system_mk64f12.o: \
+./debug/system_mk64f12.o: \
   ..\..\..\..\..\..\devices\MK64F12\system_MK64F12.c \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
   ..\..\..\..\..\..\devices\MK64F12\fsl_device_registers.h \
