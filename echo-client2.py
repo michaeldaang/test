@@ -1,4 +1,4 @@
-# echo-client.py
+#!/usr/bin/env python3
 
 from os import abort
 import socket
@@ -8,15 +8,14 @@ import array
 from turtle import delay
 import numpy as np
 from unittest import skip
-import matplotlib.pyplot as plt
 
 
 
 with open("text24k.txt", 'r') as file:
     text = file.read().replace('\n', '')
 text2 = bytes(text, 'ascii')
-HOST = "192.168.0.102"  # The server's hostname or IP address
-PORT = 7  # The port used by the server
+HOST = "172.31.39.21"  # The server's hostname or IP address
+PORT = 5002  # The port used by the server
     
 
 with open('test.csv', 'w' ,newline='' ) as f:
@@ -31,7 +30,7 @@ with open('test.csv', 'w' ,newline='' ) as f:
             #print(f"Received {data!r}")
             foo = end - start
             bar = str(foo)
-            #print(f"{bar}")
+            print(f"{bar}")
     
 
             writer = csv.writer(f)
@@ -55,9 +54,3 @@ mean = np.mean(data)
 print("The max value is: " ,maximum)
 print("The min value is: " , minimum)
 print("The mean value is: " , mean)
-
-
-plt.plot(time , data)
-plt.xlabel('Iteration')
-plt.ylabel('Time (S)')
-plt.show()
