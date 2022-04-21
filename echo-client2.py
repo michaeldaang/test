@@ -23,8 +23,8 @@ with open('test.csv', 'w' ,newline='' ) as f:
         #start=time.time()
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             s.connect((HOST, PORT))
-            start=time.time()
             s.sendall(text2)
+            start=time.time()
             data = s.recv(1024)
             end = time.time()
             #print(f"Received {data!r}")
