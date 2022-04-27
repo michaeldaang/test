@@ -61,7 +61,6 @@ tcpecho_thread(void *arg)
 
   while (1) {
     
-    long start = xTaskGetTickCount(); //start tick counter test
     /* Grab new connection. */
     err = netconn_accept(conn, &newconn);
     /*printf("accepted new connection %p\n", newconn);*/
@@ -88,10 +87,6 @@ tcpecho_thread(void *arg)
       /* Close connection and discard connection identifier. */
       netconn_close(newconn);
       netconn_delete(newconn);
-      
-      long stop = xTaskGetTickCount() ; //test get tick counter
-           long time= start- stop;
-           PRINTF("%d The number of ticks is ",time );
     }
   }
 }
