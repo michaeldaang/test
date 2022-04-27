@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\debug\lwip_tcpecho_freertos.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\debug\lwip_tcpecho_freertos.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6160001: Last Updated: Wed Apr 27 12:22:26 2022
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6160001: Last Updated: Wed Apr 27 12:25:09 2022
 <BR><P>
 <H3>Maximum Stack Usage =       1064 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -2974,8 +2974,8 @@ Global Symbols
 <P><STRONG><a name="[20c]"></a>sys_arch_mbox_fetch</STRONG> (Thumb, 94 bytes, Stack size 24 bytes, sys_arch.o(.text.sys_arch_mbox_fetch))
 <BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = sys_arch_mbox_fetch &rArr; xQueueReceive &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
-<BR>[Calls]<UL><LI><a href="#[257]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskGetTickCount
-<LI><a href="#[251]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueReceive
+<BR>[Calls]<UL><LI><a href="#[251]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueReceive
+<LI><a href="#[257]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskGetTickCount
 </UL>
 <BR>[Called By]<UL><LI><a href="#[21b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;netconn_recv_data
 <LI><a href="#[2ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;tcpip_timeouts_mbox_fetch
@@ -3012,8 +3012,8 @@ Global Symbols
 <P><STRONG><a name="[1ed]"></a>sys_arch_sem_wait</STRONG> (Thumb, 66 bytes, Stack size 16 bytes, sys_arch.o(.text.sys_arch_sem_wait))
 <BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = sys_arch_sem_wait &rArr; xQueueSemaphoreTake &rArr; xTaskResumeAll &rArr; xTaskIncrementTick
 </UL>
-<BR>[Calls]<UL><LI><a href="#[257]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskGetTickCount
-<LI><a href="#[262]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueSemaphoreTake
+<BR>[Calls]<UL><LI><a href="#[262]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xQueueSemaphoreTake
+<LI><a href="#[257]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskGetTickCount
 </UL>
 <BR>[Called By]<UL><LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lwip_netconn_do_write
 <LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;lwip_netconn_do_delconn
@@ -4699,6 +4699,7 @@ Global Symbols
 <BR><BR>[Called By]<UL><LI><a href="#[1de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_now
 <LI><a href="#[1ed]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_arch_sem_wait
 <LI><a href="#[20c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_arch_mbox_fetch
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;tcpecho_thread
 <LI><a href="#[252]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;prvSampleTimeNow
 </UL>
 
@@ -4938,10 +4939,11 @@ Local Symbols
 <LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PHY_KSZ8081_EnableLoopback
 </UL>
 
-<P><STRONG><a name="[b7]"></a>tcpecho_thread</STRONG> (Thumb, 168 bytes, Stack size 48 bytes, tcpecho.o(.text.tcpecho_thread))
-<BR><BR>[Stack]<UL><LI>Max Depth = 584<LI>Call Chain = tcpecho_thread &rArr; netconn_recv &rArr; netconn_recv_data_tcp &rArr; netconn_recv_data &rArr; lwip_netconn_is_err_msg &rArr; sys_assert &rArr; DbgConsole_Printf &rArr; DbgConsole_Vprintf &rArr; StrFormatPrintf &rArr; ConvertRadixNumToString &rArr; __aeabi_ldivmod &rArr; __aeabi_uldivmod
+<P><STRONG><a name="[b7]"></a>tcpecho_thread</STRONG> (Thumb, 192 bytes, Stack size 56 bytes, tcpecho.o(.text.tcpecho_thread))
+<BR><BR>[Stack]<UL><LI>Max Depth = 592<LI>Call Chain = tcpecho_thread &rArr; netconn_recv &rArr; netconn_recv_data_tcp &rArr; netconn_recv_data &rArr; lwip_netconn_is_err_msg &rArr; sys_assert &rArr; DbgConsole_Printf &rArr; DbgConsole_Vprintf &rArr; StrFormatPrintf &rArr; ConvertRadixNumToString &rArr; __aeabi_ldivmod &rArr; __aeabi_uldivmod
 </UL>
-<BR>[Calls]<UL><LI><a href="#[21d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;netconn_write_partly
+<BR>[Calls]<UL><LI><a href="#[257]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;xTaskGetTickCount
+<LI><a href="#[21d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;netconn_write_partly
 <LI><a href="#[219]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;netconn_recv
 <LI><a href="#[218]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;netconn_new_with_proto_and_callback
 <LI><a href="#[217]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;netconn_listen_with_backlog
