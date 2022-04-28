@@ -90,8 +90,8 @@ tcpecho_thread(void *arg)
       netconn_delete(newconn);
 			
 			long stop = xTaskGetTickCount(); //test get tick counter
-           long time= start- stop;
-           PRINTF("%d The number of ticks is \n",time );
+			long time= start- stop;
+      PRINTF("%d The number of ticks is \n",time );
     }
   }
 }
