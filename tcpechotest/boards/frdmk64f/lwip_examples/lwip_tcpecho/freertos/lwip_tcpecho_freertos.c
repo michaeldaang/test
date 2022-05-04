@@ -185,7 +185,6 @@ int main(void)
         LWIP_ASSERT("main(): Task creation failed.", 0);
     }
 
-		PRINTF("test \n");
     vTaskStartScheduler();
 
     /* Will not get here unless a task calls vTaskEndScheduler ()*/
