@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\debug\lwip_tcpecho_freertos.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\debug\lwip_tcpecho_freertos.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6160001: Last Updated: Thu Apr 28 11:17:05 2022
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 6160001: Last Updated: Wed May  4 09:52:36 2022
 <BR><P>
 <H3>Maximum Stack Usage =       1064 bytes + Unknown(Functions without stacksize, Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -1171,6 +1171,7 @@ Global Symbols
 <LI><a href="#[ec]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__aeabi_assert
 <LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_assert
 <LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;netif_set_up
+<LI><a href="#[61]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
 <LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;stack_init
 <LI><a href="#[19b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;etharp_input
 <LI><a href="#[1cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ip4_frag
@@ -2367,12 +2368,13 @@ Global Symbols
 <LI><a href="#[1ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;inet_cksum_pseudo_base
 </UL>
 
-<P><STRONG><a name="[61]"></a>main</STRONG> (Thumb, 80 bytes, Stack size 16 bytes, lwip_tcpecho_freertos.o(.text.main))
+<P><STRONG><a name="[61]"></a>main</STRONG> (Thumb, 84 bytes, Stack size 16 bytes, lwip_tcpecho_freertos.o(.text.main))
 <BR><BR>[Stack]<UL><LI>Max Depth = 560<LI>Call Chain = main &rArr; BOARD_InitDebugConsole &rArr; DbgConsole_Init &rArr; SerialManager_Init &rArr; Serial_UartInit &rArr; HAL_UartInit &rArr; UART_Init &rArr; __aeabi_assert &rArr; DbgConsole_Printf &rArr; DbgConsole_Vprintf &rArr; StrFormatPrintf &rArr; ConvertRadixNumToString &rArr; __aeabi_ldivmod &rArr; __aeabi_uldivmod
 </UL>
 <BR>[Calls]<UL><LI><a href="#[1fd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;vTaskStartScheduler
 <LI><a href="#[1fc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_thread_new
 <LI><a href="#[15d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;sys_assert
+<LI><a href="#[106]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DbgConsole_Printf
 <LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BOARD_InitDebugConsole
 <LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BOARD_InitBootPins
 <LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BOARD_InitBootClocks
