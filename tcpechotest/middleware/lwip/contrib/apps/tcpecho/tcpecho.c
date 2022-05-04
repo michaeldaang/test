@@ -91,8 +91,7 @@ tcpecho_thread(void *arg)
 			
 			long stop = xTaskGetTickCount(); //test get tick counter
 			long time= start- stop;
-      PRINTF("%d The number of ticks is ",time );
-			PRINTF("\n");
+      PRINTF("%d The number of ticks is\n",time );
     }
   }
 }
