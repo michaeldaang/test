@@ -1,8 +1,6 @@
 debug/tcpecho.o: \
   ..\..\..\..\..\..\middleware\lwip\contrib\apps\tcpecho\tcpecho.c \
   ..\..\..\..\..\..\middleware\lwip\contrib\apps\tcpecho\tcpecho.h \
-  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h \
-  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\opt.h ..\lwipopts.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\debug.h \
   ..\..\..\..\..\..\middleware\lwip\src\include\lwip\arch.h \
@@ -14,6 +12,7 @@ debug/tcpecho.o: \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdbool.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdint.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\string.h \
+  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdlib.h \
   D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stddef.h \
   ..\..\..\..\..\..\devices\MK64F12\fsl_device_registers.h \
   ..\..\..\..\..\..\devices\MK64F12\MK64F12.h \
