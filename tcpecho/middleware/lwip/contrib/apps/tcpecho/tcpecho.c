@@ -30,10 +30,8 @@
  *
  */
 #include "tcpecho.h"
-#include <stdio.h>
-#include <stdlib.h>
+
 #include "lwip/opt.h"
-#include "FreeRTOSConfig.h"
 
 #if LWIP_NETCONN
 
@@ -63,12 +61,10 @@ tcpecho_thread(void *arg)
 
   while (1) {
 
-
-
+		long start = xTaskGetTickCount(); //start tick counter test
     /* Grab new connection. */
     err = netconn_accept(conn, &newconn);
-    long start = xTaskGetTickCount(); //start tick counter test
-    //PRINTF("accepted new connection %p\n", newconn);
+    /*printf("accepted new connection %p\n", newconn);*/
     /* Process the new connection. */
     if (err == ERR_OK) {
       struct netbuf *buf;
@@ -76,27 +72,10 @@ tcpecho_thread(void *arg)
       u16_t len;
 
       while ((err = netconn_recv(newconn, &buf)) == ERR_OK) {
-        //PRINTF("Recved\n");
-
-
+        /*printf("Recved\n");*/
         do {
-
-
-        	vTaskDelay(50);
-        	 long stop = xTaskGetTickCount() ; //test get tick counter
-        	 long time=  stop - start;
-        	 //buf->p->payload = &i;
-        	 u8_t i = 1;
-
              netbuf_data(buf, &data, &len);
-             data = &i;
-             len = 1;
-             PRINTF("input time is: %ld \n",time);
-//             PRINTF("input i is %d",i);
-//             PRINTF("input data is %d",data);
              err = netconn_write(newconn, data, len, NETCONN_COPY);
-
-
 #if 0
             if (err != ERR_OK) {
               printf("tcpecho: netconn_write: error \"%s\"\n", lwip_strerr(err));
@@ -105,25 +84,14 @@ tcpecho_thread(void *arg)
         } while (netbuf_next(buf) >= 0);
         netbuf_delete(buf);
       }
-     // PRINTF("Got EOF, looping\n");
+      /*printf("Got EOF, looping\n");*/
       /* Close connection and discard connection identifier. */
-
-
-
       netconn_close(newconn);
       netconn_delete(newconn);
-
-//      long stop = xTaskGetTickCount() ; //test get tick counter
-//      long time=  stop - start;
-
-//      PRINTF("   The number of ticks is :  {%d} ",time );
-//      PRINTF("   (start): [%d]",start );
-//      PRINTF("   (stop): (%d)  ",stop );
-
-
-
-
-
+			
+			long stop = xTaskGetTickCount() ; //test get tick counter
+      long time= start- stop;
+      PRINTF("%d The number of ticks is ",time );
     }
   }
 }
