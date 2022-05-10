@@ -11,14 +11,14 @@ from unittest import skip
 
 
 
-with open("text1000k.txt", 'r') as file:
+with open("txt1.txt", 'r') as file:
     text = file.read().replace('\n', '')
 text2 = bytes(text, 'ascii')
 HOST = "172.31.39.21"  # The server's hostname or IP address
 PORT = 5002  # The port used by the server
 
 foo =0
-with open('test1000k.csv', 'w' ,newline='' ) as f:
+with open('test.csv', 'w' ,newline='' ) as f:
     for x in range(0,5):
         #start=time.time()
         foo += 1
@@ -40,7 +40,7 @@ with open('test1000k.csv', 'w' ,newline='' ) as f:
 
 
 from numpy import genfromtxt, maximum
-data = genfromtxt('test1000k.csv', delimiter=",", skip_header = 1)
+data = genfromtxt('test.csv', delimiter=",", skip_header = 1)
 data_sorted = np.sort(data)
 
 
