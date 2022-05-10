@@ -86,7 +86,7 @@ tcpecho_thread(void *arg)
         	 long stop = xTaskGetTickCount() ; //test get tick counter
         	 long time=  stop - start;
         	 //buf->p->payload = &i;
-        	 u8_t i = time;
+        	 u8_t i = 0x52;
 
              netbuf_data(buf, &data, &len);
              data = &i;
