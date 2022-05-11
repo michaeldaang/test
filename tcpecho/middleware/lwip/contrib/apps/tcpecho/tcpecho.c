@@ -82,7 +82,7 @@ tcpecho_thread(void *arg)
         do {
 
 
-        	vTaskDelay(100000);
+        	vTaskDelay(50);
         	 long stop = xTaskGetTickCount() ; //test get tick counter
         	 long time=  stop - start;
         	 //buf->p->payload = &i;
