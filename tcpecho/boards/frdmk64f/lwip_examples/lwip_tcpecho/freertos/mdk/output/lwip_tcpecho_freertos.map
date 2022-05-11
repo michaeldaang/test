@@ -7380,244 +7380,244 @@ Image Symbol Table
     [Anonymous Symbol]                       0x0000f598   Section        0  tcp_out.o(.text.tcp_write_checks)
     [Anonymous Symbol]                       0x0000f668   Section        0  tcp_out.o(.text.tcp_zero_window_probe)
     [Anonymous Symbol]                       0x0000f744   Section        0  tcpecho.o(.text.tcpecho_init)
-    tcpecho_thread                           0x0000f779   Thumb Code   220  tcpecho.o(.text.tcpecho_thread)
+    tcpecho_thread                           0x0000f779   Thumb Code   244  tcpecho.o(.text.tcpecho_thread)
     [Anonymous Symbol]                       0x0000f778   Section        0  tcpecho.o(.text.tcpecho_thread)
-    [Anonymous Symbol]                       0x0000f888   Section        0  tcpip.o(.text.tcpip_api_call)
-    [Anonymous Symbol]                       0x0000f8a0   Section        0  tcpip.o(.text.tcpip_init)
-    [Anonymous Symbol]                       0x0000f960   Section        0  tcpip.o(.text.tcpip_inpkt)
-    [Anonymous Symbol]                       0x0000f9c0   Section        0  tcpip.o(.text.tcpip_input)
-    [Anonymous Symbol]                       0x0000f9e4   Section        0  tcpip.o(.text.tcpip_send_msg_wait_sem)
-    tcpip_tcp_timer                          0x0000f9fd   Thumb Code    62  timeouts.o(.text.tcpip_tcp_timer)
-    [Anonymous Symbol]                       0x0000f9fc   Section        0  timeouts.o(.text.tcpip_tcp_timer)
-    tcpip_thread                             0x0000fa3d   Thumb Code    72  tcpip.o(.text.tcpip_thread)
-    [Anonymous Symbol]                       0x0000fa3c   Section        0  tcpip.o(.text.tcpip_thread)
-    tcpip_thread_handle_msg                  0x0000fa85   Thumb Code    72  tcpip.o(.text.tcpip_thread_handle_msg)
-    [Anonymous Symbol]                       0x0000fa84   Section        0  tcpip.o(.text.tcpip_thread_handle_msg)
-    tcpip_timeouts_mbox_fetch                0x0000facd   Thumb Code    92  tcpip.o(.text.tcpip_timeouts_mbox_fetch)
-    [Anonymous Symbol]                       0x0000facc   Section        0  tcpip.o(.text.tcpip_timeouts_mbox_fetch)
-    [Anonymous Symbol]                       0x0000fb28   Section        0  udp.o(.text.udp_bind)
-    [Anonymous Symbol]                       0x0000fbe8   Section        0  udp.o(.text.udp_connect)
-    [Anonymous Symbol]                       0x0000fc98   Section        0  udp.o(.text.udp_init)
-    [Anonymous Symbol]                       0x0000fc9c   Section        0  udp.o(.text.udp_input)
-    udp_input_local_match                    0x0000feb1   Thumb Code   136  udp.o(.text.udp_input_local_match)
-    [Anonymous Symbol]                       0x0000feb0   Section        0  udp.o(.text.udp_input_local_match)
-    [Anonymous Symbol]                       0x0000ff84   Section        0  udp.o(.text.udp_netif_ip_addr_changed)
-    [Anonymous Symbol]                       0x0000ffc4   Section        0  udp.o(.text.udp_new)
-    [Anonymous Symbol]                       0x0000ffe8   Section        0  udp.o(.text.udp_new_ip_type)
-    udp_new_port                             0x0000fff5   Thumb Code    98  udp.o(.text.udp_new_port)
-    [Anonymous Symbol]                       0x0000fff4   Section        0  udp.o(.text.udp_new_port)
-    [Anonymous Symbol]                       0x00010058   Section        0  udp.o(.text.udp_recv)
-    [Anonymous Symbol]                       0x0001009c   Section        0  udp.o(.text.udp_remove)
-    [Anonymous Symbol]                       0x00010100   Section        0  udp.o(.text.udp_sendto_if)
-    [Anonymous Symbol]                       0x00010218   Section        0  udp.o(.text.udp_sendto_if_src)
-    [Anonymous Symbol]                       0x00010410   Section        0  list.o(.text.uxListRemove)
-    [Anonymous Symbol]                       0x00010434   Section        0  queue.o(.text.uxQueueMessagesWaiting)
-    [Anonymous Symbol]                       0x0001045c   Section        0  tasks.o(.text.uxTaskResetEventItemValue)
-    [Anonymous Symbol]                       0x00010478   Section        0  event_groups.o(.text.vEventGroupSetBitsCallback)
-    [Anonymous Symbol]                       0x00010480   Section        0  list.o(.text.vListInitialise)
-    [Anonymous Symbol]                       0x00010498   Section        0  list.o(.text.vListInitialiseItem)
-    [Anonymous Symbol]                       0x000104a0   Section        0  list.o(.text.vListInsert)
-    [Anonymous Symbol]                       0x000104dc   Section        0  list.o(.text.vListInsertEnd)
-    vPortEnableVFP                           0x000104f9   Thumb Code    20  port.o(.text.vPortEnableVFP)
-    [Anonymous Symbol]                       0x000104f8   Section        0  port.o(.text.vPortEnableVFP)
-    [Anonymous Symbol]                       0x0001050c   Section        0  port.o(.text.vPortEnterCritical)
-    [Anonymous Symbol]                       0x00010554   Section        0  port.o(.text.vPortExitCritical)
-    [Anonymous Symbol]                       0x00010584   Section        0  heap_3.o(.text.vPortFree)
-    [Anonymous Symbol]                       0x000105a4   Section        0  port.o(.text.vPortSetupTimerInterrupt)
-    [Anonymous Symbol]                       0x000105d8   Section        0  port.o(.text.vPortValidateInterruptPriority)
-    [Anonymous Symbol]                       0x0001063c   Section        0  queue.o(.text.vQueueAddToRegistry)
-    [Anonymous Symbol]                       0x00010664   Section        0  queue.o(.text.vQueueDelete)
-    [Anonymous Symbol]                       0x0001068c   Section        0  queue.o(.text.vQueueUnregisterQueue)
-    [Anonymous Symbol]                       0x000106b8   Section        0  queue.o(.text.vQueueWaitForMessageRestricted)
-    [Anonymous Symbol]                       0x000106fc   Section        0  tasks.o(.text.vTaskDelay)
-    [Anonymous Symbol]                       0x00010750   Section        0  tasks.o(.text.vTaskDelete)
-    [Anonymous Symbol]                       0x00010848   Section        0  tasks.o(.text.vTaskInternalSetTimeOutState)
-    [Anonymous Symbol]                       0x00010864   Section        0  tasks.o(.text.vTaskMissedYield)
-    [Anonymous Symbol]                       0x00010874   Section        0  tasks.o(.text.vTaskPlaceOnEventList)
-    [Anonymous Symbol]                       0x000108a8   Section        0  tasks.o(.text.vTaskPlaceOnEventListRestricted)
-    [Anonymous Symbol]                       0x000108e8   Section        0  tasks.o(.text.vTaskPlaceOnUnorderedEventList)
-    [Anonymous Symbol]                       0x00010944   Section        0  tasks.o(.text.vTaskPriorityDisinheritAfterTimeout)
-    [Anonymous Symbol]                       0x00010a00   Section        0  tasks.o(.text.vTaskRemoveFromUnorderedEventList)
-    [Anonymous Symbol]                       0x00010a98   Section        0  tasks.o(.text.vTaskStartScheduler)
-    [Anonymous Symbol]                       0x00010b34   Section        0  tasks.o(.text.vTaskSuspendAll)
-    __tagsym$$used.0                         0x00010b44   Number         0  tasks.o(.text.vTaskSwitchContext)
-    [Anonymous Symbol]                       0x00010b44   Section        0  tasks.o(.text.vTaskSwitchContext)
-    [Anonymous Symbol]                       0x00010bcc   Section        0  event_groups.o(.text.xEventGroupCreate)
-    [Anonymous Symbol]                       0x00010be8   Section        0  event_groups.o(.text.xEventGroupSetBits)
-    [Anonymous Symbol]                       0x00010c88   Section        0  event_groups.o(.text.xEventGroupSetBitsFromISR)
-    [Anonymous Symbol]                       0x00010ca0   Section        0  event_groups.o(.text.xEventGroupWaitBits)
-    [Anonymous Symbol]                       0x00010dc0   Section        0  port.o(.text.xPortStartScheduler)
-    [Anonymous Symbol]                       0x00010ed4   Section        0  queue.o(.text.xQueueCreateCountingSemaphore)
-    [Anonymous Symbol]                       0x00010f18   Section        0  queue.o(.text.xQueueCreateMutex)
-    [Anonymous Symbol]                       0x00010f30   Section        0  queue.o(.text.xQueueGenericCreate)
-    [Anonymous Symbol]                       0x00010fa0   Section        0  queue.o(.text.xQueueGenericReset)
-    [Anonymous Symbol]                       0x00011020   Section        0  queue.o(.text.xQueueGenericSend)
-    [Anonymous Symbol]                       0x000111c4   Section        0  queue.o(.text.xQueueGenericSendFromISR)
-    [Anonymous Symbol]                       0x000112ac   Section        0  queue.o(.text.xQueueReceive)
-    [Anonymous Symbol]                       0x00011430   Section        0  queue.o(.text.xQueueSemaphoreTake)
-    [Anonymous Symbol]                       0x000115f8   Section        0  tasks.o(.text.xTaskCheckForTimeOut)
-    [Anonymous Symbol]                       0x00011684   Section        0  tasks.o(.text.xTaskCreate)
-    [Anonymous Symbol]                       0x000116e4   Section        0  tasks.o(.text.xTaskGetCurrentTaskHandle)
-    [Anonymous Symbol]                       0x000116f0   Section        0  tasks.o(.text.xTaskGetSchedulerState)
-    [Anonymous Symbol]                       0x00011718   Section        0  tasks.o(.text.xTaskGetTickCount)
-    [Anonymous Symbol]                       0x00011724   Section        0  tasks.o(.text.xTaskIncrementTick)
-    [Anonymous Symbol]                       0x0001186c   Section        0  tasks.o(.text.xTaskPriorityDisinherit)
-    [Anonymous Symbol]                       0x00011918   Section        0  tasks.o(.text.xTaskPriorityInherit)
-    [Anonymous Symbol]                       0x000119c4   Section        0  tasks.o(.text.xTaskRemoveFromEventList)
-    [Anonymous Symbol]                       0x00011a54   Section        0  tasks.o(.text.xTaskResumeAll)
-    [Anonymous Symbol]                       0x00011b6c   Section        0  timers.o(.text.xTimerCreateTimerTask)
-    [Anonymous Symbol]                       0x00011bcc   Section        0  timers.o(.text.xTimerGenericCommand)
-    [Anonymous Symbol]                       0x00011c34   Section        0  timers.o(.text.xTimerPendFunctionCallFromISR)
-    i.__free$2region                         0x00011c60   Section        0  malloc2.o(i.__free$2region)
-    i.__malloc$2region                       0x00011cb0   Section        0  malloc2.o(i.__malloc$2region)
-    i.__scatterload_copy                     0x00011d1c   Section       14  handlers.o(i.__scatterload_copy)
-    i.__scatterload_null                     0x00011d2a   Section        2  handlers.o(i.__scatterload_null)
-    i.__scatterload_zeroinit                 0x00011d2c   Section       14  handlers.o(i.__scatterload_zeroinit)
-    .L__const.stack_init.enet_config         0x00011d3c   Data          12  lwip_tcpecho_freertos.o(.rodata..L__const.stack_init.enet_config)
-    dhcp_discover_request_options            0x00011d48   Data           3  dhcp.o(.rodata.dhcp_discover_request_options)
-    [Anonymous Symbol]                       0x00011d48   Section        0  dhcp.o(.rodata.dhcp_discover_request_options)
-    s_UartAdapterBase                        0x00011ed8   Data          24  fsl_adapter_uart.o(.rodata.s_UartAdapterBase)
-    [Anonymous Symbol]                       0x00011ed8   Section        0  fsl_adapter_uart.o(.rodata.s_UartAdapterBase)
-    s_uartClock                              0x00011ef4   Data          24  fsl_uart.o(.rodata.s_uartClock)
-    [Anonymous Symbol]                       0x00011ef4   Section        0  fsl_uart.o(.rodata.s_uartClock)
-    .L.str.2                                 0x00011f14   Data          53  lwip_tcpecho_freertos.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x00011f14   Section        0  lwip_tcpecho_freertos.o(.rodata.str1.1)
-    .L.str.4                                 0x00011f16   Data          51  lwip_tcpecho_freertos.o(.rodata.str1.1)
-    .L.str.4                                 0x00011f49   Data          24  fsl_phyksz8081.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x00011f49   Section        0  fsl_phyksz8081.o(.rodata.str1.1)
-    .L.str.1                                 0x00011f61   Data          68  fsl_phyksz8081.o(.rodata.str1.1)
-    .L.str.2                                 0x00011fa5   Data           7  fsl_phyksz8081.o(.rodata.str1.1)
-    .L.str.3                                 0x00011fac   Data          91  enet_ethernetif.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x00011fac   Section        0  enet_ethernetif.o(.rodata.str1.1)
-    .L.str.1                                 0x00012004   Data           3  enet_ethernetif.o(.rodata.str1.1)
-    .L.str.1                                 0x00012004   Data           3  enet_ethernetif.o(.rodata.str1.1)
-    .L.str.11                                0x00012004   Data           3  enet_ethernetif.o(.rodata.str1.1)
-    .L.str.15                                0x00012004   Data           3  enet_ethernetif.o(.rodata.str1.1)
-    .L.str.3                                 0x00012004   Data           3  enet_ethernetif.o(.rodata.str1.1)
-    .L.str.3                                 0x00012004   Data           3  enet_ethernetif.o(.rodata.str1.1)
-    .L.str.4                                 0x00012004   Data           3  enet_ethernetif.o(.rodata.str1.1)
-    .L.str.4                                 0x00012004   Data           3  enet_ethernetif.o(.rodata.str1.1)
-    .L.str.5                                 0x00012004   Data           3  enet_ethernetif.o(.rodata.str1.1)
-    .L.str                                   0x00012007   Data          14  enet_ethernetif.o(.rodata.str1.1)
-    .L.str.2                                 0x00012007   Data          14  enet_ethernetif.o(.rodata.str1.1)
-    .L.str.4                                 0x00012007   Data          14  enet_ethernetif.o(.rodata.str1.1)
-    .L.str.6                                 0x00012015   Data          66  enet_ethernetif_kinetis.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x00012015   Section        0  enet_ethernetif_kinetis.o(.rodata.str1.1)
-    .L.str.5                                 0x00012057   Data          76  enet_ethernetif_kinetis.o(.rodata.str1.1)
-    .L.str.4                                 0x000120a3   Data          30  tcpip.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x000120a3   Section        0  tcpip.o(.rodata.str1.1)
-    .L.str                                   0x000120c1   Data          13  tcpip.o(.rodata.str1.1)
-    .L.str.8                                 0x000120ce   Data           7  api_msg.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x000120ce   Section        0  api_msg.o(.rodata.str1.1)
-    .L.str.41                                0x000120d5   Data          43  api_msg.o(.rodata.str1.1)
-    .L.str.40                                0x00012100   Data          40  api_msg.o(.rodata.str1.1)
-    .L.str.24                                0x00012128   Data          14  api_msg.o(.rodata.str1.1)
-    .L.str.22                                0x00012136   Data          26  api_msg.o(.rodata.str1.1)
-    .L.str.25                                0x00012150   Data          13  api_msg.o(.rodata.str1.1)
-    .L.str.7                                 0x0001215d   Data          27  api_msg.o(.rodata.str1.1)
-    .L.str.4                                 0x00012178   Data          60  api_msg.o(.rodata.str1.1)
-    .L.str.15                                0x000121b4   Data          36  api_lib.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x000121b4   Section        0  api_lib.o(.rodata.str1.1)
-    .L.str.18                                0x000121d8   Data          27  api_lib.o(.rodata.str1.1)
-    .L.str.16                                0x000121db   Data          42  api_lib.o(.rodata.str1.1)
-    .L.str.17                                0x000121f3   Data          30  api_lib.o(.rodata.str1.1)
-    .L.str.14                                0x00012201   Data          16  api_lib.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x00012211   Section        0  memp.o(.rodata.str1.1)
-    .L.str.13                                0x0001229c   Data          18  memp.o(.rodata.str1.1)
-    .L.str.28                                0x0001229c   Data          55  pbuf.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x0001229c   Section        0  pbuf.o(.rodata.str1.1)
-    .L.str.9                                 0x000122d3   Data          10  pbuf.o(.rodata.str1.1)
-    .L.str.1                                 0x000122dd   Data          52  pbuf.o(.rodata.str1.1)
-    .L.str.22                                0x00012311   Data          52  pbuf.o(.rodata.str1.1)
-    .L.str.23                                0x00012345   Data          46  pbuf.o(.rodata.str1.1)
-    .L.str.2                                 0x00012373   Data          49  tcp_out.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x00012373   Section        0  tcp_out.o(.rodata.str1.1)
-    .L.str.32                                0x00012376   Data          37  pbuf.o(.rodata.str1.1)
-    .L.str.22                                0x000123a4   Data          85  tcp_out.o(.rodata.str1.1)
-    .L.str.8                                 0x000123f9   Data          47  tcp_out.o(.rodata.str1.1)
-    .L.str.10                                0x00012428   Data          14  tcp_out.o(.rodata.str1.1)
-    .L.str.11                                0x00012436   Data          17  tcp_out.o(.rodata.str1.1)
-    .L.str                                   0x00012447   Data          23  tcp_out.o(.rodata.str1.1)
-    .L.str.12                                0x0001245e   Data          44  tcp_out.o(.rodata.str1.1)
-    .L.str.7                                 0x0001248a   Data          41  tcp_out.o(.rodata.str1.1)
-    .L.str.14                                0x000124b3   Data          53  tcp_out.o(.rodata.str1.1)
-    .L.str.15                                0x000124e8   Data          30  tcp_out.o(.rodata.str1.1)
-    .L.str.27                                0x00012506   Data          40  tcp_out.o(.rodata.str1.1)
-    .L.str.26                                0x0001252e   Data          42  tcp_out.o(.rodata.str1.1)
-    .L.str.6                                 0x00012551   Data           7  tcp_out.o(.rodata.str1.1)
-    .L.str.9                                 0x00012558   Data          62  tcp_out.o(.rodata.str1.1)
-    .L.str.41                                0x00012596   Data          50  tcp_out.o(.rodata.str1.1)
-    .L.str.13                                0x000125c8   Data          56  tcp_out.o(.rodata.str1.1)
-    .L.str.7                                 0x00012600   Data          43  tcp_in.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x00012600   Section        0  tcp_in.o(.rodata.str1.1)
-    .L.str.8                                 0x0001262b   Data          42  tcp_in.o(.rodata.str1.1)
-    .L.str.10                                0x00012655   Data          26  tcp_in.o(.rodata.str1.1)
-    .L.str.6                                 0x0001266f   Data          39  tcp_in.o(.rodata.str1.1)
-    .L.str.5                                 0x00012696   Data          42  tcp_in.o(.rodata.str1.1)
-    .L.str.9                                 0x000126c0   Data          45  tcp_in.o(.rodata.str1.1)
-    .L.str.27                                0x000126ed   Data          54  tcp_in.o(.rodata.str1.1)
-    .L.str.10                                0x00012723   Data          47  mem.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x00012723   Section        0  mem.o(.rodata.str1.1)
-    .L.str.7                                 0x00012752   Data          17  mem.o(.rodata.str1.1)
-    .L.str.2                                 0x00012763   Data          25  mem.o(.rodata.str1.1)
-    .L.str.13                                0x0001277c   Data          31  udp.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x0001277c   Section        0  udp.o(.rodata.str1.1)
-    .L.str.14                                0x0001279b   Data          32  udp.o(.rodata.str1.1)
-    .L.str.15                                0x000127bb   Data          34  udp.o(.rodata.str1.1)
-    .L.str.2                                 0x000127dd   Data          21  tcp.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x000127dd   Section        0  tcp.o(.rodata.str1.1)
-    .L.str.1                                 0x000127f2   Data          12  tcp.o(.rodata.str1.1)
-    .L.str.27                                0x000127fe   Data          47  tcp.o(.rodata.str1.1)
-    .L.str.23                                0x0001282d   Data          50  tcp.o(.rodata.str1.1)
-    .L.str.5                                 0x0001285a   Data           5  tcp.o(.rodata.str1.1)
-    .L.str.10                                0x0001285f   Data          45  tcp.o(.rodata.str1.1)
-    .L.str.24                                0x0001288c   Data          53  tcp.o(.rodata.str1.1)
-    .L.str.25                                0x000128c1   Data          43  tcp.o(.rodata.str1.1)
-    .L.str.26                                0x000128ec   Data          42  tcp.o(.rodata.str1.1)
-    .L.str.28                                0x00012916   Data          39  tcp.o(.rodata.str1.1)
-    .L.str.29                                0x0001293d   Data          38  tcp.o(.rodata.str1.1)
-    .L.str.13                                0x00012963   Data          66  dhcp.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x00012963   Section        0  dhcp.o(.rodata.str1.1)
-    .L.str                                   0x000129a5   Data          12  ip4.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x000129a5   Section        0  ip4.o(.rodata.str1.1)
-    .L.str.16                                0x000129b1   Data          65  etharp.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x000129b1   Section        0  etharp.o(.rodata.str1.1)
-    .L.str.11                                0x000129f2   Data          19  etharp.o(.rodata.str1.1)
-    .L.str.5                                 0x00012a05   Data          10  etharp.o(.rodata.str1.1)
-    .L.str.1                                 0x00012a0f   Data          15  etharp.o(.rodata.str1.1)
-    .L.str.11                                0x00012a1e   Data          57  fsl_enet.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x00012a1e   Section        0  fsl_enet.o(.rodata.str1.1)
-    .L.str.6                                 0x00012a57   Data          67  fsl_enet.o(.rodata.str1.1)
-    .L.str.9                                 0x00012a9a   Data          41  fsl_enet.o(.rodata.str1.1)
-    .L.str.12                                0x00012ac3   Data          13  fsl_enet.o(.rodata.str1.1)
-    .L.str.3                                 0x00012ad0   Data          15  fsl_enet.o(.rodata.str1.1)
-    .L.str.13                                0x00012adf   Data          42  fsl_enet.o(.rodata.str1.1)
-    .L.str.4                                 0x00012b09   Data          21  fsl_enet.o(.rodata.str1.1)
-    .L.str.2                                 0x00012b1e   Data          15  fsl_enet.o(.rodata.str1.1)
-    .L.str.3                                 0x00012b1e   Data          15  fsl_enet.o(.rodata.str1.1)
-    .L.str.5                                 0x00012b2d   Data          16  fsl_enet.o(.rodata.str1.1)
-    .L.str.1                                 0x00012b3d   Data          53  fsl_enet.o(.rodata.str1.1)
-    .L.str.21                                0x00012b72   Data          16  fsl_enet.o(.rodata.str1.1)
-    .L.str.22                                0x00012b72   Data          71  fsl_enet.o(.rodata.str1.1)
-    .L.str.1                                 0x00012bb9   Data          54  fsl_clock.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x00012bb9   Section        0  fsl_clock.o(.rodata.str1.1)
-    .L.str.4                                 0x00012bef   Data           7  fsl_clock.o(.rodata.str1.1)
-    .L.str.1                                 0x00012bf6   Data          53  fsl_uart.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x00012bf6   Section        0  fsl_uart.o(.rodata.str1.1)
-    .L.str.2                                 0x00012c2b   Data          15  fsl_uart.o(.rodata.str1.1)
-    .L.str.6                                 0x00012c2b   Data          70  fsl_uart.o(.rodata.str1.1)
-    .L.str.5                                 0x00012c71   Data          70  fsl_uart.o(.rodata.str1.1)
-    .L.str.3                                 0x00012cb7   Data          69  fsl_adapter_uart.o(.rodata.str1.1)
-    [Anonymous Symbol]                       0x00012cb7   Section        0  fsl_adapter_uart.o(.rodata.str1.1)
-    .L.str.8                                 0x00012cd5   Data          13  fsl_uart.o(.rodata.str1.1)
-    .L.str.9                                 0x00012ce2   Data          13  fsl_uart.o(.rodata.str1.1)
-    .L.str.11                                0x00012cef   Data          13  fsl_uart.o(.rodata.str1.1)
-    .L.str.1                                 0x00012cfc   Data          53  fsl_adapter_uart.o(.rodata.str1.1)
-    .L.str.12                                0x00012cfc   Data          21  fsl_uart.o(.rodata.str1.1)
-    .L.str.14                                0x00012d11   Data          14  fsl_uart.o(.rodata.str1.1)
-    .L.str                                   0x00012d31   Data           7  fsl_adapter_uart.o(.rodata.str1.1)
-    tcp_backoff                              0x00012d38   Data          13  tcp.o(.rodata.tcp_backoff)
-    [Anonymous Symbol]                       0x00012d38   Section        0  tcp.o(.rodata.tcp_backoff)
+    [Anonymous Symbol]                       0x0000f8a0   Section        0  tcpip.o(.text.tcpip_api_call)
+    [Anonymous Symbol]                       0x0000f8b8   Section        0  tcpip.o(.text.tcpip_init)
+    [Anonymous Symbol]                       0x0000f978   Section        0  tcpip.o(.text.tcpip_inpkt)
+    [Anonymous Symbol]                       0x0000f9d8   Section        0  tcpip.o(.text.tcpip_input)
+    [Anonymous Symbol]                       0x0000f9fc   Section        0  tcpip.o(.text.tcpip_send_msg_wait_sem)
+    tcpip_tcp_timer                          0x0000fa15   Thumb Code    62  timeouts.o(.text.tcpip_tcp_timer)
+    [Anonymous Symbol]                       0x0000fa14   Section        0  timeouts.o(.text.tcpip_tcp_timer)
+    tcpip_thread                             0x0000fa55   Thumb Code    72  tcpip.o(.text.tcpip_thread)
+    [Anonymous Symbol]                       0x0000fa54   Section        0  tcpip.o(.text.tcpip_thread)
+    tcpip_thread_handle_msg                  0x0000fa9d   Thumb Code    72  tcpip.o(.text.tcpip_thread_handle_msg)
+    [Anonymous Symbol]                       0x0000fa9c   Section        0  tcpip.o(.text.tcpip_thread_handle_msg)
+    tcpip_timeouts_mbox_fetch                0x0000fae5   Thumb Code    92  tcpip.o(.text.tcpip_timeouts_mbox_fetch)
+    [Anonymous Symbol]                       0x0000fae4   Section        0  tcpip.o(.text.tcpip_timeouts_mbox_fetch)
+    [Anonymous Symbol]                       0x0000fb40   Section        0  udp.o(.text.udp_bind)
+    [Anonymous Symbol]                       0x0000fc00   Section        0  udp.o(.text.udp_connect)
+    [Anonymous Symbol]                       0x0000fcb0   Section        0  udp.o(.text.udp_init)
+    [Anonymous Symbol]                       0x0000fcb4   Section        0  udp.o(.text.udp_input)
+    udp_input_local_match                    0x0000fec9   Thumb Code   136  udp.o(.text.udp_input_local_match)
+    [Anonymous Symbol]                       0x0000fec8   Section        0  udp.o(.text.udp_input_local_match)
+    [Anonymous Symbol]                       0x0000ff9c   Section        0  udp.o(.text.udp_netif_ip_addr_changed)
+    [Anonymous Symbol]                       0x0000ffdc   Section        0  udp.o(.text.udp_new)
+    [Anonymous Symbol]                       0x00010000   Section        0  udp.o(.text.udp_new_ip_type)
+    udp_new_port                             0x0001000d   Thumb Code    98  udp.o(.text.udp_new_port)
+    [Anonymous Symbol]                       0x0001000c   Section        0  udp.o(.text.udp_new_port)
+    [Anonymous Symbol]                       0x00010070   Section        0  udp.o(.text.udp_recv)
+    [Anonymous Symbol]                       0x000100b4   Section        0  udp.o(.text.udp_remove)
+    [Anonymous Symbol]                       0x00010118   Section        0  udp.o(.text.udp_sendto_if)
+    [Anonymous Symbol]                       0x00010230   Section        0  udp.o(.text.udp_sendto_if_src)
+    [Anonymous Symbol]                       0x00010428   Section        0  list.o(.text.uxListRemove)
+    [Anonymous Symbol]                       0x0001044c   Section        0  queue.o(.text.uxQueueMessagesWaiting)
+    [Anonymous Symbol]                       0x00010474   Section        0  tasks.o(.text.uxTaskResetEventItemValue)
+    [Anonymous Symbol]                       0x00010490   Section        0  event_groups.o(.text.vEventGroupSetBitsCallback)
+    [Anonymous Symbol]                       0x00010498   Section        0  list.o(.text.vListInitialise)
+    [Anonymous Symbol]                       0x000104b0   Section        0  list.o(.text.vListInitialiseItem)
+    [Anonymous Symbol]                       0x000104b8   Section        0  list.o(.text.vListInsert)
+    [Anonymous Symbol]                       0x000104f4   Section        0  list.o(.text.vListInsertEnd)
+    vPortEnableVFP                           0x00010511   Thumb Code    20  port.o(.text.vPortEnableVFP)
+    [Anonymous Symbol]                       0x00010510   Section        0  port.o(.text.vPortEnableVFP)
+    [Anonymous Symbol]                       0x00010524   Section        0  port.o(.text.vPortEnterCritical)
+    [Anonymous Symbol]                       0x0001056c   Section        0  port.o(.text.vPortExitCritical)
+    [Anonymous Symbol]                       0x0001059c   Section        0  heap_3.o(.text.vPortFree)
+    [Anonymous Symbol]                       0x000105bc   Section        0  port.o(.text.vPortSetupTimerInterrupt)
+    [Anonymous Symbol]                       0x000105f0   Section        0  port.o(.text.vPortValidateInterruptPriority)
+    [Anonymous Symbol]                       0x00010654   Section        0  queue.o(.text.vQueueAddToRegistry)
+    [Anonymous Symbol]                       0x0001067c   Section        0  queue.o(.text.vQueueDelete)
+    [Anonymous Symbol]                       0x000106a4   Section        0  queue.o(.text.vQueueUnregisterQueue)
+    [Anonymous Symbol]                       0x000106d0   Section        0  queue.o(.text.vQueueWaitForMessageRestricted)
+    [Anonymous Symbol]                       0x00010714   Section        0  tasks.o(.text.vTaskDelay)
+    [Anonymous Symbol]                       0x00010768   Section        0  tasks.o(.text.vTaskDelete)
+    [Anonymous Symbol]                       0x00010860   Section        0  tasks.o(.text.vTaskInternalSetTimeOutState)
+    [Anonymous Symbol]                       0x0001087c   Section        0  tasks.o(.text.vTaskMissedYield)
+    [Anonymous Symbol]                       0x0001088c   Section        0  tasks.o(.text.vTaskPlaceOnEventList)
+    [Anonymous Symbol]                       0x000108c0   Section        0  tasks.o(.text.vTaskPlaceOnEventListRestricted)
+    [Anonymous Symbol]                       0x00010900   Section        0  tasks.o(.text.vTaskPlaceOnUnorderedEventList)
+    [Anonymous Symbol]                       0x0001095c   Section        0  tasks.o(.text.vTaskPriorityDisinheritAfterTimeout)
+    [Anonymous Symbol]                       0x00010a18   Section        0  tasks.o(.text.vTaskRemoveFromUnorderedEventList)
+    [Anonymous Symbol]                       0x00010ab0   Section        0  tasks.o(.text.vTaskStartScheduler)
+    [Anonymous Symbol]                       0x00010b4c   Section        0  tasks.o(.text.vTaskSuspendAll)
+    __tagsym$$used.0                         0x00010b5c   Number         0  tasks.o(.text.vTaskSwitchContext)
+    [Anonymous Symbol]                       0x00010b5c   Section        0  tasks.o(.text.vTaskSwitchContext)
+    [Anonymous Symbol]                       0x00010be4   Section        0  event_groups.o(.text.xEventGroupCreate)
+    [Anonymous Symbol]                       0x00010c00   Section        0  event_groups.o(.text.xEventGroupSetBits)
+    [Anonymous Symbol]                       0x00010ca0   Section        0  event_groups.o(.text.xEventGroupSetBitsFromISR)
+    [Anonymous Symbol]                       0x00010cb8   Section        0  event_groups.o(.text.xEventGroupWaitBits)
+    [Anonymous Symbol]                       0x00010dd8   Section        0  port.o(.text.xPortStartScheduler)
+    [Anonymous Symbol]                       0x00010eec   Section        0  queue.o(.text.xQueueCreateCountingSemaphore)
+    [Anonymous Symbol]                       0x00010f30   Section        0  queue.o(.text.xQueueCreateMutex)
+    [Anonymous Symbol]                       0x00010f48   Section        0  queue.o(.text.xQueueGenericCreate)
+    [Anonymous Symbol]                       0x00010fb8   Section        0  queue.o(.text.xQueueGenericReset)
+    [Anonymous Symbol]                       0x00011038   Section        0  queue.o(.text.xQueueGenericSend)
+    [Anonymous Symbol]                       0x000111dc   Section        0  queue.o(.text.xQueueGenericSendFromISR)
+    [Anonymous Symbol]                       0x000112c4   Section        0  queue.o(.text.xQueueReceive)
+    [Anonymous Symbol]                       0x00011448   Section        0  queue.o(.text.xQueueSemaphoreTake)
+    [Anonymous Symbol]                       0x00011610   Section        0  tasks.o(.text.xTaskCheckForTimeOut)
+    [Anonymous Symbol]                       0x0001169c   Section        0  tasks.o(.text.xTaskCreate)
+    [Anonymous Symbol]                       0x000116fc   Section        0  tasks.o(.text.xTaskGetCurrentTaskHandle)
+    [Anonymous Symbol]                       0x00011708   Section        0  tasks.o(.text.xTaskGetSchedulerState)
+    [Anonymous Symbol]                       0x00011730   Section        0  tasks.o(.text.xTaskGetTickCount)
+    [Anonymous Symbol]                       0x0001173c   Section        0  tasks.o(.text.xTaskIncrementTick)
+    [Anonymous Symbol]                       0x00011884   Section        0  tasks.o(.text.xTaskPriorityDisinherit)
+    [Anonymous Symbol]                       0x00011930   Section        0  tasks.o(.text.xTaskPriorityInherit)
+    [Anonymous Symbol]                       0x000119dc   Section        0  tasks.o(.text.xTaskRemoveFromEventList)
+    [Anonymous Symbol]                       0x00011a6c   Section        0  tasks.o(.text.xTaskResumeAll)
+    [Anonymous Symbol]                       0x00011b84   Section        0  timers.o(.text.xTimerCreateTimerTask)
+    [Anonymous Symbol]                       0x00011be4   Section        0  timers.o(.text.xTimerGenericCommand)
+    [Anonymous Symbol]                       0x00011c4c   Section        0  timers.o(.text.xTimerPendFunctionCallFromISR)
+    i.__free$2region                         0x00011c78   Section        0  malloc2.o(i.__free$2region)
+    i.__malloc$2region                       0x00011cc8   Section        0  malloc2.o(i.__malloc$2region)
+    i.__scatterload_copy                     0x00011d34   Section       14  handlers.o(i.__scatterload_copy)
+    i.__scatterload_null                     0x00011d42   Section        2  handlers.o(i.__scatterload_null)
+    i.__scatterload_zeroinit                 0x00011d44   Section       14  handlers.o(i.__scatterload_zeroinit)
+    .L__const.stack_init.enet_config         0x00011d54   Data          12  lwip_tcpecho_freertos.o(.rodata..L__const.stack_init.enet_config)
+    dhcp_discover_request_options            0x00011d60   Data           3  dhcp.o(.rodata.dhcp_discover_request_options)
+    [Anonymous Symbol]                       0x00011d60   Section        0  dhcp.o(.rodata.dhcp_discover_request_options)
+    s_UartAdapterBase                        0x00011ef0   Data          24  fsl_adapter_uart.o(.rodata.s_UartAdapterBase)
+    [Anonymous Symbol]                       0x00011ef0   Section        0  fsl_adapter_uart.o(.rodata.s_UartAdapterBase)
+    s_uartClock                              0x00011f0c   Data          24  fsl_uart.o(.rodata.s_uartClock)
+    [Anonymous Symbol]                       0x00011f0c   Section        0  fsl_uart.o(.rodata.s_uartClock)
+    .L.str.2                                 0x00011f2c   Data          53  lwip_tcpecho_freertos.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x00011f2c   Section        0  lwip_tcpecho_freertos.o(.rodata.str1.1)
+    .L.str.4                                 0x00011f2e   Data          51  lwip_tcpecho_freertos.o(.rodata.str1.1)
+    .L.str.4                                 0x00011f61   Data          24  fsl_phyksz8081.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x00011f61   Section        0  fsl_phyksz8081.o(.rodata.str1.1)
+    .L.str.1                                 0x00011f79   Data          68  fsl_phyksz8081.o(.rodata.str1.1)
+    .L.str.2                                 0x00011fbd   Data           7  fsl_phyksz8081.o(.rodata.str1.1)
+    .L.str.3                                 0x00011fc4   Data          91  enet_ethernetif.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x00011fc4   Section        0  enet_ethernetif.o(.rodata.str1.1)
+    .L.str.1                                 0x0001201c   Data           3  enet_ethernetif.o(.rodata.str1.1)
+    .L.str.1                                 0x0001201c   Data           3  enet_ethernetif.o(.rodata.str1.1)
+    .L.str.11                                0x0001201c   Data           3  enet_ethernetif.o(.rodata.str1.1)
+    .L.str.15                                0x0001201c   Data           3  enet_ethernetif.o(.rodata.str1.1)
+    .L.str.3                                 0x0001201c   Data           3  enet_ethernetif.o(.rodata.str1.1)
+    .L.str.3                                 0x0001201c   Data           3  enet_ethernetif.o(.rodata.str1.1)
+    .L.str.4                                 0x0001201c   Data           3  enet_ethernetif.o(.rodata.str1.1)
+    .L.str.4                                 0x0001201c   Data           3  enet_ethernetif.o(.rodata.str1.1)
+    .L.str.5                                 0x0001201c   Data           3  enet_ethernetif.o(.rodata.str1.1)
+    .L.str                                   0x0001201f   Data          14  enet_ethernetif.o(.rodata.str1.1)
+    .L.str.2                                 0x0001201f   Data          14  enet_ethernetif.o(.rodata.str1.1)
+    .L.str.4                                 0x0001201f   Data          14  enet_ethernetif.o(.rodata.str1.1)
+    .L.str.6                                 0x0001202d   Data          66  enet_ethernetif_kinetis.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x0001202d   Section        0  enet_ethernetif_kinetis.o(.rodata.str1.1)
+    .L.str.5                                 0x0001206f   Data          76  enet_ethernetif_kinetis.o(.rodata.str1.1)
+    .L.str.4                                 0x000120bb   Data          30  tcpip.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x000120bb   Section        0  tcpip.o(.rodata.str1.1)
+    .L.str                                   0x000120d9   Data          13  tcpip.o(.rodata.str1.1)
+    .L.str.8                                 0x000120e6   Data           7  api_msg.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x000120e6   Section        0  api_msg.o(.rodata.str1.1)
+    .L.str.41                                0x000120ed   Data          43  api_msg.o(.rodata.str1.1)
+    .L.str.40                                0x00012118   Data          40  api_msg.o(.rodata.str1.1)
+    .L.str.24                                0x00012140   Data          14  api_msg.o(.rodata.str1.1)
+    .L.str.22                                0x0001214e   Data          26  api_msg.o(.rodata.str1.1)
+    .L.str.25                                0x00012168   Data          13  api_msg.o(.rodata.str1.1)
+    .L.str.7                                 0x00012175   Data          27  api_msg.o(.rodata.str1.1)
+    .L.str.4                                 0x00012190   Data          60  api_msg.o(.rodata.str1.1)
+    .L.str.15                                0x000121cc   Data          36  api_lib.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x000121cc   Section        0  api_lib.o(.rodata.str1.1)
+    .L.str.18                                0x000121f0   Data          27  api_lib.o(.rodata.str1.1)
+    .L.str.16                                0x000121f3   Data          42  api_lib.o(.rodata.str1.1)
+    .L.str.17                                0x0001220b   Data          30  api_lib.o(.rodata.str1.1)
+    .L.str.14                                0x00012219   Data          16  api_lib.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x00012229   Section        0  memp.o(.rodata.str1.1)
+    .L.str.13                                0x000122b4   Data          18  memp.o(.rodata.str1.1)
+    .L.str.28                                0x000122b4   Data          55  pbuf.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x000122b4   Section        0  pbuf.o(.rodata.str1.1)
+    .L.str.9                                 0x000122eb   Data          10  pbuf.o(.rodata.str1.1)
+    .L.str.1                                 0x000122f5   Data          52  pbuf.o(.rodata.str1.1)
+    .L.str.22                                0x00012329   Data          52  pbuf.o(.rodata.str1.1)
+    .L.str.23                                0x0001235d   Data          46  pbuf.o(.rodata.str1.1)
+    .L.str.2                                 0x0001238b   Data          49  tcp_out.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x0001238b   Section        0  tcp_out.o(.rodata.str1.1)
+    .L.str.32                                0x0001238e   Data          37  pbuf.o(.rodata.str1.1)
+    .L.str.22                                0x000123bc   Data          85  tcp_out.o(.rodata.str1.1)
+    .L.str.8                                 0x00012411   Data          47  tcp_out.o(.rodata.str1.1)
+    .L.str.10                                0x00012440   Data          14  tcp_out.o(.rodata.str1.1)
+    .L.str.11                                0x0001244e   Data          17  tcp_out.o(.rodata.str1.1)
+    .L.str                                   0x0001245f   Data          23  tcp_out.o(.rodata.str1.1)
+    .L.str.12                                0x00012476   Data          44  tcp_out.o(.rodata.str1.1)
+    .L.str.7                                 0x000124a2   Data          41  tcp_out.o(.rodata.str1.1)
+    .L.str.14                                0x000124cb   Data          53  tcp_out.o(.rodata.str1.1)
+    .L.str.15                                0x00012500   Data          30  tcp_out.o(.rodata.str1.1)
+    .L.str.27                                0x0001251e   Data          40  tcp_out.o(.rodata.str1.1)
+    .L.str.26                                0x00012546   Data          42  tcp_out.o(.rodata.str1.1)
+    .L.str.6                                 0x00012569   Data           7  tcp_out.o(.rodata.str1.1)
+    .L.str.9                                 0x00012570   Data          62  tcp_out.o(.rodata.str1.1)
+    .L.str.41                                0x000125ae   Data          50  tcp_out.o(.rodata.str1.1)
+    .L.str.13                                0x000125e0   Data          56  tcp_out.o(.rodata.str1.1)
+    .L.str.7                                 0x00012618   Data          43  tcp_in.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x00012618   Section        0  tcp_in.o(.rodata.str1.1)
+    .L.str.8                                 0x00012643   Data          42  tcp_in.o(.rodata.str1.1)
+    .L.str.10                                0x0001266d   Data          26  tcp_in.o(.rodata.str1.1)
+    .L.str.6                                 0x00012687   Data          39  tcp_in.o(.rodata.str1.1)
+    .L.str.5                                 0x000126ae   Data          42  tcp_in.o(.rodata.str1.1)
+    .L.str.9                                 0x000126d8   Data          45  tcp_in.o(.rodata.str1.1)
+    .L.str.27                                0x00012705   Data          54  tcp_in.o(.rodata.str1.1)
+    .L.str.10                                0x0001273b   Data          47  mem.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x0001273b   Section        0  mem.o(.rodata.str1.1)
+    .L.str.7                                 0x0001276a   Data          17  mem.o(.rodata.str1.1)
+    .L.str.2                                 0x0001277b   Data          25  mem.o(.rodata.str1.1)
+    .L.str.13                                0x00012794   Data          31  udp.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x00012794   Section        0  udp.o(.rodata.str1.1)
+    .L.str.14                                0x000127b3   Data          32  udp.o(.rodata.str1.1)
+    .L.str.15                                0x000127d3   Data          34  udp.o(.rodata.str1.1)
+    .L.str.2                                 0x000127f5   Data          21  tcp.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x000127f5   Section        0  tcp.o(.rodata.str1.1)
+    .L.str.1                                 0x0001280a   Data          12  tcp.o(.rodata.str1.1)
+    .L.str.27                                0x00012816   Data          47  tcp.o(.rodata.str1.1)
+    .L.str.23                                0x00012845   Data          50  tcp.o(.rodata.str1.1)
+    .L.str.5                                 0x00012872   Data           5  tcp.o(.rodata.str1.1)
+    .L.str.10                                0x00012877   Data          45  tcp.o(.rodata.str1.1)
+    .L.str.24                                0x000128a4   Data          53  tcp.o(.rodata.str1.1)
+    .L.str.25                                0x000128d9   Data          43  tcp.o(.rodata.str1.1)
+    .L.str.26                                0x00012904   Data          42  tcp.o(.rodata.str1.1)
+    .L.str.28                                0x0001292e   Data          39  tcp.o(.rodata.str1.1)
+    .L.str.29                                0x00012955   Data          38  tcp.o(.rodata.str1.1)
+    .L.str.13                                0x0001297b   Data          66  dhcp.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x0001297b   Section        0  dhcp.o(.rodata.str1.1)
+    .L.str                                   0x000129bd   Data          12  ip4.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x000129bd   Section        0  ip4.o(.rodata.str1.1)
+    .L.str.16                                0x000129c9   Data          65  etharp.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x000129c9   Section        0  etharp.o(.rodata.str1.1)
+    .L.str.11                                0x00012a0a   Data          19  etharp.o(.rodata.str1.1)
+    .L.str.5                                 0x00012a1d   Data          10  etharp.o(.rodata.str1.1)
+    .L.str.1                                 0x00012a27   Data          15  etharp.o(.rodata.str1.1)
+    .L.str.11                                0x00012a36   Data          57  fsl_enet.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x00012a36   Section        0  fsl_enet.o(.rodata.str1.1)
+    .L.str.6                                 0x00012a6f   Data          67  fsl_enet.o(.rodata.str1.1)
+    .L.str.9                                 0x00012ab2   Data          41  fsl_enet.o(.rodata.str1.1)
+    .L.str.12                                0x00012adb   Data          13  fsl_enet.o(.rodata.str1.1)
+    .L.str.3                                 0x00012ae8   Data          15  fsl_enet.o(.rodata.str1.1)
+    .L.str.13                                0x00012af7   Data          42  fsl_enet.o(.rodata.str1.1)
+    .L.str.4                                 0x00012b21   Data          21  fsl_enet.o(.rodata.str1.1)
+    .L.str.2                                 0x00012b36   Data          15  fsl_enet.o(.rodata.str1.1)
+    .L.str.3                                 0x00012b36   Data          15  fsl_enet.o(.rodata.str1.1)
+    .L.str.5                                 0x00012b45   Data          16  fsl_enet.o(.rodata.str1.1)
+    .L.str.1                                 0x00012b55   Data          53  fsl_enet.o(.rodata.str1.1)
+    .L.str.21                                0x00012b8a   Data          16  fsl_enet.o(.rodata.str1.1)
+    .L.str.22                                0x00012b8a   Data          71  fsl_enet.o(.rodata.str1.1)
+    .L.str.1                                 0x00012bd1   Data          54  fsl_clock.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x00012bd1   Section        0  fsl_clock.o(.rodata.str1.1)
+    .L.str.4                                 0x00012c07   Data           7  fsl_clock.o(.rodata.str1.1)
+    .L.str.1                                 0x00012c0e   Data          53  fsl_uart.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x00012c0e   Section        0  fsl_uart.o(.rodata.str1.1)
+    .L.str.2                                 0x00012c43   Data          15  fsl_uart.o(.rodata.str1.1)
+    .L.str.6                                 0x00012c43   Data          70  fsl_uart.o(.rodata.str1.1)
+    .L.str.5                                 0x00012c89   Data          70  fsl_uart.o(.rodata.str1.1)
+    .L.str.3                                 0x00012ccf   Data          69  fsl_adapter_uart.o(.rodata.str1.1)
+    [Anonymous Symbol]                       0x00012ccf   Section        0  fsl_adapter_uart.o(.rodata.str1.1)
+    .L.str.8                                 0x00012ced   Data          13  fsl_uart.o(.rodata.str1.1)
+    .L.str.9                                 0x00012cfa   Data          13  fsl_uart.o(.rodata.str1.1)
+    .L.str.11                                0x00012d07   Data          13  fsl_uart.o(.rodata.str1.1)
+    .L.str.1                                 0x00012d14   Data          53  fsl_adapter_uart.o(.rodata.str1.1)
+    .L.str.12                                0x00012d14   Data          21  fsl_uart.o(.rodata.str1.1)
+    .L.str.14                                0x00012d29   Data          14  fsl_uart.o(.rodata.str1.1)
+    .L.str                                   0x00012d49   Data           7  fsl_adapter_uart.o(.rodata.str1.1)
+    tcp_backoff                              0x00012d50   Data          13  tcp.o(.rodata.tcp_backoff)
+    [Anonymous Symbol]                       0x00012d50   Section        0  tcp.o(.rodata.tcp_backoff)
     .data                                    0x20000000   Section        4  mvars.o(.data)
     .data                                    0x20000004   Section        4  mvars.o(.data)
     dhcp_create_msg.xid                      0x2000000c   Data           4  dhcp.o(.data.dhcp_create_msg.xid)
@@ -8309,114 +8309,114 @@ Image Symbol Table
     tcp_write                                0x0000ef4d   Thumb Code  1476  tcp_out.o(.text.tcp_write)
     tcp_zero_window_probe                    0x0000f669   Thumb Code   184  tcp_out.o(.text.tcp_zero_window_probe)
     tcpecho_init                             0x0000f745   Thumb Code    36  tcpecho.o(.text.tcpecho_init)
-    tcpip_api_call                           0x0000f889   Thumb Code    24  tcpip.o(.text.tcpip_api_call)
-    tcpip_init                               0x0000f8a1   Thumb Code   104  tcpip.o(.text.tcpip_init)
-    tcpip_inpkt                              0x0000f961   Thumb Code    96  tcpip.o(.text.tcpip_inpkt)
-    tcpip_input                              0x0000f9c1   Thumb Code    36  tcpip.o(.text.tcpip_input)
-    tcpip_send_msg_wait_sem                  0x0000f9e5   Thumb Code    22  tcpip.o(.text.tcpip_send_msg_wait_sem)
-    udp_bind                                 0x0000fb29   Thumb Code   168  udp.o(.text.udp_bind)
-    udp_connect                              0x0000fbe9   Thumb Code   120  udp.o(.text.udp_connect)
-    udp_init                                 0x0000fc99   Thumb Code     2  udp.o(.text.udp_init)
-    udp_input                                0x0000fc9d   Thumb Code   452  udp.o(.text.udp_input)
-    udp_netif_ip_addr_changed                0x0000ff85   Thumb Code    62  udp.o(.text.udp_netif_ip_addr_changed)
-    udp_new                                  0x0000ffc5   Thumb Code    34  udp.o(.text.udp_new)
-    udp_new_ip_type                          0x0000ffe9   Thumb Code    12  udp.o(.text.udp_new_ip_type)
-    udp_recv                                 0x00010059   Thumb Code    44  udp.o(.text.udp_recv)
-    udp_remove                               0x0001009d   Thumb Code    76  udp.o(.text.udp_remove)
-    udp_sendto_if                            0x00010101   Thumb Code   160  udp.o(.text.udp_sendto_if)
-    udp_sendto_if_src                        0x00010219   Thumb Code   384  udp.o(.text.udp_sendto_if_src)
-    uxListRemove                             0x00010411   Thumb Code    36  list.o(.text.uxListRemove)
-    uxQueueMessagesWaiting                   0x00010435   Thumb Code    38  queue.o(.text.uxQueueMessagesWaiting)
-    uxTaskResetEventItemValue                0x0001045d   Thumb Code    26  tasks.o(.text.uxTaskResetEventItemValue)
-    vEventGroupSetBitsCallback               0x00010479   Thumb Code     8  event_groups.o(.text.vEventGroupSetBitsCallback)
-    vListInitialise                          0x00010481   Thumb Code    22  list.o(.text.vListInitialise)
-    vListInitialiseItem                      0x00010499   Thumb Code     6  list.o(.text.vListInitialiseItem)
-    vListInsert                              0x000104a1   Thumb Code    58  list.o(.text.vListInsert)
-    vListInsertEnd                           0x000104dd   Thumb Code    28  list.o(.text.vListInsertEnd)
-    vPortEnterCritical                       0x0001050d   Thumb Code    70  port.o(.text.vPortEnterCritical)
-    vPortExitCritical                        0x00010555   Thumb Code    46  port.o(.text.vPortExitCritical)
-    vPortFree                                0x00010585   Thumb Code    30  heap_3.o(.text.vPortFree)
-    vPortSetupTimerInterrupt                 0x000105a5   Thumb Code    52  port.o(.text.vPortSetupTimerInterrupt)
-    vPortValidateInterruptPriority           0x000105d9   Thumb Code    98  port.o(.text.vPortValidateInterruptPriority)
-    vQueueAddToRegistry                      0x0001063d   Thumb Code    40  queue.o(.text.vQueueAddToRegistry)
-    vQueueDelete                             0x00010665   Thumb Code    38  queue.o(.text.vQueueDelete)
-    vQueueUnregisterQueue                    0x0001068d   Thumb Code    42  queue.o(.text.vQueueUnregisterQueue)
-    vQueueWaitForMessageRestricted           0x000106b9   Thumb Code    68  queue.o(.text.vQueueWaitForMessageRestricted)
-    vTaskDelay                               0x000106fd   Thumb Code    84  tasks.o(.text.vTaskDelay)
-    vTaskDelete                              0x00010751   Thumb Code   246  tasks.o(.text.vTaskDelete)
-    vTaskInternalSetTimeOutState             0x00010849   Thumb Code    26  tasks.o(.text.vTaskInternalSetTimeOutState)
-    vTaskMissedYield                         0x00010865   Thumb Code    14  tasks.o(.text.vTaskMissedYield)
-    vTaskPlaceOnEventList                    0x00010875   Thumb Code    50  tasks.o(.text.vTaskPlaceOnEventList)
-    vTaskPlaceOnEventListRestricted          0x000108a9   Thumb Code    62  tasks.o(.text.vTaskPlaceOnEventListRestricted)
-    vTaskPlaceOnUnorderedEventList           0x000108e9   Thumb Code    90  tasks.o(.text.vTaskPlaceOnUnorderedEventList)
-    vTaskPriorityDisinheritAfterTimeout      0x00010945   Thumb Code   186  tasks.o(.text.vTaskPriorityDisinheritAfterTimeout)
-    vTaskRemoveFromUnorderedEventList        0x00010a01   Thumb Code   150  tasks.o(.text.vTaskRemoveFromUnorderedEventList)
-    vTaskStartScheduler                      0x00010a99   Thumb Code   148  tasks.o(.text.vTaskStartScheduler)
-    vTaskSuspendAll                          0x00010b35   Thumb Code    16  tasks.o(.text.vTaskSuspendAll)
-    vTaskSwitchContext                       0x00010b45   Thumb Code   134  tasks.o(.text.vTaskSwitchContext)
-    xEventGroupCreate                        0x00010bcd   Thumb Code    28  event_groups.o(.text.xEventGroupCreate)
-    xEventGroupSetBits                       0x00010be9   Thumb Code   158  event_groups.o(.text.xEventGroupSetBits)
-    xEventGroupSetBitsFromISR                0x00010c89   Thumb Code    22  event_groups.o(.text.xEventGroupSetBitsFromISR)
-    xEventGroupWaitBits                      0x00010ca1   Thumb Code   288  event_groups.o(.text.xEventGroupWaitBits)
-    xPortStartScheduler                      0x00010dc1   Thumb Code   274  port.o(.text.xPortStartScheduler)
-    xQueueCreateCountingSemaphore            0x00010ed5   Thumb Code    66  queue.o(.text.xQueueCreateCountingSemaphore)
-    xQueueCreateMutex                        0x00010f19   Thumb Code    22  queue.o(.text.xQueueCreateMutex)
-    xQueueGenericCreate                      0x00010f31   Thumb Code   112  queue.o(.text.xQueueGenericCreate)
-    xQueueGenericReset                       0x00010fa1   Thumb Code   126  queue.o(.text.xQueueGenericReset)
-    xQueueGenericSend                        0x00011021   Thumb Code   418  queue.o(.text.xQueueGenericSend)
-    xQueueGenericSendFromISR                 0x000111c5   Thumb Code   232  queue.o(.text.xQueueGenericSendFromISR)
-    xQueueReceive                            0x000112ad   Thumb Code   388  queue.o(.text.xQueueReceive)
-    xQueueSemaphoreTake                      0x00011431   Thumb Code   454  queue.o(.text.xQueueSemaphoreTake)
-    xTaskCheckForTimeOut                     0x000115f9   Thumb Code   140  tasks.o(.text.xTaskCheckForTimeOut)
-    xTaskCreate                              0x00011685   Thumb Code    96  tasks.o(.text.xTaskCreate)
-    xTaskGetCurrentTaskHandle                0x000116e5   Thumb Code    12  tasks.o(.text.xTaskGetCurrentTaskHandle)
-    xTaskGetSchedulerState                   0x000116f1   Thumb Code    38  tasks.o(.text.xTaskGetSchedulerState)
-    xTaskGetTickCount                        0x00011719   Thumb Code    12  tasks.o(.text.xTaskGetTickCount)
-    xTaskIncrementTick                       0x00011725   Thumb Code   328  tasks.o(.text.xTaskIncrementTick)
-    xTaskPriorityDisinherit                  0x0001186d   Thumb Code   170  tasks.o(.text.xTaskPriorityDisinherit)
-    xTaskPriorityInherit                     0x00011919   Thumb Code   170  tasks.o(.text.xTaskPriorityInherit)
-    xTaskRemoveFromEventList                 0x000119c5   Thumb Code   144  tasks.o(.text.xTaskRemoveFromEventList)
-    xTaskResumeAll                           0x00011a55   Thumb Code   280  tasks.o(.text.xTaskResumeAll)
-    xTimerCreateTimerTask                    0x00011b6d   Thumb Code    88  timers.o(.text.xTimerCreateTimerTask)
-    xTimerGenericCommand                     0x00011bcd   Thumb Code   104  timers.o(.text.xTimerGenericCommand)
-    xTimerPendFunctionCallFromISR            0x00011c35   Thumb Code    42  timers.o(.text.xTimerPendFunctionCallFromISR)
-    free                                     0x00011c61   Thumb Code    76  malloc2.o(i.__free$2region)
-    malloc                                   0x00011cb1   Thumb Code    92  malloc2.o(i.__malloc$2region)
-    __scatterload_copy                       0x00011d1d   Thumb Code    14  handlers.o(i.__scatterload_copy)
-    __scatterload_null                       0x00011d2b   Thumb Code     2  handlers.o(i.__scatterload_null)
-    __scatterload_zeroinit                   0x00011d2d   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
-    enet_ops                                 0x00011d4c   Data          20  fsl_enet_mdio.o(.rodata.enet_ops)
-    ethbroadcast                             0x00011d60   Data           6  ethernet.o(.rodata.ethbroadcast)
-    ethzero                                  0x00011d66   Data           6  ethernet.o(.rodata.ethzero)
-    ip_addr_any                              0x00011d6c   Data           4  ip4_addr.o(.rodata.ip_addr_any)
-    ip_addr_broadcast                        0x00011d70   Data           4  ip4_addr.o(.rodata.ip_addr_broadcast)
-    lwip_cyclic_timers                       0x00011d74   Data          40  timeouts.o(.rodata.lwip_cyclic_timers)
-    mcgConfig_BOARD_BootClockRUN             0x00011d9c   Data          11  clock_config.o(.rodata.mcgConfig_BOARD_BootClockRUN)
-    memp_FRAG_PBUF                           0x00011da8   Data          16  memp.o(.rodata.memp_FRAG_PBUF)
-    memp_NETBUF                              0x00011db8   Data          16  memp.o(.rodata.memp_NETBUF)
-    memp_NETCONN                             0x00011dc8   Data          16  memp.o(.rodata.memp_NETCONN)
-    memp_PBUF                                0x00011dd8   Data          16  memp.o(.rodata.memp_PBUF)
-    memp_PBUF_POOL                           0x00011de8   Data          16  memp.o(.rodata.memp_PBUF_POOL)
-    memp_REASSDATA                           0x00011df8   Data          16  memp.o(.rodata.memp_REASSDATA)
-    memp_SYS_TIMEOUT                         0x00011e08   Data          16  memp.o(.rodata.memp_SYS_TIMEOUT)
-    memp_TCPIP_MSG_API                       0x00011e18   Data          16  memp.o(.rodata.memp_TCPIP_MSG_API)
-    memp_TCPIP_MSG_INPKT                     0x00011e28   Data          16  memp.o(.rodata.memp_TCPIP_MSG_INPKT)
-    memp_TCP_PCB                             0x00011e38   Data          16  memp.o(.rodata.memp_TCP_PCB)
-    memp_TCP_PCB_LISTEN                      0x00011e48   Data          16  memp.o(.rodata.memp_TCP_PCB_LISTEN)
-    memp_TCP_SEG                             0x00011e58   Data          16  memp.o(.rodata.memp_TCP_SEG)
-    memp_UDP_PCB                             0x00011e68   Data          16  memp.o(.rodata.memp_UDP_PCB)
-    memp_pools                               0x00011e78   Data          52  memp.o(.rodata.memp_pools)
-    netconn_aborted                          0x00011eac   Data           1  api_msg.o(.rodata.netconn_aborted)
-    netconn_closed                           0x00011ead   Data           1  api_msg.o(.rodata.netconn_closed)
-    netconn_reset                            0x00011eae   Data           1  api_msg.o(.rodata.netconn_reset)
-    oscConfig_BOARD_BootClockRUN             0x00011eb0   Data           8  clock_config.o(.rodata.oscConfig_BOARD_BootClockRUN)
-    phyksz8081_ops                           0x00011eb8   Data          32  fsl_phyksz8081.o(.rodata.phyksz8081_ops)
-    s_enetClock                              0x00011ef0   Data           4  fsl_enet.o(.rodata.s_enetClock)
-    simConfig_BOARD_BootClockRUN             0x00011f0c   Data           8  clock_config.o(.rodata.simConfig_BOARD_BootClockRUN)
-    tcp_pcb_lists                            0x00012d48   Data          16  tcp.o(.rodata.tcp_pcb_lists)
-    uxTopUsedPriority                        0x00012d58   Data           4  tasks.o(.rodata.uxTopUsedPriority)
-    Region$$Table$$Base                      0x00012d5c   Number         0  anon$$obj.o(Region$$Table)
-    Region$$Table$$Limit                     0x00012d7c   Number         0  anon$$obj.o(Region$$Table)
+    tcpip_api_call                           0x0000f8a1   Thumb Code    24  tcpip.o(.text.tcpip_api_call)
+    tcpip_init                               0x0000f8b9   Thumb Code   104  tcpip.o(.text.tcpip_init)
+    tcpip_inpkt                              0x0000f979   Thumb Code    96  tcpip.o(.text.tcpip_inpkt)
+    tcpip_input                              0x0000f9d9   Thumb Code    36  tcpip.o(.text.tcpip_input)
+    tcpip_send_msg_wait_sem                  0x0000f9fd   Thumb Code    22  tcpip.o(.text.tcpip_send_msg_wait_sem)
+    udp_bind                                 0x0000fb41   Thumb Code   168  udp.o(.text.udp_bind)
+    udp_connect                              0x0000fc01   Thumb Code   120  udp.o(.text.udp_connect)
+    udp_init                                 0x0000fcb1   Thumb Code     2  udp.o(.text.udp_init)
+    udp_input                                0x0000fcb5   Thumb Code   452  udp.o(.text.udp_input)
+    udp_netif_ip_addr_changed                0x0000ff9d   Thumb Code    62  udp.o(.text.udp_netif_ip_addr_changed)
+    udp_new                                  0x0000ffdd   Thumb Code    34  udp.o(.text.udp_new)
+    udp_new_ip_type                          0x00010001   Thumb Code    12  udp.o(.text.udp_new_ip_type)
+    udp_recv                                 0x00010071   Thumb Code    44  udp.o(.text.udp_recv)
+    udp_remove                               0x000100b5   Thumb Code    76  udp.o(.text.udp_remove)
+    udp_sendto_if                            0x00010119   Thumb Code   160  udp.o(.text.udp_sendto_if)
+    udp_sendto_if_src                        0x00010231   Thumb Code   384  udp.o(.text.udp_sendto_if_src)
+    uxListRemove                             0x00010429   Thumb Code    36  list.o(.text.uxListRemove)
+    uxQueueMessagesWaiting                   0x0001044d   Thumb Code    38  queue.o(.text.uxQueueMessagesWaiting)
+    uxTaskResetEventItemValue                0x00010475   Thumb Code    26  tasks.o(.text.uxTaskResetEventItemValue)
+    vEventGroupSetBitsCallback               0x00010491   Thumb Code     8  event_groups.o(.text.vEventGroupSetBitsCallback)
+    vListInitialise                          0x00010499   Thumb Code    22  list.o(.text.vListInitialise)
+    vListInitialiseItem                      0x000104b1   Thumb Code     6  list.o(.text.vListInitialiseItem)
+    vListInsert                              0x000104b9   Thumb Code    58  list.o(.text.vListInsert)
+    vListInsertEnd                           0x000104f5   Thumb Code    28  list.o(.text.vListInsertEnd)
+    vPortEnterCritical                       0x00010525   Thumb Code    70  port.o(.text.vPortEnterCritical)
+    vPortExitCritical                        0x0001056d   Thumb Code    46  port.o(.text.vPortExitCritical)
+    vPortFree                                0x0001059d   Thumb Code    30  heap_3.o(.text.vPortFree)
+    vPortSetupTimerInterrupt                 0x000105bd   Thumb Code    52  port.o(.text.vPortSetupTimerInterrupt)
+    vPortValidateInterruptPriority           0x000105f1   Thumb Code    98  port.o(.text.vPortValidateInterruptPriority)
+    vQueueAddToRegistry                      0x00010655   Thumb Code    40  queue.o(.text.vQueueAddToRegistry)
+    vQueueDelete                             0x0001067d   Thumb Code    38  queue.o(.text.vQueueDelete)
+    vQueueUnregisterQueue                    0x000106a5   Thumb Code    42  queue.o(.text.vQueueUnregisterQueue)
+    vQueueWaitForMessageRestricted           0x000106d1   Thumb Code    68  queue.o(.text.vQueueWaitForMessageRestricted)
+    vTaskDelay                               0x00010715   Thumb Code    84  tasks.o(.text.vTaskDelay)
+    vTaskDelete                              0x00010769   Thumb Code   246  tasks.o(.text.vTaskDelete)
+    vTaskInternalSetTimeOutState             0x00010861   Thumb Code    26  tasks.o(.text.vTaskInternalSetTimeOutState)
+    vTaskMissedYield                         0x0001087d   Thumb Code    14  tasks.o(.text.vTaskMissedYield)
+    vTaskPlaceOnEventList                    0x0001088d   Thumb Code    50  tasks.o(.text.vTaskPlaceOnEventList)
+    vTaskPlaceOnEventListRestricted          0x000108c1   Thumb Code    62  tasks.o(.text.vTaskPlaceOnEventListRestricted)
+    vTaskPlaceOnUnorderedEventList           0x00010901   Thumb Code    90  tasks.o(.text.vTaskPlaceOnUnorderedEventList)
+    vTaskPriorityDisinheritAfterTimeout      0x0001095d   Thumb Code   186  tasks.o(.text.vTaskPriorityDisinheritAfterTimeout)
+    vTaskRemoveFromUnorderedEventList        0x00010a19   Thumb Code   150  tasks.o(.text.vTaskRemoveFromUnorderedEventList)
+    vTaskStartScheduler                      0x00010ab1   Thumb Code   148  tasks.o(.text.vTaskStartScheduler)
+    vTaskSuspendAll                          0x00010b4d   Thumb Code    16  tasks.o(.text.vTaskSuspendAll)
+    vTaskSwitchContext                       0x00010b5d   Thumb Code   134  tasks.o(.text.vTaskSwitchContext)
+    xEventGroupCreate                        0x00010be5   Thumb Code    28  event_groups.o(.text.xEventGroupCreate)
+    xEventGroupSetBits                       0x00010c01   Thumb Code   158  event_groups.o(.text.xEventGroupSetBits)
+    xEventGroupSetBitsFromISR                0x00010ca1   Thumb Code    22  event_groups.o(.text.xEventGroupSetBitsFromISR)
+    xEventGroupWaitBits                      0x00010cb9   Thumb Code   288  event_groups.o(.text.xEventGroupWaitBits)
+    xPortStartScheduler                      0x00010dd9   Thumb Code   274  port.o(.text.xPortStartScheduler)
+    xQueueCreateCountingSemaphore            0x00010eed   Thumb Code    66  queue.o(.text.xQueueCreateCountingSemaphore)
+    xQueueCreateMutex                        0x00010f31   Thumb Code    22  queue.o(.text.xQueueCreateMutex)
+    xQueueGenericCreate                      0x00010f49   Thumb Code   112  queue.o(.text.xQueueGenericCreate)
+    xQueueGenericReset                       0x00010fb9   Thumb Code   126  queue.o(.text.xQueueGenericReset)
+    xQueueGenericSend                        0x00011039   Thumb Code   418  queue.o(.text.xQueueGenericSend)
+    xQueueGenericSendFromISR                 0x000111dd   Thumb Code   232  queue.o(.text.xQueueGenericSendFromISR)
+    xQueueReceive                            0x000112c5   Thumb Code   388  queue.o(.text.xQueueReceive)
+    xQueueSemaphoreTake                      0x00011449   Thumb Code   454  queue.o(.text.xQueueSemaphoreTake)
+    xTaskCheckForTimeOut                     0x00011611   Thumb Code   140  tasks.o(.text.xTaskCheckForTimeOut)
+    xTaskCreate                              0x0001169d   Thumb Code    96  tasks.o(.text.xTaskCreate)
+    xTaskGetCurrentTaskHandle                0x000116fd   Thumb Code    12  tasks.o(.text.xTaskGetCurrentTaskHandle)
+    xTaskGetSchedulerState                   0x00011709   Thumb Code    38  tasks.o(.text.xTaskGetSchedulerState)
+    xTaskGetTickCount                        0x00011731   Thumb Code    12  tasks.o(.text.xTaskGetTickCount)
+    xTaskIncrementTick                       0x0001173d   Thumb Code   328  tasks.o(.text.xTaskIncrementTick)
+    xTaskPriorityDisinherit                  0x00011885   Thumb Code   170  tasks.o(.text.xTaskPriorityDisinherit)
+    xTaskPriorityInherit                     0x00011931   Thumb Code   170  tasks.o(.text.xTaskPriorityInherit)
+    xTaskRemoveFromEventList                 0x000119dd   Thumb Code   144  tasks.o(.text.xTaskRemoveFromEventList)
+    xTaskResumeAll                           0x00011a6d   Thumb Code   280  tasks.o(.text.xTaskResumeAll)
+    xTimerCreateTimerTask                    0x00011b85   Thumb Code    88  timers.o(.text.xTimerCreateTimerTask)
+    xTimerGenericCommand                     0x00011be5   Thumb Code   104  timers.o(.text.xTimerGenericCommand)
+    xTimerPendFunctionCallFromISR            0x00011c4d   Thumb Code    42  timers.o(.text.xTimerPendFunctionCallFromISR)
+    free                                     0x00011c79   Thumb Code    76  malloc2.o(i.__free$2region)
+    malloc                                   0x00011cc9   Thumb Code    92  malloc2.o(i.__malloc$2region)
+    __scatterload_copy                       0x00011d35   Thumb Code    14  handlers.o(i.__scatterload_copy)
+    __scatterload_null                       0x00011d43   Thumb Code     2  handlers.o(i.__scatterload_null)
+    __scatterload_zeroinit                   0x00011d45   Thumb Code    14  handlers.o(i.__scatterload_zeroinit)
+    enet_ops                                 0x00011d64   Data          20  fsl_enet_mdio.o(.rodata.enet_ops)
+    ethbroadcast                             0x00011d78   Data           6  ethernet.o(.rodata.ethbroadcast)
+    ethzero                                  0x00011d7e   Data           6  ethernet.o(.rodata.ethzero)
+    ip_addr_any                              0x00011d84   Data           4  ip4_addr.o(.rodata.ip_addr_any)
+    ip_addr_broadcast                        0x00011d88   Data           4  ip4_addr.o(.rodata.ip_addr_broadcast)
+    lwip_cyclic_timers                       0x00011d8c   Data          40  timeouts.o(.rodata.lwip_cyclic_timers)
+    mcgConfig_BOARD_BootClockRUN             0x00011db4   Data          11  clock_config.o(.rodata.mcgConfig_BOARD_BootClockRUN)
+    memp_FRAG_PBUF                           0x00011dc0   Data          16  memp.o(.rodata.memp_FRAG_PBUF)
+    memp_NETBUF                              0x00011dd0   Data          16  memp.o(.rodata.memp_NETBUF)
+    memp_NETCONN                             0x00011de0   Data          16  memp.o(.rodata.memp_NETCONN)
+    memp_PBUF                                0x00011df0   Data          16  memp.o(.rodata.memp_PBUF)
+    memp_PBUF_POOL                           0x00011e00   Data          16  memp.o(.rodata.memp_PBUF_POOL)
+    memp_REASSDATA                           0x00011e10   Data          16  memp.o(.rodata.memp_REASSDATA)
+    memp_SYS_TIMEOUT                         0x00011e20   Data          16  memp.o(.rodata.memp_SYS_TIMEOUT)
+    memp_TCPIP_MSG_API                       0x00011e30   Data          16  memp.o(.rodata.memp_TCPIP_MSG_API)
+    memp_TCPIP_MSG_INPKT                     0x00011e40   Data          16  memp.o(.rodata.memp_TCPIP_MSG_INPKT)
+    memp_TCP_PCB                             0x00011e50   Data          16  memp.o(.rodata.memp_TCP_PCB)
+    memp_TCP_PCB_LISTEN                      0x00011e60   Data          16  memp.o(.rodata.memp_TCP_PCB_LISTEN)
+    memp_TCP_SEG                             0x00011e70   Data          16  memp.o(.rodata.memp_TCP_SEG)
+    memp_UDP_PCB                             0x00011e80   Data          16  memp.o(.rodata.memp_UDP_PCB)
+    memp_pools                               0x00011e90   Data          52  memp.o(.rodata.memp_pools)
+    netconn_aborted                          0x00011ec4   Data           1  api_msg.o(.rodata.netconn_aborted)
+    netconn_closed                           0x00011ec5   Data           1  api_msg.o(.rodata.netconn_closed)
+    netconn_reset                            0x00011ec6   Data           1  api_msg.o(.rodata.netconn_reset)
+    oscConfig_BOARD_BootClockRUN             0x00011ec8   Data           8  clock_config.o(.rodata.oscConfig_BOARD_BootClockRUN)
+    phyksz8081_ops                           0x00011ed0   Data          32  fsl_phyksz8081.o(.rodata.phyksz8081_ops)
+    s_enetClock                              0x00011f08   Data           4  fsl_enet.o(.rodata.s_enetClock)
+    simConfig_BOARD_BootClockRUN             0x00011f24   Data           8  clock_config.o(.rodata.simConfig_BOARD_BootClockRUN)
+    tcp_pcb_lists                            0x00012d60   Data          16  tcp.o(.rodata.tcp_pcb_lists)
+    uxTopUsedPriority                        0x00012d70   Data           4  tasks.o(.rodata.uxTopUsedPriority)
+    Region$$Table$$Base                      0x00012d74   Number         0  anon$$obj.o(Region$$Table)
+    Region$$Table$$Limit                     0x00012d94   Number         0  anon$$obj.o(Region$$Table)
     __microlib_freelist                      0x20000000   Data           4  mvars.o(.data)
     __microlib_freelist_initialised          0x20000004   Data           4  mvars.o(.data)
     SystemCoreClock                          0x20000008   Data           4  system_mk64f12.o(.data.SystemCoreClock)
@@ -8467,7 +8467,7 @@ Memory Map of the image
 
   Image Entry point : 0x00000425
 
-  Load Region LR_m_text (Base: 0x00000000, Size: 0x00012dc0, Max: 0x00100000, ABSOLUTE)
+  Load Region LR_m_text (Base: 0x00000000, Size: 0x00012de0, Max: 0x00100000, ABSOLUTE)
 
     Execution Region VECTOR_ROM (Exec base: 0x00000000, Load base: 0x00000000, Size: 0x00000400, Max: 0x00000400, ABSOLUTE)
 
@@ -8483,7 +8483,7 @@ Memory Map of the image
     0x00000400   0x00000400   0x00000010   Data   RO         2494    .FlashConfig        startup_mk64f12.o
 
 
-    Execution Region ER_m_text (Exec base: 0x00000410, Load base: 0x00000410, Size: 0x0001296c, Max: 0x000ffbf0, ABSOLUTE)
+    Execution Region ER_m_text (Exec base: 0x00000410, Load base: 0x00000410, Size: 0x00012984, Max: 0x000ffbf0, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -9153,241 +9153,241 @@ Memory Map of the image
     0x0000f598   0x0000f598   0x000000d0   Code   RO          847    .text.tcp_write_checks  tcp_out.o
     0x0000f668   0x0000f668   0x000000dc   Code   RO          895    .text.tcp_zero_window_probe  tcp_out.o
     0x0000f744   0x0000f744   0x00000034   Code   RO          135    .text.tcpecho_init  tcpecho.o
-    0x0000f778   0x0000f778   0x00000110   Code   RO          137    .text.tcpecho_thread  tcpecho.o
-    0x0000f888   0x0000f888   0x00000018   Code   RO          471    .text.tcpip_api_call  tcpip.o
-    0x0000f8a0   0x0000f8a0   0x000000c0   Code   RO          483    .text.tcpip_init    tcpip.o
-    0x0000f960   0x0000f960   0x00000060   Code   RO          461    .text.tcpip_inpkt   tcpip.o
-    0x0000f9c0   0x0000f9c0   0x00000024   Code   RO          463    .text.tcpip_input   tcpip.o
-    0x0000f9e4   0x0000f9e4   0x00000016   Code   RO          469    .text.tcpip_send_msg_wait_sem  tcpip.o
-    0x0000f9fa   0x0000f9fa   0x00000002   PAD
-    0x0000f9fc   0x0000f9fc   0x0000003e   Code   RO          957    .text.tcpip_tcp_timer  timeouts.o
-    0x0000fa3a   0x0000fa3a   0x00000002   PAD
-    0x0000fa3c   0x0000fa3c   0x00000048   Code   RO          485    .text.tcpip_thread  tcpip.o
-    0x0000fa84   0x0000fa84   0x00000048   Code   RO          495    .text.tcpip_thread_handle_msg  tcpip.o
-    0x0000facc   0x0000facc   0x0000005c   Code   RO          493    .text.tcpip_timeouts_mbox_fetch  tcpip.o
-    0x0000fb28   0x0000fb28   0x000000c0   Code   RO         1137    .text.udp_bind      udp.o
-    0x0000fbe8   0x0000fbe8   0x000000b0   Code   RO         1143    .text.udp_connect   udp.o
-    0x0000fc98   0x0000fc98   0x00000002   Code   RO         1123    .text.udp_init      udp.o
-    0x0000fc9a   0x0000fc9a   0x00000002   PAD
-    0x0000fc9c   0x0000fc9c   0x00000214   Code   RO         1125    .text.udp_input     udp.o
-    0x0000feb0   0x0000feb0   0x000000d4   Code   RO         1127    .text.udp_input_local_match  udp.o
-    0x0000ff84   0x0000ff84   0x0000003e   Code   RO         1155    .text.udp_netif_ip_addr_changed  udp.o
-    0x0000ffc2   0x0000ffc2   0x00000002   PAD
-    0x0000ffc4   0x0000ffc4   0x00000022   Code   RO         1151    .text.udp_new       udp.o
-    0x0000ffe6   0x0000ffe6   0x00000002   PAD
-    0x0000ffe8   0x0000ffe8   0x0000000c   Code   RO         1153    .text.udp_new_ip_type  udp.o
-    0x0000fff4   0x0000fff4   0x00000062   Code   RO         1139    .text.udp_new_port  udp.o
-    0x00010056   0x00010056   0x00000002   PAD
-    0x00010058   0x00010058   0x00000044   Code   RO         1147    .text.udp_recv      udp.o
-    0x0001009c   0x0001009c   0x00000064   Code   RO         1149    .text.udp_remove    udp.o
-    0x00010100   0x00010100   0x00000118   Code   RO         1133    .text.udp_sendto_if  udp.o
-    0x00010218   0x00010218   0x000001f8   Code   RO         1135    .text.udp_sendto_if_src  udp.o
-    0x00010410   0x00010410   0x00000024   Code   RO         2545    .text.uxListRemove  list.o
-    0x00010434   0x00010434   0x00000026   Code   RO         2599    .text.uxQueueMessagesWaiting  queue.o
-    0x0001045a   0x0001045a   0x00000002   PAD
-    0x0001045c   0x0001045c   0x0000001a   Code   RO         2796    .text.uxTaskResetEventItemValue  tasks.o
-    0x00010476   0x00010476   0x00000002   PAD
-    0x00010478   0x00010478   0x00000008   Code   RO         2521    .text.vEventGroupSetBitsCallback  event_groups.o
-    0x00010480   0x00010480   0x00000016   Code   RO         2537    .text.vListInitialise  list.o
-    0x00010496   0x00010496   0x00000002   PAD
-    0x00010498   0x00010498   0x00000006   Code   RO         2539    .text.vListInitialiseItem  list.o
-    0x0001049e   0x0001049e   0x00000002   PAD
-    0x000104a0   0x000104a0   0x0000003a   Code   RO         2543    .text.vListInsert   list.o
-    0x000104da   0x000104da   0x00000002   PAD
-    0x000104dc   0x000104dc   0x0000001c   Code   RO         2541    .text.vListInsertEnd  list.o
-    0x000104f8   0x000104f8   0x00000014   Code   RO         2926    .text.vPortEnableVFP  port.o
-    0x0001050c   0x0001050c   0x00000046   Code   RO         2932    .text.vPortEnterCritical  port.o
-    0x00010552   0x00010552   0x00000002   PAD
-    0x00010554   0x00010554   0x0000002e   Code   RO         2934    .text.vPortExitCritical  port.o
-    0x00010582   0x00010582   0x00000002   PAD
-    0x00010584   0x00010584   0x0000001e   Code   RO         2346    .text.vPortFree     heap_3.o
-    0x000105a2   0x000105a2   0x00000002   PAD
-    0x000105a4   0x000105a4   0x00000034   Code   RO         2924    .text.vPortSetupTimerInterrupt  port.o
-    0x000105d8   0x000105d8   0x00000062   Code   RO         2940    .text.vPortValidateInterruptPriority  port.o
-    0x0001063a   0x0001063a   0x00000002   PAD
-    0x0001063c   0x0001063c   0x00000028   Code   RO         2619    .text.vQueueAddToRegistry  queue.o
-    0x00010664   0x00010664   0x00000026   Code   RO         2605    .text.vQueueDelete  queue.o
-    0x0001068a   0x0001068a   0x00000002   PAD
-    0x0001068c   0x0001068c   0x0000002a   Code   RO         2607    .text.vQueueUnregisterQueue  queue.o
-    0x000106b6   0x000106b6   0x00000002   PAD
-    0x000106b8   0x000106b8   0x00000044   Code   RO         2623    .text.vQueueWaitForMessageRestricted  queue.o
-    0x000106fc   0x000106fc   0x00000054   Code   RO         2710    .text.vTaskDelay    tasks.o
-    0x00010750   0x00010750   0x000000f6   Code   RO         2696    .text.vTaskDelete   tasks.o
-    0x00010846   0x00010846   0x00000002   PAD
-    0x00010848   0x00010848   0x0000001a   Code   RO         2764    .text.vTaskInternalSetTimeOutState  tasks.o
-    0x00010862   0x00010862   0x00000002   PAD
-    0x00010864   0x00010864   0x0000000e   Code   RO         2768    .text.vTaskMissedYield  tasks.o
-    0x00010872   0x00010872   0x00000002   PAD
-    0x00010874   0x00010874   0x00000032   Code   RO         2752    .text.vTaskPlaceOnEventList  tasks.o
-    0x000108a6   0x000108a6   0x00000002   PAD
-    0x000108a8   0x000108a8   0x0000003e   Code   RO         2756    .text.vTaskPlaceOnEventListRestricted  tasks.o
-    0x000108e6   0x000108e6   0x00000002   PAD
-    0x000108e8   0x000108e8   0x0000005a   Code   RO         2754    .text.vTaskPlaceOnUnorderedEventList  tasks.o
-    0x00010942   0x00010942   0x00000002   PAD
-    0x00010944   0x00010944   0x000000ba   Code   RO         2790    .text.vTaskPriorityDisinheritAfterTimeout  tasks.o
-    0x000109fe   0x000109fe   0x00000002   PAD
-    0x00010a00   0x00010a00   0x00000096   Code   RO         2760    .text.vTaskRemoveFromUnorderedEventList  tasks.o
-    0x00010a96   0x00010a96   0x00000002   PAD
-    0x00010a98   0x00010a98   0x0000009c   Code   RO         2730    .text.vTaskStartScheduler  tasks.o
-    0x00010b34   0x00010b34   0x00000010   Code   RO         2704    .text.vTaskSuspendAll  tasks.o
-    0x00010b44   0x00010b44   0x00000086   Code   RO         2722    .text.vTaskSwitchContext  tasks.o
-    0x00010bca   0x00010bca   0x00000002   PAD
-    0x00010bcc   0x00010bcc   0x0000001c   Code   RO         2501    .text.xEventGroupCreate  event_groups.o
-    0x00010be8   0x00010be8   0x0000009e   Code   RO         2505    .text.xEventGroupSetBits  event_groups.o
-    0x00010c86   0x00010c86   0x00000002   PAD
-    0x00010c88   0x00010c88   0x00000016   Code   RO         2523    .text.xEventGroupSetBitsFromISR  event_groups.o
+    0x0000f778   0x0000f778   0x00000128   Code   RO          137    .text.tcpecho_thread  tcpecho.o
+    0x0000f8a0   0x0000f8a0   0x00000018   Code   RO          471    .text.tcpip_api_call  tcpip.o
+    0x0000f8b8   0x0000f8b8   0x000000c0   Code   RO          483    .text.tcpip_init    tcpip.o
+    0x0000f978   0x0000f978   0x00000060   Code   RO          461    .text.tcpip_inpkt   tcpip.o
+    0x0000f9d8   0x0000f9d8   0x00000024   Code   RO          463    .text.tcpip_input   tcpip.o
+    0x0000f9fc   0x0000f9fc   0x00000016   Code   RO          469    .text.tcpip_send_msg_wait_sem  tcpip.o
+    0x0000fa12   0x0000fa12   0x00000002   PAD
+    0x0000fa14   0x0000fa14   0x0000003e   Code   RO          957    .text.tcpip_tcp_timer  timeouts.o
+    0x0000fa52   0x0000fa52   0x00000002   PAD
+    0x0000fa54   0x0000fa54   0x00000048   Code   RO          485    .text.tcpip_thread  tcpip.o
+    0x0000fa9c   0x0000fa9c   0x00000048   Code   RO          495    .text.tcpip_thread_handle_msg  tcpip.o
+    0x0000fae4   0x0000fae4   0x0000005c   Code   RO          493    .text.tcpip_timeouts_mbox_fetch  tcpip.o
+    0x0000fb40   0x0000fb40   0x000000c0   Code   RO         1137    .text.udp_bind      udp.o
+    0x0000fc00   0x0000fc00   0x000000b0   Code   RO         1143    .text.udp_connect   udp.o
+    0x0000fcb0   0x0000fcb0   0x00000002   Code   RO         1123    .text.udp_init      udp.o
+    0x0000fcb2   0x0000fcb2   0x00000002   PAD
+    0x0000fcb4   0x0000fcb4   0x00000214   Code   RO         1125    .text.udp_input     udp.o
+    0x0000fec8   0x0000fec8   0x000000d4   Code   RO         1127    .text.udp_input_local_match  udp.o
+    0x0000ff9c   0x0000ff9c   0x0000003e   Code   RO         1155    .text.udp_netif_ip_addr_changed  udp.o
+    0x0000ffda   0x0000ffda   0x00000002   PAD
+    0x0000ffdc   0x0000ffdc   0x00000022   Code   RO         1151    .text.udp_new       udp.o
+    0x0000fffe   0x0000fffe   0x00000002   PAD
+    0x00010000   0x00010000   0x0000000c   Code   RO         1153    .text.udp_new_ip_type  udp.o
+    0x0001000c   0x0001000c   0x00000062   Code   RO         1139    .text.udp_new_port  udp.o
+    0x0001006e   0x0001006e   0x00000002   PAD
+    0x00010070   0x00010070   0x00000044   Code   RO         1147    .text.udp_recv      udp.o
+    0x000100b4   0x000100b4   0x00000064   Code   RO         1149    .text.udp_remove    udp.o
+    0x00010118   0x00010118   0x00000118   Code   RO         1133    .text.udp_sendto_if  udp.o
+    0x00010230   0x00010230   0x000001f8   Code   RO         1135    .text.udp_sendto_if_src  udp.o
+    0x00010428   0x00010428   0x00000024   Code   RO         2545    .text.uxListRemove  list.o
+    0x0001044c   0x0001044c   0x00000026   Code   RO         2599    .text.uxQueueMessagesWaiting  queue.o
+    0x00010472   0x00010472   0x00000002   PAD
+    0x00010474   0x00010474   0x0000001a   Code   RO         2796    .text.uxTaskResetEventItemValue  tasks.o
+    0x0001048e   0x0001048e   0x00000002   PAD
+    0x00010490   0x00010490   0x00000008   Code   RO         2521    .text.vEventGroupSetBitsCallback  event_groups.o
+    0x00010498   0x00010498   0x00000016   Code   RO         2537    .text.vListInitialise  list.o
+    0x000104ae   0x000104ae   0x00000002   PAD
+    0x000104b0   0x000104b0   0x00000006   Code   RO         2539    .text.vListInitialiseItem  list.o
+    0x000104b6   0x000104b6   0x00000002   PAD
+    0x000104b8   0x000104b8   0x0000003a   Code   RO         2543    .text.vListInsert   list.o
+    0x000104f2   0x000104f2   0x00000002   PAD
+    0x000104f4   0x000104f4   0x0000001c   Code   RO         2541    .text.vListInsertEnd  list.o
+    0x00010510   0x00010510   0x00000014   Code   RO         2926    .text.vPortEnableVFP  port.o
+    0x00010524   0x00010524   0x00000046   Code   RO         2932    .text.vPortEnterCritical  port.o
+    0x0001056a   0x0001056a   0x00000002   PAD
+    0x0001056c   0x0001056c   0x0000002e   Code   RO         2934    .text.vPortExitCritical  port.o
+    0x0001059a   0x0001059a   0x00000002   PAD
+    0x0001059c   0x0001059c   0x0000001e   Code   RO         2346    .text.vPortFree     heap_3.o
+    0x000105ba   0x000105ba   0x00000002   PAD
+    0x000105bc   0x000105bc   0x00000034   Code   RO         2924    .text.vPortSetupTimerInterrupt  port.o
+    0x000105f0   0x000105f0   0x00000062   Code   RO         2940    .text.vPortValidateInterruptPriority  port.o
+    0x00010652   0x00010652   0x00000002   PAD
+    0x00010654   0x00010654   0x00000028   Code   RO         2619    .text.vQueueAddToRegistry  queue.o
+    0x0001067c   0x0001067c   0x00000026   Code   RO         2605    .text.vQueueDelete  queue.o
+    0x000106a2   0x000106a2   0x00000002   PAD
+    0x000106a4   0x000106a4   0x0000002a   Code   RO         2607    .text.vQueueUnregisterQueue  queue.o
+    0x000106ce   0x000106ce   0x00000002   PAD
+    0x000106d0   0x000106d0   0x00000044   Code   RO         2623    .text.vQueueWaitForMessageRestricted  queue.o
+    0x00010714   0x00010714   0x00000054   Code   RO         2710    .text.vTaskDelay    tasks.o
+    0x00010768   0x00010768   0x000000f6   Code   RO         2696    .text.vTaskDelete   tasks.o
+    0x0001085e   0x0001085e   0x00000002   PAD
+    0x00010860   0x00010860   0x0000001a   Code   RO         2764    .text.vTaskInternalSetTimeOutState  tasks.o
+    0x0001087a   0x0001087a   0x00000002   PAD
+    0x0001087c   0x0001087c   0x0000000e   Code   RO         2768    .text.vTaskMissedYield  tasks.o
+    0x0001088a   0x0001088a   0x00000002   PAD
+    0x0001088c   0x0001088c   0x00000032   Code   RO         2752    .text.vTaskPlaceOnEventList  tasks.o
+    0x000108be   0x000108be   0x00000002   PAD
+    0x000108c0   0x000108c0   0x0000003e   Code   RO         2756    .text.vTaskPlaceOnEventListRestricted  tasks.o
+    0x000108fe   0x000108fe   0x00000002   PAD
+    0x00010900   0x00010900   0x0000005a   Code   RO         2754    .text.vTaskPlaceOnUnorderedEventList  tasks.o
+    0x0001095a   0x0001095a   0x00000002   PAD
+    0x0001095c   0x0001095c   0x000000ba   Code   RO         2790    .text.vTaskPriorityDisinheritAfterTimeout  tasks.o
+    0x00010a16   0x00010a16   0x00000002   PAD
+    0x00010a18   0x00010a18   0x00000096   Code   RO         2760    .text.vTaskRemoveFromUnorderedEventList  tasks.o
+    0x00010aae   0x00010aae   0x00000002   PAD
+    0x00010ab0   0x00010ab0   0x0000009c   Code   RO         2730    .text.vTaskStartScheduler  tasks.o
+    0x00010b4c   0x00010b4c   0x00000010   Code   RO         2704    .text.vTaskSuspendAll  tasks.o
+    0x00010b5c   0x00010b5c   0x00000086   Code   RO         2722    .text.vTaskSwitchContext  tasks.o
+    0x00010be2   0x00010be2   0x00000002   PAD
+    0x00010be4   0x00010be4   0x0000001c   Code   RO         2501    .text.xEventGroupCreate  event_groups.o
+    0x00010c00   0x00010c00   0x0000009e   Code   RO         2505    .text.xEventGroupSetBits  event_groups.o
     0x00010c9e   0x00010c9e   0x00000002   PAD
-    0x00010ca0   0x00010ca0   0x00000120   Code   RO         2507    .text.xEventGroupWaitBits  event_groups.o
-    0x00010dc0   0x00010dc0   0x00000112   Code   RO         2922    .text.xPortStartScheduler  port.o
-    0x00010ed2   0x00010ed2   0x00000002   PAD
-    0x00010ed4   0x00010ed4   0x00000042   Code   RO         2573    .text.xQueueCreateCountingSemaphore  queue.o
-    0x00010f16   0x00010f16   0x00000002   PAD
-    0x00010f18   0x00010f18   0x00000016   Code   RO         2561    .text.xQueueCreateMutex  queue.o
+    0x00010ca0   0x00010ca0   0x00000016   Code   RO         2523    .text.xEventGroupSetBitsFromISR  event_groups.o
+    0x00010cb6   0x00010cb6   0x00000002   PAD
+    0x00010cb8   0x00010cb8   0x00000120   Code   RO         2507    .text.xEventGroupWaitBits  event_groups.o
+    0x00010dd8   0x00010dd8   0x00000112   Code   RO         2922    .text.xPortStartScheduler  port.o
+    0x00010eea   0x00010eea   0x00000002   PAD
+    0x00010eec   0x00010eec   0x00000042   Code   RO         2573    .text.xQueueCreateCountingSemaphore  queue.o
     0x00010f2e   0x00010f2e   0x00000002   PAD
-    0x00010f30   0x00010f30   0x00000070   Code   RO         2557    .text.xQueueGenericCreate  queue.o
-    0x00010fa0   0x00010fa0   0x0000007e   Code   RO         2555    .text.xQueueGenericReset  queue.o
-    0x0001101e   0x0001101e   0x00000002   PAD
-    0x00011020   0x00011020   0x000001a2   Code   RO         2567    .text.xQueueGenericSend  queue.o
-    0x000111c2   0x000111c2   0x00000002   PAD
-    0x000111c4   0x000111c4   0x000000e8   Code   RO         2581    .text.xQueueGenericSendFromISR  queue.o
-    0x000112ac   0x000112ac   0x00000184   Code   RO         2585    .text.xQueueReceive  queue.o
-    0x00011430   0x00011430   0x000001c6   Code   RO         2571    .text.xQueueSemaphoreTake  queue.o
-    0x000115f6   0x000115f6   0x00000002   PAD
-    0x000115f8   0x000115f8   0x0000008c   Code   RO         2766    .text.xTaskCheckForTimeOut  tasks.o
-    0x00011684   0x00011684   0x00000060   Code   RO         2690    .text.xTaskCreate   tasks.o
-    0x000116e4   0x000116e4   0x0000000c   Code   RO         2782    .text.xTaskGetCurrentTaskHandle  tasks.o
-    0x000116f0   0x000116f0   0x00000026   Code   RO         2784    .text.xTaskGetSchedulerState  tasks.o
-    0x00011716   0x00011716   0x00000002   PAD
-    0x00011718   0x00011718   0x0000000c   Code   RO         2738    .text.xTaskGetTickCount  tasks.o
-    0x00011724   0x00011724   0x00000148   Code   RO         2736    .text.xTaskIncrementTick  tasks.o
-    0x0001186c   0x0001186c   0x000000aa   Code   RO         2788    .text.xTaskPriorityDisinherit  tasks.o
-    0x00011916   0x00011916   0x00000002   PAD
-    0x00011918   0x00011918   0x000000aa   Code   RO         2786    .text.xTaskPriorityInherit  tasks.o
-    0x000119c2   0x000119c2   0x00000002   PAD
-    0x000119c4   0x000119c4   0x00000090   Code   RO         2758    .text.xTaskRemoveFromEventList  tasks.o
-    0x00011a54   0x00011a54   0x00000118   Code   RO         2708    .text.xTaskResumeAll  tasks.o
-    0x00011b6c   0x00011b6c   0x00000060   Code   RO         2849    .text.xTimerCreateTimerTask  timers.o
-    0x00011bcc   0x00011bcc   0x00000068   Code   RO         2859    .text.xTimerGenericCommand  timers.o
-    0x00011c34   0x00011c34   0x0000002a   Code   RO         2879    .text.xTimerPendFunctionCallFromISR  timers.o
-    0x00011c5e   0x00011c5e   0x00000002   PAD
-    0x00011c60   0x00011c60   0x00000050   Code   RO         3268    i.__free$2region    mc_w.l(malloc2.o)
-    0x00011cb0   0x00011cb0   0x0000006c   Code   RO         3269    i.__malloc$2region  mc_w.l(malloc2.o)
-    0x00011d1c   0x00011d1c   0x0000000e   Code   RO         3374    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x00011d2a   0x00011d2a   0x00000002   Code   RO         3375    i.__scatterload_null  mc_w.l(handlers.o)
-    0x00011d2c   0x00011d2c   0x0000000e   Code   RO         3376    i.__scatterload_zeroinit  mc_w.l(handlers.o)
-    0x00011d3a   0x00011d3a   0x00000002   PAD
-    0x00011d3c   0x00011d3c   0x0000000c   Data   RO           10    .rodata..L__const.stack_init.enet_config  lwip_tcpecho_freertos.o
-    0x00011d48   0x00011d48   0x00000003   Data   RO         1375    .rodata.dhcp_discover_request_options  dhcp.o
-    0x00011d4b   0x00011d4b   0x00000001   PAD
-    0x00011d4c   0x00011d4c   0x00000014   Data   RO           94    .rodata.enet_ops    fsl_enet_mdio.o
-    0x00011d60   0x00011d60   0x00000006   Data   RO         1548    .rodata.ethbroadcast  ethernet.o
-    0x00011d66   0x00011d66   0x00000006   Data   RO         1549    .rodata.ethzero     ethernet.o
-    0x00011d6c   0x00011d6c   0x00000004   Data   RO         1481    .rodata.ip_addr_any  ip4_addr.o
-    0x00011d70   0x00011d70   0x00000004   Data   RO         1482    .rodata.ip_addr_broadcast  ip4_addr.o
-    0x00011d74   0x00011d74   0x00000028   Data   RO          973    .rodata.lwip_cyclic_timers  timeouts.o
-    0x00011d9c   0x00011d9c   0x0000000b   Data   RO           65    .rodata.mcgConfig_BOARD_BootClockRUN  clock_config.o
-    0x00011da7   0x00011da7   0x00000001   PAD
-    0x00011da8   0x00011da8   0x00000010   Data   RO          706    .rodata.memp_FRAG_PBUF  memp.o
-    0x00011db8   0x00011db8   0x00000010   Data   RO          709    .rodata.memp_NETBUF  memp.o
-    0x00011dc8   0x00011dc8   0x00000010   Data   RO          712    .rodata.memp_NETCONN  memp.o
-    0x00011dd8   0x00011dd8   0x00000010   Data   RO          724    .rodata.memp_PBUF   memp.o
-    0x00011de8   0x00011de8   0x00000010   Data   RO          727    .rodata.memp_PBUF_POOL  memp.o
-    0x00011df8   0x00011df8   0x00000010   Data   RO          703    .rodata.memp_REASSDATA  memp.o
-    0x00011e08   0x00011e08   0x00000010   Data   RO          721    .rodata.memp_SYS_TIMEOUT  memp.o
-    0x00011e18   0x00011e18   0x00000010   Data   RO          715    .rodata.memp_TCPIP_MSG_API  memp.o
-    0x00011e28   0x00011e28   0x00000010   Data   RO          718    .rodata.memp_TCPIP_MSG_INPKT  memp.o
-    0x00011e38   0x00011e38   0x00000010   Data   RO          694    .rodata.memp_TCP_PCB  memp.o
-    0x00011e48   0x00011e48   0x00000010   Data   RO          697    .rodata.memp_TCP_PCB_LISTEN  memp.o
-    0x00011e58   0x00011e58   0x00000010   Data   RO          700    .rodata.memp_TCP_SEG  memp.o
-    0x00011e68   0x00011e68   0x00000010   Data   RO          691    .rodata.memp_UDP_PCB  memp.o
-    0x00011e78   0x00011e78   0x00000034   Data   RO          728    .rodata.memp_pools  memp.o
-    0x00011eac   0x00011eac   0x00000001   Data   RO          568    .rodata.netconn_aborted  api_msg.o
-    0x00011ead   0x00011ead   0x00000001   Data   RO          570    .rodata.netconn_closed  api_msg.o
-    0x00011eae   0x00011eae   0x00000001   Data   RO          569    .rodata.netconn_reset  api_msg.o
-    0x00011eaf   0x00011eaf   0x00000001   PAD
-    0x00011eb0   0x00011eb0   0x00000008   Data   RO           67    .rodata.oscConfig_BOARD_BootClockRUN  clock_config.o
-    0x00011eb8   0x00011eb8   0x00000020   Data   RO          125    .rodata.phyksz8081_ops  fsl_phyksz8081.o
-    0x00011ed8   0x00011ed8   0x00000018   Data   RO         2386    .rodata.s_UartAdapterBase  fsl_adapter_uart.o
-    0x00011ef0   0x00011ef0   0x00000004   Data   RO         1718    .rodata.s_enetClock  fsl_enet.o
-    0x00011ef4   0x00011ef4   0x00000018   Data   RO         2161    .rodata.s_uartClock  fsl_uart.o
-    0x00011f0c   0x00011f0c   0x00000008   Data   RO           66    .rodata.simConfig_BOARD_BootClockRUN  clock_config.o
-    0x00011f14   0x00011f14   0x00000035   Data   RO           12    .rodata.str1.1      lwip_tcpecho_freertos.o
-    0x00011f49   0x00011f49   0x00000063   Data   RO          126    .rodata.str1.1      fsl_phyksz8081.o
-    0x00011fac   0x00011fac   0x00000069   Data   RO          163    .rodata.str1.1      enet_ethernetif.o
-    0x00012015   0x00012015   0x0000008e   Data   RO          207    .rodata.str1.1      enet_ethernetif_kinetis.o
-    0x000120a3   0x000120a3   0x0000002b   Data   RO          498    .rodata.str1.1      tcpip.o
-    0x000120ce   0x000120ce   0x000000e6   Data   RO          571    .rodata.str1.1      api_msg.o
-    0x000121b4   0x000121b4   0x0000005d   Data   RO          663    .rodata.str1.1      api_lib.o
-    0x00012211   0x00012211   0x0000008b   Data   RO          688    .rodata.str1.1      memp.o
-    0x0001229c   0x0001229c   0x000000d7   Data   RO          835    .rodata.str1.1      pbuf.o
-    0x00012373   0x00012373   0x0000028d   Data   RO          899    .rodata.str1.1      tcp_out.o
-    0x00012600   0x00012600   0x00000123   Data   RO         1014    .rodata.str1.1      tcp_in.o
-    0x00012723   0x00012723   0x00000059   Data   RO         1114    .rodata.str1.1      mem.o
-    0x0001277c   0x0001277c   0x00000061   Data   RO         1158    .rodata.str1.1      udp.o
-    0x000127dd   0x000127dd   0x00000186   Data   RO         1278    .rodata.str1.1      tcp.o
-    0x00012963   0x00012963   0x00000042   Data   RO         1373    .rodata.str1.1      dhcp.o
-    0x000129a5   0x000129a5   0x0000000c   Data   RO         1400    .rodata.str1.1      ip4.o
-    0x000129b1   0x000129b1   0x0000006d   Data   RO         1457    .rodata.str1.1      etharp.o
-    0x00012a1e   0x00012a1e   0x0000019b   Data   RO         1719    .rodata.str1.1      fsl_enet.o
-    0x00012bb9   0x00012bb9   0x0000003d   Data   RO         1865    .rodata.str1.1      fsl_clock.o
-    0x00012bf6   0x00012bf6   0x000000c1   Data   RO         2160    .rodata.str1.1      fsl_uart.o
-    0x00012cb7   0x00012cb7   0x00000081   Data   RO         2385    .rodata.str1.1      fsl_adapter_uart.o
-    0x00012d38   0x00012d38   0x0000000d   Data   RO         1282    .rodata.tcp_backoff  tcp.o
-    0x00012d45   0x00012d45   0x00000003   PAD
-    0x00012d48   0x00012d48   0x00000010   Data   RO         1276    .rodata.tcp_pcb_lists  tcp.o
-    0x00012d58   0x00012d58   0x00000004   Data   RO         2819    .rodata.uxTopUsedPriority  tasks.o
-    0x00012d5c   0x00012d5c   0x00000020   Data   RO         3373    Region$$Table       anon$$obj.o
+    0x00010f30   0x00010f30   0x00000016   Code   RO         2561    .text.xQueueCreateMutex  queue.o
+    0x00010f46   0x00010f46   0x00000002   PAD
+    0x00010f48   0x00010f48   0x00000070   Code   RO         2557    .text.xQueueGenericCreate  queue.o
+    0x00010fb8   0x00010fb8   0x0000007e   Code   RO         2555    .text.xQueueGenericReset  queue.o
+    0x00011036   0x00011036   0x00000002   PAD
+    0x00011038   0x00011038   0x000001a2   Code   RO         2567    .text.xQueueGenericSend  queue.o
+    0x000111da   0x000111da   0x00000002   PAD
+    0x000111dc   0x000111dc   0x000000e8   Code   RO         2581    .text.xQueueGenericSendFromISR  queue.o
+    0x000112c4   0x000112c4   0x00000184   Code   RO         2585    .text.xQueueReceive  queue.o
+    0x00011448   0x00011448   0x000001c6   Code   RO         2571    .text.xQueueSemaphoreTake  queue.o
+    0x0001160e   0x0001160e   0x00000002   PAD
+    0x00011610   0x00011610   0x0000008c   Code   RO         2766    .text.xTaskCheckForTimeOut  tasks.o
+    0x0001169c   0x0001169c   0x00000060   Code   RO         2690    .text.xTaskCreate   tasks.o
+    0x000116fc   0x000116fc   0x0000000c   Code   RO         2782    .text.xTaskGetCurrentTaskHandle  tasks.o
+    0x00011708   0x00011708   0x00000026   Code   RO         2784    .text.xTaskGetSchedulerState  tasks.o
+    0x0001172e   0x0001172e   0x00000002   PAD
+    0x00011730   0x00011730   0x0000000c   Code   RO         2738    .text.xTaskGetTickCount  tasks.o
+    0x0001173c   0x0001173c   0x00000148   Code   RO         2736    .text.xTaskIncrementTick  tasks.o
+    0x00011884   0x00011884   0x000000aa   Code   RO         2788    .text.xTaskPriorityDisinherit  tasks.o
+    0x0001192e   0x0001192e   0x00000002   PAD
+    0x00011930   0x00011930   0x000000aa   Code   RO         2786    .text.xTaskPriorityInherit  tasks.o
+    0x000119da   0x000119da   0x00000002   PAD
+    0x000119dc   0x000119dc   0x00000090   Code   RO         2758    .text.xTaskRemoveFromEventList  tasks.o
+    0x00011a6c   0x00011a6c   0x00000118   Code   RO         2708    .text.xTaskResumeAll  tasks.o
+    0x00011b84   0x00011b84   0x00000060   Code   RO         2849    .text.xTimerCreateTimerTask  timers.o
+    0x00011be4   0x00011be4   0x00000068   Code   RO         2859    .text.xTimerGenericCommand  timers.o
+    0x00011c4c   0x00011c4c   0x0000002a   Code   RO         2879    .text.xTimerPendFunctionCallFromISR  timers.o
+    0x00011c76   0x00011c76   0x00000002   PAD
+    0x00011c78   0x00011c78   0x00000050   Code   RO         3268    i.__free$2region    mc_w.l(malloc2.o)
+    0x00011cc8   0x00011cc8   0x0000006c   Code   RO         3269    i.__malloc$2region  mc_w.l(malloc2.o)
+    0x00011d34   0x00011d34   0x0000000e   Code   RO         3374    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x00011d42   0x00011d42   0x00000002   Code   RO         3375    i.__scatterload_null  mc_w.l(handlers.o)
+    0x00011d44   0x00011d44   0x0000000e   Code   RO         3376    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x00011d52   0x00011d52   0x00000002   PAD
+    0x00011d54   0x00011d54   0x0000000c   Data   RO           10    .rodata..L__const.stack_init.enet_config  lwip_tcpecho_freertos.o
+    0x00011d60   0x00011d60   0x00000003   Data   RO         1375    .rodata.dhcp_discover_request_options  dhcp.o
+    0x00011d63   0x00011d63   0x00000001   PAD
+    0x00011d64   0x00011d64   0x00000014   Data   RO           94    .rodata.enet_ops    fsl_enet_mdio.o
+    0x00011d78   0x00011d78   0x00000006   Data   RO         1548    .rodata.ethbroadcast  ethernet.o
+    0x00011d7e   0x00011d7e   0x00000006   Data   RO         1549    .rodata.ethzero     ethernet.o
+    0x00011d84   0x00011d84   0x00000004   Data   RO         1481    .rodata.ip_addr_any  ip4_addr.o
+    0x00011d88   0x00011d88   0x00000004   Data   RO         1482    .rodata.ip_addr_broadcast  ip4_addr.o
+    0x00011d8c   0x00011d8c   0x00000028   Data   RO          973    .rodata.lwip_cyclic_timers  timeouts.o
+    0x00011db4   0x00011db4   0x0000000b   Data   RO           65    .rodata.mcgConfig_BOARD_BootClockRUN  clock_config.o
+    0x00011dbf   0x00011dbf   0x00000001   PAD
+    0x00011dc0   0x00011dc0   0x00000010   Data   RO          706    .rodata.memp_FRAG_PBUF  memp.o
+    0x00011dd0   0x00011dd0   0x00000010   Data   RO          709    .rodata.memp_NETBUF  memp.o
+    0x00011de0   0x00011de0   0x00000010   Data   RO          712    .rodata.memp_NETCONN  memp.o
+    0x00011df0   0x00011df0   0x00000010   Data   RO          724    .rodata.memp_PBUF   memp.o
+    0x00011e00   0x00011e00   0x00000010   Data   RO          727    .rodata.memp_PBUF_POOL  memp.o
+    0x00011e10   0x00011e10   0x00000010   Data   RO          703    .rodata.memp_REASSDATA  memp.o
+    0x00011e20   0x00011e20   0x00000010   Data   RO          721    .rodata.memp_SYS_TIMEOUT  memp.o
+    0x00011e30   0x00011e30   0x00000010   Data   RO          715    .rodata.memp_TCPIP_MSG_API  memp.o
+    0x00011e40   0x00011e40   0x00000010   Data   RO          718    .rodata.memp_TCPIP_MSG_INPKT  memp.o
+    0x00011e50   0x00011e50   0x00000010   Data   RO          694    .rodata.memp_TCP_PCB  memp.o
+    0x00011e60   0x00011e60   0x00000010   Data   RO          697    .rodata.memp_TCP_PCB_LISTEN  memp.o
+    0x00011e70   0x00011e70   0x00000010   Data   RO          700    .rodata.memp_TCP_SEG  memp.o
+    0x00011e80   0x00011e80   0x00000010   Data   RO          691    .rodata.memp_UDP_PCB  memp.o
+    0x00011e90   0x00011e90   0x00000034   Data   RO          728    .rodata.memp_pools  memp.o
+    0x00011ec4   0x00011ec4   0x00000001   Data   RO          568    .rodata.netconn_aborted  api_msg.o
+    0x00011ec5   0x00011ec5   0x00000001   Data   RO          570    .rodata.netconn_closed  api_msg.o
+    0x00011ec6   0x00011ec6   0x00000001   Data   RO          569    .rodata.netconn_reset  api_msg.o
+    0x00011ec7   0x00011ec7   0x00000001   PAD
+    0x00011ec8   0x00011ec8   0x00000008   Data   RO           67    .rodata.oscConfig_BOARD_BootClockRUN  clock_config.o
+    0x00011ed0   0x00011ed0   0x00000020   Data   RO          125    .rodata.phyksz8081_ops  fsl_phyksz8081.o
+    0x00011ef0   0x00011ef0   0x00000018   Data   RO         2386    .rodata.s_UartAdapterBase  fsl_adapter_uart.o
+    0x00011f08   0x00011f08   0x00000004   Data   RO         1718    .rodata.s_enetClock  fsl_enet.o
+    0x00011f0c   0x00011f0c   0x00000018   Data   RO         2161    .rodata.s_uartClock  fsl_uart.o
+    0x00011f24   0x00011f24   0x00000008   Data   RO           66    .rodata.simConfig_BOARD_BootClockRUN  clock_config.o
+    0x00011f2c   0x00011f2c   0x00000035   Data   RO           12    .rodata.str1.1      lwip_tcpecho_freertos.o
+    0x00011f61   0x00011f61   0x00000063   Data   RO          126    .rodata.str1.1      fsl_phyksz8081.o
+    0x00011fc4   0x00011fc4   0x00000069   Data   RO          163    .rodata.str1.1      enet_ethernetif.o
+    0x0001202d   0x0001202d   0x0000008e   Data   RO          207    .rodata.str1.1      enet_ethernetif_kinetis.o
+    0x000120bb   0x000120bb   0x0000002b   Data   RO          498    .rodata.str1.1      tcpip.o
+    0x000120e6   0x000120e6   0x000000e6   Data   RO          571    .rodata.str1.1      api_msg.o
+    0x000121cc   0x000121cc   0x0000005d   Data   RO          663    .rodata.str1.1      api_lib.o
+    0x00012229   0x00012229   0x0000008b   Data   RO          688    .rodata.str1.1      memp.o
+    0x000122b4   0x000122b4   0x000000d7   Data   RO          835    .rodata.str1.1      pbuf.o
+    0x0001238b   0x0001238b   0x0000028d   Data   RO          899    .rodata.str1.1      tcp_out.o
+    0x00012618   0x00012618   0x00000123   Data   RO         1014    .rodata.str1.1      tcp_in.o
+    0x0001273b   0x0001273b   0x00000059   Data   RO         1114    .rodata.str1.1      mem.o
+    0x00012794   0x00012794   0x00000061   Data   RO         1158    .rodata.str1.1      udp.o
+    0x000127f5   0x000127f5   0x00000186   Data   RO         1278    .rodata.str1.1      tcp.o
+    0x0001297b   0x0001297b   0x00000042   Data   RO         1373    .rodata.str1.1      dhcp.o
+    0x000129bd   0x000129bd   0x0000000c   Data   RO         1400    .rodata.str1.1      ip4.o
+    0x000129c9   0x000129c9   0x0000006d   Data   RO         1457    .rodata.str1.1      etharp.o
+    0x00012a36   0x00012a36   0x0000019b   Data   RO         1719    .rodata.str1.1      fsl_enet.o
+    0x00012bd1   0x00012bd1   0x0000003d   Data   RO         1865    .rodata.str1.1      fsl_clock.o
+    0x00012c0e   0x00012c0e   0x000000c1   Data   RO         2160    .rodata.str1.1      fsl_uart.o
+    0x00012ccf   0x00012ccf   0x00000081   Data   RO         2385    .rodata.str1.1      fsl_adapter_uart.o
+    0x00012d50   0x00012d50   0x0000000d   Data   RO         1282    .rodata.tcp_backoff  tcp.o
+    0x00012d5d   0x00012d5d   0x00000003   PAD
+    0x00012d60   0x00012d60   0x00000010   Data   RO         1276    .rodata.tcp_pcb_lists  tcp.o
+    0x00012d70   0x00012d70   0x00000004   Data   RO         2819    .rodata.uxTopUsedPriority  tasks.o
+    0x00012d74   0x00012d74   0x00000020   Data   RO         3373    Region$$Table       anon$$obj.o
 
 
-    Execution Region RW_m_data (Exec base: 0x1fff0000, Load base: 0x00012d7c, Size: 0x00000000, Max: 0x00010000, ABSOLUTE)
+    Execution Region RW_m_data (Exec base: 0x1fff0000, Load base: 0x00012d94, Size: 0x00000000, Max: 0x00010000, ABSOLUTE)
 
     **** No section assigned to this execution region ****
 
 
-    Execution Region RW_m_data_2 (Exec base: 0x20000000, Load base: 0x00012d80, Size: 0x0000df7c, Max: 0x00029400, ABSOLUTE)
+    Execution Region RW_m_data_2 (Exec base: 0x20000000, Load base: 0x00012da0, Size: 0x0000df7c, Max: 0x00029400, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x00012d80   0x00000004   Data   RW         3345    .data               mc_w.l(mvars.o)
-    0x20000004   0x00012d84   0x00000004   Data   RW         3346    .data               mc_w.l(mvars.o)
-    0x20000008   0x00012d88   0x00000004   Data   RW         2362    .data.SystemCoreClock  system_mk64f12.o
-    0x2000000c   0x00012d8c   0x00000004   Data   RW         1379    .data.dhcp_create_msg.xid  dhcp.o
-    0x20000010   0x00012d90   0x0000000c   Data   RW           11    .data.mdioHandle    lwip_tcpecho_freertos.o
-    0x2000001c   0x00012d9c   0x0000000c   Data   RW            9    .data.phyHandle     lwip_tcpecho_freertos.o
-    0x20000028   0x00012da8   0x00000004   Data   RW         1868    .data.s_fastIrcFreq  fsl_clock.o
-    0x2000002c   0x00012dac   0x00000004   Data   RW         1867    .data.s_slowIrcFreq  fsl_clock.o
-    0x20000030   0x00012db0   0x00000004   Data   RW         2159    .data.s_uartIsr     fsl_uart.o
-    0x20000034   0x00012db4   0x00000004   Data   RW         1283    .data.tcp_next_iss.iss  tcp.o
-    0x20000038   0x00012db8   0x00000002   Data   RW         1284    .data.tcp_port      tcp.o
-    0x2000003a   0x00012dba   0x00000002   Data   RW         1159    .data.udp_port      udp.o
-    0x2000003c   0x00012dbc   0x00000004   Data   RW         2944    .data.uxCriticalNesting  port.o
+    0x20000000   0x00012da0   0x00000004   Data   RW         3345    .data               mc_w.l(mvars.o)
+    0x20000004   0x00012da4   0x00000004   Data   RW         3346    .data               mc_w.l(mvars.o)
+    0x20000008   0x00012da8   0x00000004   Data   RW         2362    .data.SystemCoreClock  system_mk64f12.o
+    0x2000000c   0x00012dac   0x00000004   Data   RW         1379    .data.dhcp_create_msg.xid  dhcp.o
+    0x20000010   0x00012db0   0x0000000c   Data   RW           11    .data.mdioHandle    lwip_tcpecho_freertos.o
+    0x2000001c   0x00012dbc   0x0000000c   Data   RW            9    .data.phyHandle     lwip_tcpecho_freertos.o
+    0x20000028   0x00012dc8   0x00000004   Data   RW         1868    .data.s_fastIrcFreq  fsl_clock.o
+    0x2000002c   0x00012dcc   0x00000004   Data   RW         1867    .data.s_slowIrcFreq  fsl_clock.o
+    0x20000030   0x00012dd0   0x00000004   Data   RW         2159    .data.s_uartIsr     fsl_uart.o
+    0x20000034   0x00012dd4   0x00000004   Data   RW         1283    .data.tcp_next_iss.iss  tcp.o
+    0x20000038   0x00012dd8   0x00000002   Data   RW         1284    .data.tcp_port      tcp.o
+    0x2000003a   0x00012dda   0x00000002   Data   RW         1159    .data.udp_port      udp.o
+    0x2000003c   0x00012ddc   0x00000004   Data   RW         2944    .data.uxCriticalNesting  port.o
     0x20000040        -       0x00000004   Zero   RW         1011    .bss.ackno          tcp_in.o
     0x20000044        -       0x000000f0   Zero   RW         1456    .bss.arp_table      etharp.o
     0x20000134        -       0x00000004   Zero   RW          977    .bss.current_timeout_due_time  timeouts.o
     0x20000138        -       0x00000004   Zero   RW         1374    .bss.dhcp_pcb       dhcp.o
     0x2000013c        -       0x00000001   Zero   RW         1378    .bss.dhcp_pcb_refcount  dhcp.o
     0x2000013d        -       0x00000008   Zero   RW         1377    .bss.dhcp_rx_options_given  dhcp.o
-    0x20000145   0x00012dc0   0x00000003   PAD
+    0x20000145   0x00012de0   0x00000003   PAD
     0x20000148        -       0x00000020   Zero   RW         1376    .bss.dhcp_rx_options_val  dhcp.o
     0x20000168        -       0x000005ee   Zero   RW          208    .bss.enet_get_tx_buffer.ucBuffer  enet_ethernetif_kinetis.o
     0x20000756        -       0x00000001   Zero   RW         1458    .bss.etharp_cached_entry  etharp.o
-    0x20000757   0x00012dc0   0x00000001   PAD
+    0x20000757   0x00012de0   0x00000001   PAD
     0x20000758        -       0x000001e0   Zero   RW          202    .bss.ethernetif0_init.ethernetif_0  enet_ethernetif_kinetis.o
-    0x20000938   0x00012dc0   0x00000008   PAD
+    0x20000938   0x00012de0   0x00000008   PAD
     0x20000940        -       0x00000028   Zero   RW          203    .bss.ethernetif0_init.rxBuffDescrip_0  enet_ethernetif_kinetis.o
-    0x20000968   0x00012dc0   0x00000008   PAD
+    0x20000968   0x00012de0   0x00000008   PAD
     0x20000970        -       0x00003b60   Zero   RW          205    .bss.ethernetif0_init.rxDataBuff_0  enet_ethernetif_kinetis.o
     0x200044d0        -       0x00000018   Zero   RW          204    .bss.ethernetif0_init.txBuffDescrip_0  enet_ethernetif_kinetis.o
-    0x200044e8   0x00012dc0   0x00000008   PAD
+    0x200044e8   0x00012de0   0x00000008   PAD
     0x200044f0        -       0x000011d0   Zero   RW          206    .bss.ethernetif0_init.txDataBuff_0  enet_ethernetif_kinetis.o
     0x200056c0        -       0x00000001   Zero   RW         1012    .bss.flags          tcp_in.o
-    0x200056c1   0x00012dc0   0x00000003   PAD
+    0x200056c1   0x00012de0   0x00000003   PAD
     0x200056c4        -       0x00000004   Zero   RW         2326    .bss.g_serialHandle  fsl_debug_console.o
     0x200056c8        -       0x00000004   Zero   RW         1864    .bss.g_xtal0Freq    fsl_clock.o
     0x200056cc        -       0x00000004   Zero   RW         1866    .bss.g_xtal32Freq   fsl_clock.o
     0x200056d0        -       0x00000004   Zero   RW         1020    .bss.inseg.1        tcp_in.o
     0x200056d4        -       0x00000002   Zero   RW         1021    .bss.inseg.2        tcp_in.o
-    0x200056d6   0x00012dc0   0x00000002   PAD
+    0x200056d6   0x00012de0   0x00000002   PAD
     0x200056d8        -       0x00000004   Zero   RW         1022    .bss.inseg.5        tcp_in.o
     0x200056dc        -       0x00000018   Zero   RW          759    .bss.ip_data        ip.o
     0x200056f4        -       0x00000002   Zero   RW         1401    .bss.ip_id          ip4.o
@@ -9395,7 +9395,7 @@ Memory Map of the image
     0x200056f8        -       0x00000004   Zero   RW         1112    .bss.lfree          mem.o
     0x200056fc        -       0x00000004   Zero   RW          501    .bss.lock_tcpip_core  tcpip.o
     0x20005700        -       0x00000001   Zero   RW          271    .bss.lwip_core_lock_count  sys_arch.o
-    0x20005701   0x00012dc0   0x00000003   PAD
+    0x20005701   0x00012de0   0x00000003   PAD
     0x20005704        -       0x00000004   Zero   RW          272    .bss.lwip_core_lock_holder_thread  sys_arch.o
     0x20005708        -       0x00000004   Zero   RW          273    .bss.lwip_tcpip_thread  sys_arch.o
     0x2000570c        -       0x00000004   Zero   RW         1113    .bss.mem_mutex      mem.o
@@ -9412,7 +9412,7 @@ Memory Map of the image
     0x20007b42        -       0x000005f3   Zero   RW          692    .bss.memp_memory_TCP_PCB_base  memp.o
     0x20008135        -       0x000001bb   Zero   RW          698    .bss.memp_memory_TCP_SEG_base  memp.o
     0x200082f0        -       0x000000c3   Zero   RW          689    .bss.memp_memory_UDP_PCB_base  memp.o
-    0x200083b3   0x00012dc0   0x00000001   PAD
+    0x200083b3   0x00012de0   0x00000001   PAD
     0x200083b4        -       0x00000004   Zero   RW          705    .bss.memp_tab_FRAG_PBUF  memp.o
     0x200083b8        -       0x00000004   Zero   RW          708    .bss.memp_tab_NETBUF  memp.o
     0x200083bc        -       0x00000004   Zero   RW          711    .bss.memp_tab_NETCONN  memp.o
@@ -9429,7 +9429,7 @@ Memory Map of the image
     0x200083e8        -       0x00000004   Zero   RW         1082    .bss.netif_default  netif.o
     0x200083ec        -       0x00000004   Zero   RW         1081    .bss.netif_list     netif.o
     0x200083f0        -       0x00000001   Zero   RW         1080    .bss.netif_num      netif.o
-    0x200083f1   0x00012dc0   0x00000003   PAD
+    0x200083f1   0x00012de0   0x00000003   PAD
     0x200083f4        -       0x00000004   Zero   RW          976    .bss.next_timeout   timeouts.o
     0x200083f8        -       0x00000004   Zero   RW         2905    .bss.prvSampleTimeNow.xLastTime  timers.o
     0x200083fc        -       0x00000004   Zero   RW         2818    .bss.pxCurrentTCB   tasks.o
@@ -9441,16 +9441,16 @@ Memory Map of the image
     0x20008578        -       0x00000004   Zero   RW         1110    .bss.ram            mem.o
     0x2000857c        -       0x00000004   Zero   RW         1111    .bss.ram_end        mem.o
     0x20008580        -       0x00005813   Zero   RW         1109    .bss.ram_heap       mem.o
-    0x2000dd93   0x00012dc0   0x00000001   PAD
+    0x2000dd93   0x00012de0   0x00000001   PAD
     0x2000dd94        -       0x00000004   Zero   RW         1515    .bss.reassdatagrams  ip4_frag.o
     0x2000dd98        -       0x00000002   Zero   RW         1017    .bss.recv_acked     tcp_in.o
-    0x2000dd9a   0x00012dc0   0x00000002   PAD
+    0x2000dd9a   0x00012de0   0x00000002   PAD
     0x2000dd9c        -       0x00000004   Zero   RW         1015    .bss.recv_data      tcp_in.o
     0x2000dda0        -       0x00000001   Zero   RW         1016    .bss.recv_flags     tcp_in.o
-    0x2000dda1   0x00012dc0   0x00000003   PAD
+    0x2000dda1   0x00012de0   0x00000003   PAD
     0x2000dda4        -       0x00000004   Zero   RW         1720    .bss.s_ENETHandle.0  fsl_enet.o
     0x2000dda8        -       0x00000001   Zero   RW         2325    .bss.s_debugConsoleReadWaitSemaphore  fsl_debug_console.o
-    0x2000dda9   0x00012dc0   0x00000003   PAD
+    0x2000dda9   0x00012de0   0x00000003   PAD
     0x2000ddac        -       0x00000020   Zero   RW         2324    .bss.s_debugConsoleState  fsl_debug_console.o
     0x2000ddcc        -       0x00000004   Zero   RW         1723    .bss.s_enetErrIsr.0  fsl_enet.o
     0x2000ddd0        -       0x00000004   Zero   RW         1721    .bss.s_enetRxIsr.0  fsl_enet.o
@@ -9460,31 +9460,31 @@ Memory Map of the image
     0x2000ddf4        -       0x00000034   Zero   RW            8    .bss.stack_init.netif  lwip_tcpecho_freertos.o
     0x2000de28        -       0x00000004   Zero   RW         1274    .bss.tcp_active_pcbs  tcp.o
     0x2000de2c        -       0x00000001   Zero   RW         1279    .bss.tcp_active_pcbs_changed  tcp.o
-    0x2000de2d   0x00012dc0   0x00000003   PAD
+    0x2000de2d   0x00012de0   0x00000003   PAD
     0x2000de30        -       0x00000004   Zero   RW         1273    .bss.tcp_bound_pcbs  tcp.o
     0x2000de34        -       0x00000004   Zero   RW         1018    .bss.tcp_input_pcb  tcp_in.o
     0x2000de38        -       0x00000004   Zero   RW         1272    .bss.tcp_listen_pcbs  tcp.o
     0x2000de3c        -       0x00000002   Zero   RW         1019    .bss.tcp_optidx     tcp_in.o
-    0x2000de3e   0x00012dc0   0x00000002   PAD
+    0x2000de3e   0x00012de0   0x00000002   PAD
     0x2000de40        -       0x00000004   Zero   RW         1280    .bss.tcp_ticks      tcp.o
     0x2000de44        -       0x00000001   Zero   RW         1277    .bss.tcp_timer      tcp.o
     0x2000de45        -       0x00000001   Zero   RW         1281    .bss.tcp_timer_ctr  tcp.o
-    0x2000de46   0x00012dc0   0x00000002   PAD
+    0x2000de46   0x00012de0   0x00000002   PAD
     0x2000de48        -       0x00000004   Zero   RW         1275    .bss.tcp_tw_pcbs    tcp.o
     0x2000de4c        -       0x00000004   Zero   RW         1006    .bss.tcphdr         tcp_in.o
     0x2000de50        -       0x00000002   Zero   RW         1009    .bss.tcphdr_opt1len  tcp_in.o
-    0x2000de52   0x00012dc0   0x00000002   PAD
+    0x2000de52   0x00012de0   0x00000002   PAD
     0x2000de54        -       0x00000004   Zero   RW         1008    .bss.tcphdr_opt2    tcp_in.o
     0x2000de58        -       0x00000002   Zero   RW         1007    .bss.tcphdr_optlen  tcp_in.o
-    0x2000de5a   0x00012dc0   0x00000002   PAD
+    0x2000de5a   0x00012de0   0x00000002   PAD
     0x2000de5c        -       0x00000004   Zero   RW          499    .bss.tcpip_init_done  tcpip.o
     0x2000de60        -       0x00000004   Zero   RW          500    .bss.tcpip_init_done_arg  tcpip.o
     0x2000de64        -       0x00000004   Zero   RW          497    .bss.tcpip_mbox     tcpip.o
     0x2000de68        -       0x00000001   Zero   RW          975    .bss.tcpip_tcp_timer_active  timeouts.o
-    0x2000de69   0x00012dc0   0x00000001   PAD
+    0x2000de69   0x00012de0   0x00000001   PAD
     0x2000de6a        -       0x00000002   Zero   RW         1013    .bss.tcplen         tcp_in.o
     0x2000de6c        -       0x00000001   Zero   RW         2942    .bss.ucMaxSysCallPriority  port.o
-    0x2000de6d   0x00012dc0   0x00000003   PAD
+    0x2000de6d   0x00012de0   0x00000003   PAD
     0x2000de70        -       0x00000004   Zero   RW         1157    .bss.udp_pcbs       udp.o
     0x2000de74        -       0x00000004   Zero   RW         2943    .bss.ulMaxPRIGROUPValue  port.o
     0x2000de78        -       0x00000004   Zero   RW         2825    .bss.uxCurrentNumberOfTasks  tasks.o
@@ -9511,14 +9511,14 @@ Memory Map of the image
     0x2000df78        -       0x00000004   Zero   RW         2832    .bss.xYieldPending  tasks.o
 
 
-    Execution Region ARM_LIB_HEAP (Exec base: 0x2000df7c, Load base: 0x00012dc0, Size: 0x00006400, Max: 0x00006400, ABSOLUTE)
+    Execution Region ARM_LIB_HEAP (Exec base: 0x2000df7c, Load base: 0x00012de0, Size: 0x00006400, Max: 0x00006400, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x2000df7c        -       0x00006400   Zero   RW            1    ARM_LIB_HEAP.bss    anon$$obj.o
 
 
-    Execution Region ARM_LIB_STACK (Exec base: 0x2002f800, Load base: 0x00012dc0, Size: 0x00000800, Max: 0x00000800, ABSOLUTE)
+    Execution Region ARM_LIB_STACK (Exec base: 0x2002f800, Load base: 0x00012de0, Size: 0x00000800, Max: 0x00000800, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
@@ -9580,14 +9580,14 @@ Image component sizes
       5758       1276        419          6         23      24142   tcp.o
       5610        608        291          0         46      13101   tcp_in.o
       6306       1436        653          0          0      23524   tcp_out.o
-       324         68          0          0          0       4022   tcpecho.o
+       348         68          0          0          0       4071   tcpecho.o
        606         88         43          0         16       8195   tcpip.o
        580        120         40          0          9       4632   timeouts.o
       1180         26          0          0         60      12502   timers.o
       2272        524         97          2          4      10879   udp.o
 
     ----------------------------------------------------------------------
-     71304      10412       5200         56      84796     556249   Object Totals
+     71328      10412       5200         56      84796     556298   Object Totals
          0          0         32          0      27648          0   (incl. Generated)
        406          0          6          0         64          0   (incl. Padding)
 
@@ -9636,15 +9636,15 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     71980      10448       5200         64      84796     555961   Grand Totals
-     71980      10448       5200         64      84796     555961   ELF Image Totals
-     71980      10448       5200         64          0          0   ROM Totals
+     72004      10448       5200         64      84796     556010   Grand Totals
+     72004      10448       5200         64      84796     556010   ELF Image Totals
+     72004      10448       5200         64          0          0   ROM Totals
 
 ==============================================================================
 
-    Total RO  Size (Code + RO Data)                77180 (  75.37kB)
+    Total RO  Size (Code + RO Data)                77204 (  75.39kB)
     Total RW  Size (RW Data + ZI Data)             84860 (  82.87kB)
-    Total ROM Size (Code + RO Data + RW Data)      77244 (  75.43kB)
+    Total ROM Size (Code + RO Data + RW Data)      77268 (  75.46kB)
 
 ==============================================================================
 
