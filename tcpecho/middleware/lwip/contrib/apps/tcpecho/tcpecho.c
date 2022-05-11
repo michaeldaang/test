@@ -90,7 +90,7 @@ tcpecho_thread(void *arg)
 
              netbuf_data(buf, &data, &len);
              data = &i;
-             len = 3;
+             len = 1;
              PRINTF("input time is: %ld \n",time);
 //             PRINTF("input i is %d",i);
 //             PRINTF("input data is %d",data);
