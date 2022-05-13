@@ -14,7 +14,7 @@ from unittest import skip
 with open("txt1.txt", 'r') as file:
     text = file.read().replace('\n', '')
 text2 = bytes(text, 'ascii')
-HOST = "172.31.39.21"  # The server's hostname or IP address
+HOST = "192.168.0.102"  # The server's hostname or IP address
 PORT = 5002  # The port used by the server
 
 foo =0
