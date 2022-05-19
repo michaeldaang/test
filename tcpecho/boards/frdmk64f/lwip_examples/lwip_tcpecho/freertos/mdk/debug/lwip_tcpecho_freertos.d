@@ -89,5 +89,4 @@ debug/lwip_tcpecho_freertos.o: ..\lwip_tcpecho_freertos.c \
   ..\..\..\..\..\..\components\phy\device\phyksz8081\fsl_phyksz8081.h \
   ..\..\..\..\..\..\components\phy\mdio\enet\fsl_enet_mdio.h \
   ..\..\..\..\..\..\devices\MK64F12\drivers\fsl_enet.h \
-  ..\..\..\..\..\..\components\phy\fsl_mdio.h \
-  D:\Keil_v5\ARM\ARMCLANG\Bin\..\include\stdio.h
+  ..\..\..\..\..\..\components\phy\fsl_mdio.h
