@@ -28,6 +28,8 @@
 #include "fsl_phyksz8081.h"
 #include "fsl_enet_mdio.h"
 #include "fsl_device_registers.h"
+
+#include <stdio.h>
 /*******************************************************************************
  * Definitions
  ******************************************************************************/
@@ -172,6 +174,8 @@ static void stack_init(void *arg)
  */
 int main(void)
 {
+	
+		printf("Hello world");
     SYSMPU_Type *base = SYSMPU;
     BOARD_InitBootPins();
     BOARD_InitBootClocks();
